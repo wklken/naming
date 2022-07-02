@@ -1,21 +1,33 @@
 #!/bin/bash
 
+TMP_FILE=".readme.md"
+
+
+
 add_part_separator() {
-    echo "" >> README.md
-    echo "------------------------------------" >> README.md
-    echo "" >> README.md
+    echo "" >> ${TMP_FILE}
+    echo "------------------------------------" >> ${TMP_FILE}
+    echo "" >> ${TMP_FILE}
 }
 
 
-cat readme_header.md > README.md
+# cat readme_header.md > ${TMP_FILE}
+# add_part_separator
+cat bool_names.md >> ${TMP_FILE}
 add_part_separator
-cat bool_names.md >> README.md
-add_part_separator
-cat loop_names.md >> README.md
+cat loop_names.md >> ${TMP_FILE}
 add_part_separator
 
 GO_INTERFACE_COUNT=(wc -l golang_interface_names.md)
-echo "## Golang interface name $GO_INTERFACE_COUNT" >> README.md
-cat golang_interface_names.md >> README.md
+echo "## Golang interface name $GO_INTERFACE_COUNT" >> ${TMP_FILE}
+cat golang_interface_names.md >> ${TMP_FILE}
 add_part_separator
-cat antonym_synonym_verb_ajd.md >> README.md
+cat antonym_synonym_verb_ajd.md >> ${TMP_FILE}
+
+
+cat readme_header.md > README.md
+
+./gh-md-toc ${TMP_FILE} >> README.md
+cat ${TMP_FILE} >> README.md
+
+rm ${TMP_FILE}

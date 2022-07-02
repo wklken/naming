@@ -17,8 +17,24 @@ Get the name of interface/struct/function, and do some categorization.
 
 You can use ctrl/cmd+f to search what you need
 
-------------------------------------
+------------------
 
+
+Table of Contents
+=================
+
+   * [bool](#bool)
+      * [Prefix](#prefix)
+      * [Status](#status)
+   * [loop](#loop)
+      * [short loop(small scope)](#short-loopsmall-scope)
+   * [Golang interface name wc](#golang-interface-name-wc)
+   * [Antonym(by rules) 37](#antonymby-rules-37)
+   * [Verb And It's Adj(by rules) 104](#verb-and-its-adjby-rules-104)
+   * [Antonym(by nltk) 552](#antonymby-nltk-552)
+   * [Synonym(by nltk) 1360](#synonymby-nltk-1360)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 ## bool
 
 ### Prefix
