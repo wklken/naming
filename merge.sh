@@ -18,11 +18,14 @@ add_part_separator
 cat loop_names.md >> ${TMP_FILE}
 add_part_separator
 
-GO_INTERFACE_COUNT=(wc -l golang_interface_names.md)
-echo "## Golang interface name $GO_INTERFACE_COUNT" >> ${TMP_FILE}
+GO_INTERFACE_COUNT=$(wc -l < golang_interface_names.md | xargs)
+echo "## Golang interface name ${GO_INTERFACE_COUNT}" >> ${TMP_FILE}
 cat golang_interface_names.md >> ${TMP_FILE}
 add_part_separator
-cat antonym_synonym_verb_ajd.md >> ${TMP_FILE}
+cat golang_struct_names.md >> ${TMP_FILE}
+add_part_separator
+
+cat antonym_synonym_verb_adj.md >> ${TMP_FILE}
 
 
 cat readme_header.md > README.md

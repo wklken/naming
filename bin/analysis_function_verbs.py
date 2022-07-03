@@ -30,7 +30,12 @@ def read_words(file_path):
 # synonym 近义词
 def synonym_from_nltk(words):
     synonym_nltk_dict = defaultdict(list)
+
+    s = _remove_duplicated_words(words)
     for word in words:
+        if word not in s:
+            continue
+
         an_from_nltk = set()
         for synset in wordnet.synsets(word):
             for synlemma in synset.lemmas():
@@ -76,9 +81,29 @@ def antonym_from_rule(words):
     return antonym_dict
 
 
+def _remove_duplicated_words(words):
+    s = set()
+    s.update(words.keys())
+    for word in words:
+        if word + "s" in s:
+            s.remove(word + "s")
+        if word + "es" in s:
+            s.remove(word + "es")
+        if word + "ed" in s:
+            s.remove(word + "ed")
+        if word + "ing" in s:
+            s.remove(word + "ing")
+    return s
+
+
 def antonym_from_nltk(words):
     antonym_nltk_dict = defaultdict(list)
+
+    s = _remove_duplicated_words(words)
     for word in words:
+        if word not in s:
+            continue
+
         an_from_nltk = set()
         for synset in wordnet.synsets(word):
             for synlemma in synset.lemmas():
@@ -94,21 +119,24 @@ def verb_and_its_adj_from_rule(words):
         if word[-1] == "e" and word + "d" in words:
             verb_ads_dict[word].append(word + "d")
 
-        if word[-1] == "p" and word + "pped" in words:
-            verb_ads_dict[word].append(word + "pped")
-
-        if word[-1] == "l" and word + "lled" in words:
-            verb_ads_dict[word].append(word + "lled")
+        if word[-1] == "p" and word + "ped" in words:
+            verb_ads_dict[word].append(word + "ped")
+        if word[-1] == "l" and word + "led" in words:
+            verb_ads_dict[word].append(word + "led")
+        if word[-1] == "r" and word + "red" in words:
+            verb_ads_dict[word].append(word + "red")
+        if word[-1] == "n" and word + "ned" in words:
+            verb_ads_dict[word].append(word + "ned")
 
         if word + "ed" in words:
             verb_ads_dict[word].append(word + "ed")
 
-        if word[-1] == "p" and word + "pping" in words:
-            verb_ads_dict[word].append(word + "pping")
-        if word[-1] == "g" and word + "gging" in words:
-            verb_ads_dict[word].append(word + "gging")
-        if word[-1] == "t" and word + "tting" in words:
-            verb_ads_dict[word].append(word + "tting")
+        if word[-1] == "p" and word + "ping" in words:
+            verb_ads_dict[word].append(word + "ping")
+        if word[-1] == "g" and word + "ging" in words:
+            verb_ads_dict[word].append(word + "ging")
+        if word[-1] == "t" and word + "ting" in words:
+            verb_ads_dict[word].append(word + "ting")
 
         if word[-1] == "e" and word[:-1] + "ing" in words:
             verb_ads_dict[word].append(word[:-1] + "ing")
