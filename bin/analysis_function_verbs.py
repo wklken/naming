@@ -17,8 +17,8 @@ def read_words(file_path):
         for line in f:
             # do strip
             line = line.strip(" 0123456789\n")
-            # ignore single
-            if len(line) <= 1:
+            # ignore single "", "a" "ab"
+            if len(line) <= 2:
                 continue
             # ignore all digital
             if line.isdigit():
@@ -77,7 +77,8 @@ def antonym_from_rule(words):
 
     wrong_list = ["it", "to", "put", "port", "ports", "prove"]
     for word in wrong_list:
-        del antonym_dict[word]
+        if word in antonym_dict:
+            del antonym_dict[word]
     return antonym_dict
 
 
@@ -152,9 +153,10 @@ def verb_and_its_adj_from_rule(words):
         if word + "able" in words:
             verb_ads_dict[word].append(word + "able")
 
-    wrong_list = ["see"]
+    wrong_list = ["see", "str"]
     for word in wrong_list:
-        del verb_ads_dict[word]
+        if word in verb_ads_dict:
+            del verb_ads_dict[word]
 
     return verb_ads_dict
 

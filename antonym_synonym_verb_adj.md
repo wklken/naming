@@ -40,7 +40,7 @@
 | versioned | unversioned |
 | wrap | unwrap |
 
-## Verb And It's Adj(by rules) 112
+## Verb And It's Adj(by rules) 110
 
 | Word | Related |
 |------|---------|
@@ -130,7 +130,6 @@
 | scale | scaled |
 | schedule | scheduling, schedulable |
 | scope | scoped |
-| se | seed |
 | select | selectable |
 | serve | served |
 | share | shared |
@@ -138,7 +137,6 @@
 | signal | signaled |
 | sort | sorted |
 | stop | stopped, stopping |
-| str | string |
 | sync | synced |
 | template | templated |
 | terminate | terminated, terminating |
@@ -157,26 +155,26 @@
 | weight | weighted |
 | wrap | wrapped |
 
-## Antonym(by nltk) 486
+## Antonym(by nltk) 480
 
 | Word | Related |
 |------|---------|
 | absolute | relative |
-| accept | reject, refuse |
+| accept | refuse, reject |
 | acknowledge | deny |
 | acquire | lose |
-| action | inactivity, inactiveness, inaction |
+| action | inactiveness, inaction, inactivity |
 | activate | inactivate |
-| active | stative, passive_voice, passive, dormant, quiet, inactive, extinct |
+| active | passive_voice, stative, dormant, quiet, inactive, extinct, passive |
 | acts | refrain |
 | actual | potential |
 | add | take_away, subtract |
 | adjust | skew |
 | admit | deny, exclude, reject |
-| advance | demote, fall_back, regress, back, retreat, recede |
+| advance | back, retreat, recede, fall_back, regress, demote |
 | affinity | consanguinity |
-| all | partly, some, no |
-| allow | deny, disallow, prevent, forbid |
+| all | no, some, partly |
+| allow | deny, prevent, disallow, forbid |
 | always | never |
 | anonymous | onymous |
 | applies | defy, exempt |
@@ -188,21 +186,21 @@
 | attach | detach |
 | attachable | detachable |
 | available | unavailable |
-| back | forward, veer, advance, front, ahead |
+| back | forward, veer, ahead, front, advance |
 | background | play_up, foreground |
 | backward | forward, ahead |
-| balanced | unbalance, unbalanced |
+| balanced | unbalanced, unbalance |
 | bar | unbar |
 | basic | incidental |
 | begin | end |
-| being | differ, nonexistence, nonbeing |
-| best | worst, badly, evil, bad, disadvantageously, ill |
+| being | nonexistence, differ, nonbeing |
+| best | worst, evil, disadvantageously, ill, badly, bad |
 | bind | unbind, untie |
 | birth | death |
-| block | unblock, free, unstuff, unfreeze, remember |
-| bound | unbind, untie, unbound, free |
-| break | promote, repair, make, keep, conform_to |
-| broken | promote, repair, make, unbroken, keep, conform_to |
+| block | unstuff, unblock, free, remember, unfreeze |
+| bound | free, unbind, unbound, untie |
+| break | make, promote, repair, conform_to, keep |
+| broken | unbroken, make, promote, repair, conform_to, keep |
 | bulk | minority |
 | bump | promote |
 | burst | implode |
@@ -220,9 +218,9 @@
 | child | parent |
 | claim | disclaim, forfeit |
 | classify | declassify |
-| clean | unclean, unfairly, dirty |
-| clear | convict, ill-defined, cloudy, overcast, clutter, unclear, bounce, opaque |
-| close | far, open, distant |
+| clean | unclean, dirty, unfairly |
+| clear | opaque, unclear, clutter, ill-defined, convict, cloudy, bounce, overcast |
+| close | open, far, distant |
 | cloud | clear_up |
 | collect | spread |
 | combined | uncombined |
@@ -234,8 +232,8 @@
 | compress | decompress |
 | conditional | unconditional |
 | confirm | negate |
-| connect | disconnect, unplug, dissociate |
-| connection | disconnectedness, unconnectedness |
+| connect | unplug, disconnect, dissociate |
+| connection | unconnectedness, disconnectedness |
 | constant | inconstant |
 | construct | misconception |
 | consume | abstain |
@@ -246,13 +244,12 @@
 | convertible | inconvertible |
 | cool | heat, warm |
 | coordination | incoordination |
-| correct | incorrect, falsify, wrong |
+| correct | wrong, incorrect, falsify |
 | covers | uncover |
 | cross | uncross |
 | curl | uncoil |
 | current | noncurrent |
 | custom | ready-made |
-| dc | alternating_current |
 | decode | encode |
 | decrease | increment, increase |
 | decrement | increment, increase |
@@ -264,43 +261,42 @@
 | delete | record |
 | deleted | record |
 | deleting | record |
-| deny | admit, allow |
+| deny | allow, admit |
 | detach | attach |
 | difference | sameness |
-| direct | inverse, collateral, alternating, retrograde, indirect |
+| direct | indirect, retrograde, alternating, inverse, collateral |
 | disable | enable |
 | disarm | arm |
-| disconnect | plug_in, connect |
+| disconnect | connect, plug_in |
 | distribute | gather |
-| divide | unite, multiply |
-| do | unmake |
-| dominant | recessive, subordinate |
+| divide | multiply, unite |
+| dominant | subordinate, recessive |
 | done | unmake |
-| double | univalent, multivalent, single |
+| double | single, multivalent, univalent |
 | download | upload |
-| downward | upwardly, upwards, upward, up |
+| downward | upwardly, upward, up, upwards |
 | driver | nondriver |
-| drop | sharpen, recuperate, attend_to |
-| dry | wet, sweet, phlegmy |
+| drop | attend_to, recuperate, sharpen |
+| dry | wet, phlegmy, sweet |
 | dynamic | stative, undynamic |
 | emit | absorb |
-| empty | full, fill |
+| empty | fill, full |
 | enable | disable |
 | enabled | disable |
 | encode | decode |
-| end | middle, begin, beginning |
+| end | middle, beginning, begin |
 | enforce | exempt |
 | enter | exit, drop_out |
-| equal | differ, unequal, inadequate |
+| equal | inadequate, differ, unequal |
 | equalities | inequality |
 | exact | inexact |
 | exclude | admit, include |
 | exclusive | inclusive |
-| exempt | nonexempt, taxable, enforce |
-| exit | enter, be_born |
+| exempt | taxable, nonexempt, enforce |
+| exit | be_born, enter |
 | expand | contract |
-| expired | unexpired, inhale, be_born |
-| expires | inhale, be_born |
+| expired | be_born, unexpired, inhale |
+| expires | be_born, inhale |
 | explicit | implicit |
 | export | import |
 | expose | cover |
@@ -310,7 +306,7 @@
 | extinguish | ignite |
 | fail | pass, succeed, manage |
 | failure | achiever, success |
-| fair | unfair, unfairly, foul |
+| fair | foul, unfair, unfairly |
 | false | true |
 | fast | slow |
 | fatal | nonfatal |
@@ -318,47 +314,46 @@
 | fetch | take_away |
 | fill | empty |
 | find | lose |
-| finish | start, begin, beginning |
-| first | last, end, middle, second |
+| finish | beginning, start, begin |
+| first | middle, last, second, end |
 | fits | disagree |
-| fix | unfasten, break |
+| fix | break, unfasten |
 | flatten | sharpen |
 | flex | straighten, unbend |
 | float | sink |
-| fold | open, unfold |
-| follow | precede, predate |
+| fold | unfold, open |
+| follow | predate, precede |
 | forbid | allow, permit |
 | forbidden | allow, permit |
-| force | push, pull |
+| force | pull, push |
 | forget | mind, remember |
-| forward | aft, back, reverse, backward |
-| free | lodge, block, confine, blame, bound, freeze, unfree, enforce, obstruct |
-| freeze | unblock, boil, unfreeze |
-| fresh | stale, salty, preserved |
+| forward | back, aft, reverse, backward |
+| free | enforce, bound, lodge, obstruct, blame, block, freeze, unfree, confine |
+| freeze | boil, unfreeze, unblock |
+| fresh | salty, preserved, stale |
 | friendly | hostile, unfriendly |
 | fulfilled | fall_short_of |
-| full | wane, thin, empty |
+| full | thin, wane, empty |
 | fully | meagerly |
 | gather | spread |
-| general | particular, specific, local |
-| generic | varietal, varietal_wine |
+| general | specific, particular, local |
+| generic | varietal_wine, varietal |
 | get | take_away, leave, end |
-| go | no-go, malfunction, stop, come, be_born, stay_in_place |
-| good | badness, evil, evilness, bad, ill |
+| good | badness, evil, ill, evilness, bad |
 | got | take_away, leave, end |
 | graceful | awkward |
 | grant | deny |
 | greater | lesser |
-| hard | easy, lightly, soft, voiced |
-| has | abstain, lack, refuse |
-| have | abstain, lack, refuse |
-| head | foot, rear, tail |
+| hard | lightly, easy, soft, voiced |
+| has | abstain, refuse, lack |
+| have | abstain, refuse, lack |
+| head | tail, foot, rear |
 | health | unwellness, illness |
 | healthy | unhealthy |
 | hidden | show |
 | high | low_spirits, low |
 | highest | low |
-| hold | disagree, let_go_of |
+| hold | let_go_of, disagree |
 | hollow | solid |
 | home | away |
 | hook | undercharge, unhook |
@@ -374,26 +369,25 @@
 | improve | worsen |
 | inclusive | exclusive |
 | inconsistent | consistent |
-| increase | decrease, decrement |
-| increment | decrease, decrement |
-| indirect | lineal, direct |
+| increase | decrement, decrease |
+| increment | decrement, decrease |
+| indirect | direct, lineal |
 | inflate | deflate |
-| ingress | egress, emersion |
+| ingress | emersion, egress |
 | initiate | uninitiate |
 | inner | outer |
 | innocent | guilty |
 | insecure | secure |
-| inside | outwardly, outdoors, outside |
+| inside | outside, outwardly, outdoors |
 | integration | segregation |
 | interactive | antagonistic |
 | internal | external |
 | invalid | valid |
 | invalidate | validate |
-| is | differ |
 | issue | recall |
 | join | disjoin |
-| just | unfair, unjust, inequitable |
-| keep | break, lose, let, discontinue |
+| just | inequitable, unfair, unjust |
+| keep | let, break, lose, discontinue |
 | key | atonality |
 | kind | unkind |
 | known | ignore, unknown |
@@ -402,21 +396,21 @@
 | launch | abolish |
 | leader | follower |
 | least | most |
-| left | right, arrive, disinherit, enter, center |
+| left | enter, right, disinherit, arrive, center |
 | legal | illegal |
 | less | more |
 | level | raise |
-| linear | digital, cubic, nonlinear, planar |
-| link | disconnectedness, disconnect, dissociate |
-| live | recorded, dead |
-| liveness | inanimateness, deaden |
+| linear | nonlinear, cubic, digital, planar |
+| link | disconnectedness, dissociate, disconnect |
+| live | dead, recorded |
+| liveness | deaden, inanimateness |
 | local | express, general, national |
 | location | studio |
 | lock | disengage, unlock |
-| long | unretentive, short |
+| long | short, unretentive |
 | look | back |
-| loop | open_circuit, uncoil |
-| lower | high, raise |
+| loop | uncoil, open_circuit |
+| lower | raise, high |
 | lowercase | uppercase |
 | main | dependent |
 | major | minor |
@@ -427,7 +421,7 @@
 | mark | ignore |
 | mask | unmask |
 | match | disagree |
-| maximum | minimal, minimum |
+| maximum | minimum, minimal |
 | meet | diverge |
 | member | nonmember |
 | merge | disunify |
@@ -435,37 +429,35 @@
 | merging | disunify |
 | minify | increase |
 | minor | major |
-| missing | have, attend_to, attend, hit |
-| more | less, fewer |
-| most | fewest, least |
+| missing | attend_to, have, attend, hit |
+| more | fewer, less |
+| most | least, fewest |
 | mount | hop_out, wane |
-| move | rest, stay, refrain, stand_still, stay_in_place |
+| move | rest, refrain, stay, stay_in_place, stand_still |
 | multiple | single |
 | multiply | singly, divide |
-| narrowest | broad-minded, wide |
-| native | adopted, foreign, nonnative |
+| narrowest | wide, broad-minded |
+| native | nonnative, adopted, foreign |
 | need | obviate |
 | negated | affirm |
-| negative | neutral, positive, affirmative |
-| new | old, worn |
-| newer | old, worn |
-| newest | old, worn |
-| no | yes, some, all |
+| negative | positive, neutral, affirmative |
+| new | worn, old |
+| newer | worn, old |
+| newest | worn, old |
 | node | antinode |
-| normal | paranormal, abnormal |
+| normal | abnormal, paranormal |
 | note | ignore |
 | observe | disrespect, break |
 | off | on |
-| offset | end, middle |
-| old | young, new |
-| older | young, new |
-| oldest | young, new |
-| omit | include, attend_to |
-| on | off |
+| offset | middle, end |
+| old | new, young |
+| older | new, young |
+| oldest | new, young |
+| omit | attend_to, include |
 | opaque | clear |
-| open | closed, close, covert, unreceptive, fold, shut |
+| open | closed, close, unreceptive, covert, shut, fold |
 | optional | obligatory |
-| order | disorder, deregulate, disorderliness |
+| order | disorder, disorderliness, deregulate |
 | ordinary | extraordinary |
 | original | unoriginal |
 | other | same |
@@ -473,20 +465,20 @@
 | overhead | subsurface, surface |
 | owned | unowned |
 | pack | unpack |
-| package | unbox, hardware |
-| parallel | perpendicular, oblique |
+| package | hardware, unbox |
+| parallel | oblique, perpendicular |
 | parent | child |
-| pass | running, fail, failing, be_born |
-| past | present, future |
-| permit | disallow, prevent, forbid |
+| pass | fail, failing, be_born, running |
+| past | future, present |
+| permit | prevent, disallow, forbid |
 | persistent | caducous |
-| plain | fancy, cheer, patterned |
+| plain | cheer, fancy, patterned |
 | plural | singular |
 | port | starboard |
 | positive | neutral, negative |
-| possible | actual, impossible |
+| possible | impossible, actual |
 | prefix | suffix |
-| present | past, absent, future |
+| present | future, past, absent |
 | preserve | discontinue |
 | preserved | fresh, destroyed, discontinue |
 | pretty | unreasonably, immoderately |
@@ -497,32 +489,32 @@
 | private | public |
 | privileged | underprivileged |
 | probability | improbability |
-| progress | recede, regress, retreat |
+| progress | retreat, recede, regress |
 | prove | disprove |
 | public | private |
-| pull | push, repel |
+| pull | repel, push |
 | purge | rehabilitate, keep_down |
 | push | pull |
-| put | divest, call_option |
+| put | call_option, divest |
 | qualified | unqualified, disqualify |
-| raise | demote, descent, level, lower |
+| raise | descent, lower, level, demote |
 | random | nonrandom |
 | raw | cooked |
 | ready | unready |
-| real | unreal, nominal, insubstantial |
+| real | insubstantial, unreal, nominal |
 | receive | say_farewell |
 | received | say_farewell, nonstandard |
 | record | erase |
 | recover | deteriorate |
 | recreate | dishearten |
-| reduce | oxidise, blow_up, oxidize, expand, gain |
-| reduced | oxidise, blow_up, oxidize, expand, increased, gain |
+| reduce | oxidise, oxidize, expand, gain, blow_up |
+| reduced | oxidise, increased, oxidize, expand, gain, blow_up |
 | refresh | tire |
 | regenerate | unregenerate |
 | regular | irregular, constipated |
-| reject | admit, approve, accept |
-| relaxed | strain, stiffen, tense |
-| release | block, freeze, confine, hold |
+| reject | approve, admit, accept |
+| relaxed | stiffen, strain, tense |
+| release | confine, block, freeze, hold |
 | remaining | change |
 | remember | forget |
 | remote | close |
@@ -533,7 +525,7 @@
 | reserved | unreserved |
 | resolve | irresoluteness |
 | responsible | irresponsible |
-| rest | change, be_active |
+| rest | be_active, change |
 | restful | restless |
 | restore | break |
 | restricted | unrestricted, derestrict |
@@ -543,9 +535,9 @@
 | root | descendant |
 | round | square |
 | run | malfunction, idle |
-| running | malfunction, standing, passing, idle |
-| safe | out, dangerous |
-| same | other, different, unlike |
+| running | malfunction, passing, idle, standing |
+| safe | dangerous, out |
+| same | different, other, unlike |
 | sanity | insanity |
 | satisfied | fall_short_of, dissatisfy |
 | satisfy | fall_short_of, dissatisfy |
@@ -555,52 +547,52 @@
 | service | disservice |
 | set | rise |
 | shared | unshared |
-| short | retentive, long, tall |
-| shorten | lengthen, expand |
+| short | tall, retentive, long |
+| shorten | expand, lengthen |
 | show | hide, disprove |
-| shut | admit, open |
-| shutting | admit, open, opening |
-| simple | complex, compound |
-| single | married, double, multiple, common |
+| shut | open, admit |
+| shutting | opening, admit, open |
+| simple | compound, complex |
+| single | double, married, multiple, common |
 | sleep | wake |
-| slow | fast, quickly, accelerate |
-| smaller | large, big |
+| slow | quickly, accelerate, fast |
+| smaller | big, large |
 | smart | stupid |
 | source | sink |
 | specifically | generally |
-| specified | unspecified, generalize |
+| specified | generalize, unspecified |
 | split | unite |
-| spread | fold, gather |
-| stabilize | destabilize, destabilise |
+| spread | gather, fold |
+| stabilize | destabilise, destabilize |
 | stale | fresh |
 | standard | nonstandard |
-| start | end, middle, stop, finish |
-| stop | begin, start, continuant_consonant, continue |
-| stopped | start, begin, continue |
-| stopping | start, begin, continue |
+| start | stop, middle, finish, end |
+| stop | continuant_consonant, begin, start, continue |
+| stopped | begin, start, continue |
+| stopping | begin, start, continue |
 | strike | miss |
 | strip | dress |
 | subtract | add |
-| succeeded | precede, fail |
-| success | loser, failure |
+| succeeded | fail, precede |
+| success | failure, loser |
 | successful | unsuccessful |
 | suffix | prefix |
 | suggest | contraindicate |
 | supported | unsupported, negate |
 | supports | negate |
 | surge | ebb |
-| sync | desynchronise, desynchronize |
-| synchronize | desynchronise, desynchronize |
+| sync | desynchronize, desynchronise |
+| synchronize | desynchronize, desynchronise |
 | taint | disinfect |
-| take | abstain, obviate, give, disclaim, refuse |
+| take | give, refuse, disclaim, obviate, abstain |
 | terminal | intermediate |
-| terminate | begin, hire |
-| terminated | begin, hire |
-| terminating | begin, hire |
+| terminate | hire, begin |
+| terminated | hire, begin |
+| terminating | hire, begin |
 | text | trade_edition |
 | top | bottom, side |
 | transport | disenchant |
-| true | false, untruthful |
+| true | untruthful, false |
 | type | antitype |
 | unauthorized | authorized |
 | unavailable | available |
@@ -612,20 +604,20 @@
 | undecorated | adorned |
 | unfold | fold |
 | uniform | multiform, differentiated |
-| union | nonunion, separation, disunion |
+| union | nonunion, disunion, separation |
 | universal | particular_proposition, particular |
-| unknown | known, acquaintance |
+| unknown | acquaintance, known |
 | unlisted | listed |
 | unloaded | loaded |
 | unlock | lock |
 | unprotected | protected |
 | unroll | wind, roll_up |
-| unsafe | safe, secure |
+| unsafe | secure, safe |
 | unscheduled | scheduled |
 | unstructured | structured |
 | unsupported | supported |
 | unwrap | wrap |
-| upgrade | downgrade, descent, demote |
+| upgrade | descent, downgrade, demote |
 | upload | download |
 | used | misused |
 | usually | remarkably |
@@ -633,1197 +625,1159 @@
 | validate | invalidate |
 | validated | invalidate |
 | validating | invalidate |
-| value | disesteem, disrespect |
+| value | disrespect, disesteem |
 | verbosity | terseness |
 | visible | invisible |
 | volume | softness |
 | walk | ride |
 | was | differ |
 | weight | unburden |
-| win | lose, fail, fall_back, losings |
+| win | fail, fall_back, losings, lose |
 | within | outside |
-| work | malfunction, idle |
+| work | idle, malfunction |
 | worker | nonworker |
 | wrap | unwrap, unwind |
-| wrapped | unwrapped, unwrap, unwind |
+| wrapped | unwrap, unwind, unwrapped |
 | yes | no |
 
-## Synonym(by nltk) 1174
+## Synonym(by nltk) 1136
 
 | Word | Related |
 |------|---------|
-| abs | av, artium_baccalaurens, acrylonitrile-butadiene-styrene, ab, bachelor_of_arts, type_ab, abdominal_muscle, group_ab, abdominal, ba |
-| absolute | right-down, downright, infrangible, rank, inviolable, out-and-out, sheer |
-| accept | bear, admit, assume, take, go_for, take_on, have, consent, live_with, take_over, swallow |
-| access | get_at, entree, access_code, approach, admission, memory_access, admittance, accession |
-| accumulate | gather, roll_up, amass, conglomerate, pile_up, collect, compile, cumulate, hoard |
-| acknowledge | recognize, receipt, notice, recognise, know, admit |
-| acquire | win, get, assume, take, take_on, larn, adopt, grow, develop, evolve, produce, gain, learn |
-| action | fulfil, fulfill, accomplish, process, carry_through, sue, litigate, activity, natural_process, military_action, natural_action, action_mechanism, action_at_law, execute, activeness, legal_action, carry_out |
-| activate | spark_off, aerate, set_off, trip, spark, actuate, trigger, touch_off, trigger_off |
-| active | combat-ready, active_agent, fighting, active_voice, participating, alive, dynamic |
-| acts | work, do, human_action, act_as, represent, playact, deed, human_activity, turn, act, enactment, behave, dissemble, routine, play, move, number, pretend, roleplay, bit, acts_of_the_apostles |
-| actual | factual, existent, genuine, real, literal |
+| abs | av, artium_baccalaurens, acrylonitrile-butadiene-styrene, abdominal, type_ab, group_ab, bachelor_of_arts, ba, abdominal_muscle, ab |
+| absolute | right-down, infrangible, sheer, inviolable, rank, downright, out-and-out |
+| accept | go_for, admit, have, consent, take, take_on, live_with, swallow, bear, assume, take_over |
+| access | admittance, memory_access, admission, get_at, access_code, approach, entree, accession |
+| accumulate | pile_up, amass, hoard, roll_up, compile, conglomerate, cumulate, collect, gather |
+| acknowledge | receipt, know, notice, recognise, admit, recognize |
+| acquire | get, develop, learn, adopt, grow, win, produce, larn, evolve, take, gain, take_on, assume |
+| action | accomplish, execute, activity, legal_action, carry_out, carry_through, action_at_law, litigate, activeness, natural_process, natural_action, sue, military_action, process, fulfil, action_mechanism, fulfill |
+| activate | spark, touch_off, trigger_off, trip, trigger, set_off, aerate, spark_off, actuate |
+| active | dynamic, active_agent, combat-ready, participating, alive, fighting, active_voice |
+| acts | routine, number, bit, acts_of_the_apostles, turn, enactment, do, dissemble, human_activity, work, human_action, deed, act_as, move, represent, behave, play, act, roleplay, playact, pretend |
+| actual | genuine, factual, literal, existent, real |
 | adapt | accommodate, adjust, conform |
-| add | total, adhd, append, bring, contribute, sum_up, attention_deficit_disorder, tot, supply, bestow, impart, summate, tote_up, attention_deficit_hyperactivity_disorder, hyperkinetic_syndrome, add_together, mbd, minimal_brain_damage, tot_up, lend, minimal_brain_dysfunction, tally, add_up, sum |
-| address | savoir-faire, handle, computer_address, direct, plow, cover, turn_to, speech, name_and_address, speak, treat, accost, reference, come_up_to, deal, destination, call |
-| adjust | line_up, correct, adapt, aline, conform, set, align |
-| admission | entrance_money, entree, admission_fee, admission_price, access, admission_charge, entrance_fee, price_of_admission, admittance, accession |
-| admit | include, accommodate, allow, take, allow_in, intromit, accept, take_on, acknowledge, let_in, hold |
-| adopt | acquire, borrow, espouse, follow, assume, take, take_up, take_in, dramatise, take_on, embrace, dramatize, sweep_up, take_over |
-| advance | elevate, go_on, betterment, bring_forward, move_on, pass_on, pull_ahead, approach, set_ahead, forward_motion, raise, procession, make_headway, encourage, kick_upstairs, onward_motion, progression, boost, come_along, come_on, win, rise, throw_out, promote, advanced, gain_ground, progress, feeler, upgrade, cash_advance, gain, supercharge, further, improvement, beforehand, get_along, overture, in_advance, march_on, shape_up, advancement, get_ahead, get_on |
-| affinity | phylogenetic_relation, kinship, chemical_attraction |
-| after | afterwards, subsequently, afterward, later_on, later |
-| aggregate | congeries, totality, aggregative, mass, total, combine, aggregated, sum, conglomeration |
-| aggregated | aggregate, combine, aggregative, mass |
-| aggregation | assemblage, collection, accumulation, collecting, assembling |
-| algorithm | algorithmic_program, algorithmic_rule |
-| alias | false_name, a.k.a., assumed_name, also_known_as |
-| all | completely, wholly, altogether, whole, entirely, totally |
+| add | bestow, minimal_brain_damage, contribute, sum_up, minimal_brain_dysfunction, tally, lend, bring, attention_deficit_disorder, sum, add_together, adhd, tot, hyperkinetic_syndrome, tot_up, summate, impart, append, add_up, supply, attention_deficit_hyperactivity_disorder, total, tote_up, mbd |
+| address | treat, reference, destination, savoir-faire, computer_address, speak, direct, cover, come_up_to, accost, plow, name_and_address, call, turn_to, deal, handle, speech |
+| adjust | correct, line_up, set, align, adapt, aline, conform |
+| admission | entrance_money, admittance, admission_price, admission_charge, admission_fee, entree, entrance_fee, price_of_admission, access, accession |
+| admit | accept, acknowledge, accommodate, hold, include, take, allow_in, allow, take_on, intromit, let_in |
+| adopt | follow, take_up, acquire, dramatise, sweep_up, espouse, take, take_in, dramatize, embrace, take_on, assume, borrow, take_over |
+| advance | in_advance, advanced, feeler, make_headway, come_on, gain, kick_upstairs, upgrade, raise, supercharge, pass_on, get_on, further, advancement, overture, betterment, throw_out, pull_ahead, get_along, come_along, march_on, get_ahead, beforehand, win, elevate, onward_motion, shape_up, forward_motion, rise, procession, cash_advance, move_on, improvement, encourage, promote, approach, bring_forward, progression, progress, boost, gain_ground, set_ahead, go_on |
+| affinity | phylogenetic_relation, chemical_attraction, kinship |
+| after | afterward, afterwards, later, later_on, subsequently |
+| aggregate | mass, aggregated, aggregative, combine, conglomeration, sum, total, totality, congeries |
+| aggregated | combine, mass, aggregate, aggregative |
+| aggregation | accumulation, assemblage, collecting, collection, assembling |
+| algorithm | algorithmic_rule, algorithmic_program |
+| alias | a.k.a., assumed_name, also_known_as, false_name |
+| all | completely, wholly, totally, entirely, altogether, whole |
 | allocatable | allocable, apportionable |
 | allocate | apportion |
-| allocated | allocate, apportion |
-| allow | set_aside, grant, let, tolerate, allow_for, provide, permit, appropriate, take_into_account, countenance, leave, admit, give_up, reserve, earmark |
-| always | perpetually, ever, e'er, constantly, invariably, forever, incessantly |
-| annotate | footnote, comment, gloss |
-| annotated | footnote, comment, annotate, gloss |
-| annotation | notation, annotating, note |
+| allocated | apportion, allocate |
+| allow | grant, set_aside, take_into_account, reserve, leave, countenance, allow_for, appropriate, earmark, let, admit, tolerate, give_up, provide, permit |
+| always | invariably, forever, e'er, incessantly, constantly, ever, perpetually |
+| annotate | gloss, comment, footnote |
+| annotated | gloss, comment, footnote, annotate |
+| annotation | annotating, notation, note |
 | anonymous | anon. |
 | any | whatsoever, whatever |
-| append | supplement, tag_on, add_on, tack, affix, tack_on, supply, hang_on, add |
+| append | supply, add, affix, tack_on, hang_on, add_on, tack, supplement, tag_on |
 | applier | applicant, applicator |
-| applies | practice, use, put_on, employ, give, go_for, utilise, apply, lend_oneself, implement, enforce, utilize, hold |
-| apply | practice, use, put_on, employ, give, go_for, utilise, lend_oneself, implement, enforce, utilize, hold |
-| are | equal, follow, represent, personify, cost, embody, be, make_up, live, constitute, ar, comprise, exist |
-| array | lay_out, raiment, regalia, range, set_out, align |
-| as | group_a, atomic_number_33, amp, every_bit, axerophthol, angstrom_unit, adenine, vitamin_a, arsenic, american_samoa, type_a, equally, eastern_samoa, antiophthalmic_factor, deoxyadenosine_monophosphate, angstrom, ampere |
+| applies | practice, give, enforce, go_for, put_on, use, employ, utilize, hold, apply, lend_oneself, utilise, implement |
+| apply | practice, give, enforce, go_for, put_on, use, employ, utilize, hold, lend_oneself, utilise, implement |
+| are | constitute, follow, equal, embody, make_up, comprise, live, personify, cost, be, represent, ar, exist |
+| array | regalia, set_out, align, raiment, range, lay_out |
 | ascii | american_standard_code_for_information_interchange |
-| ask | expect, enquire, take, inquire, require, necessitate, call_for, demand, need, postulate, involve |
-| assemble | put_together, gather, tack_together, piece, foregather, set_up, forgather, meet, tack, get_together |
-| assert | asseverate, swan, maintain, verify, put_forward, avow, insist, swear, aver, affirm |
-| assign | depute, put, set_apart, specify, allot, delegate, attribute, designate, ascribe, arrogate, impute, portion |
-| assume | bear, presume, get_into, take_for_granted, usurp, seize, acquire, sham, take_over, feign, simulate, wear, put_on, accept, take_on, adopt, don, take, take_up, strike, arrogate |
-| at | atomic_number_85, astatine |
+| ask | necessitate, call_for, involve, demand, postulate, require, take, enquire, expect, need, inquire |
+| assemble | set_up, put_together, meet, piece, tack, foregather, get_together, gather, forgather, tack_together |
+| assert | maintain, swan, put_forward, affirm, asseverate, insist, verify, aver, swear, avow |
+| assign | allot, ascribe, put, portion, impute, delegate, depute, set_apart, designate, specify, arrogate, attribute |
+| assume | take_up, presume, acquire, feign, usurp, arrogate, strike, take_over, accept, sham, simulate, wear, take, take_on, bear, get_into, put_on, adopt, seize, take_for_granted, don |
 | atomic | nuclear |
-| attach | bind, sequester, tie, bond, confiscate, impound, seize |
-| attempt | undertake, set_about, seek, assay, attack, endeavor, effort, essay, try, endeavour |
-| attributes | dimension, assign, attribute, ascribe, impute, property |
-| audiences | interview, consultation, hearing, audience |
-| audit | audited_account, inspect, scrutinize, scrutinise |
-| authenticated | authenticate, attested, documented |
+| attach | bond, impound, tie, confiscate, seize, sequester, bind |
+| attempt | endeavor, assay, essay, effort, undertake, seek, attack, set_about, endeavour, try |
+| attributes | property, ascribe, impute, dimension, assign, attribute |
+| audiences | audience, consultation, interview, hearing |
+| audit | audited_account, scrutinise, inspect, scrutinize |
+| authenticated | authenticate, documented, attested |
 | authenticating | authenticate |
-| authentication | assay-mark, certification, hallmark |
+| authentication | hallmark, assay-mark, certification |
 | authenticator | appraiser |
-| authorization | say-so, mandate, potency, dominance, authorisation, authority, sanction, empowerment |
+| authorization | sanction, authorisation, potency, empowerment, authority, dominance, mandate, say-so |
 | authorize | pass, clear, empower, authorise |
 | authorizer | authoriser |
-| auto | car, automobile, motorcar, machine |
-| available | usable, useable, uncommitted |
-| average | mean, ordinary, norm, intermediate, mediocre, median, average_out, medium, middling, modal, fair |
-| az | azimuth, grand_canyon_state, arizona |
-| azure | lazuline, bright_blue, sapphire, cerulean, sky-blue |
-| back | support, rachis, vertebral_column, backward, punt, rear, binding, book_binding, hinder, plunk_for, bet_on, rearward, gage, spinal_column, dorsum, backrest, cover, plump_for, game, hind, spine, second, endorse, backwards, back_up, indorse, stake, backbone, rearwards |
-| background | background_knowledge, setting, background_signal, desktop, ground, play_down, downplay, screen_background, scope, backcloth, backdrop |
-| backup | backup_man, accompaniment, patronage, backing, support, fill-in, reliever, relief, stand-in, substitute, championship, computer_backup, musical_accompaniment |
-| backward | slow-witted, half-witted, backwards, back, feebleminded, rearwards, rearward |
-| balanced | balance, equilibrise, equilibrize, equilibrate, poise |
-| bar | stripe, banish, debar, block_up, relegate, barricade, block_off, taproom, saloon, legal_profession, block, exclude, measure, blockade, streak, ginmill, stop, legal_community, browning_automatic_rifle, cake, prevention, barroom |
-| base | substructure, basis, meanspirited, al-qa'ida, lowly, free-base, infrastructure, immoral, understructure, establish, al-qaeda, root_word, stand, root, groundwork, found, al-qaida, foundation, radical, baseborn, ground, fundament, base_of_operations, foot, alkali, home, cornerstone, basal, mean, pedestal, floor, stem, bag, humble, qaeda, nucleotide, theme, radix |
-| basic | introductory, staple, canonic, canonical |
-| batch | passel, clutch, mickle, sight, slew, stack, quite_a_little, mess, pile, pot, mass, hatful, heap, plenty, deal, mountain, peck, good_deal, spate, muckle, wad, great_deal, lot, mint, tidy_sum, flock, raft |
-| before | in_front, earlier, ahead |
-| begin | start, lead_off, get_down, set_about, set_out, menachem_begin, commence, get, start_out |
-| behavior | deportment, behaviour, doings, conduct, demeanor, demeanour |
-| being | equal, follow, represent, personify, beingness, cost, embody, be, make_up, existence, live, constitute, exist, organism, comprise |
-| bench | judiciary, workbench, terrace, work_bench |
+| auto | automobile, machine, motorcar, car |
+| available | useable, usable, uncommitted |
+| average | median, intermediate, mean, norm, modal, medium, middling, fair, ordinary, mediocre, average_out |
+| azure | lazuline, sapphire, sky-blue, cerulean, bright_blue |
+| back | book_binding, rear, punt, backbone, indorse, bet_on, rearwards, plunk_for, spinal_column, spine, second, plump_for, support, endorse, hind, game, cover, hinder, dorsum, backwards, binding, back_up, backward, backrest, rearward, gage, stake, vertebral_column, rachis |
+| background | backcloth, background_signal, play_down, backdrop, screen_background, background_knowledge, downplay, scope, setting, ground, desktop |
+| backup | reliever, fill-in, computer_backup, accompaniment, musical_accompaniment, stand-in, backing, championship, patronage, substitute, backup_man, support, relief |
+| backward | feebleminded, back, rearwards, half-witted, rearward, backwards, slow-witted |
+| balanced | balance, equilibrise, equilibrize, poise, equilibrate |
+| bar | measure, ginmill, exclude, block_off, block_up, prevention, legal_profession, legal_community, blockade, barricade, browning_automatic_rifle, saloon, streak, banish, cake, debar, stripe, stop, barroom, block, taproom, relegate |
+| base | radical, foot, bag, radix, mean, fundament, cornerstone, establish, stem, alkali, home, infrastructure, meanspirited, substructure, foundation, basal, root, floor, immoral, theme, al-qa'ida, qaeda, humble, root_word, lowly, groundwork, ground, baseborn, pedestal, found, al-qaeda, free-base, understructure, stand, al-qaida, base_of_operations, basis, nucleotide |
+| basic | staple, canonical, canonic, introductory |
+| batch | lot, great_deal, mountain, peck, deal, hatful, quite_a_little, spate, passel, pot, slew, stack, raft, mass, tidy_sum, muckle, flock, mickle, pile, mint, wad, good_deal, mess, heap, sight, clutch, plenty |
+| before | in_front, ahead, earlier |
+| begin | get, commence, set_out, get_down, lead_off, menachem_begin, set_about, start_out, start |
+| behavior | behaviour, demeanour, conduct, doings, demeanor, deportment |
+| being | constitute, existence, beingness, equal, follow, embody, make_up, organism, comprise, live, personify, cost, be, represent, exist |
+| bench | workbench, terrace, work_bench, judiciary |
 | benchmark | bench_mark |
-| best | adept, c._h._best, beneficial, practiced, secure, proficient, intimately, in_force, advantageously, right, full, ripe, in_effect, unspoilt, near, scoop, dear, honorable, topper, estimable, unspoiled, serious, dependable, trump, easily, outdo, well, expert, safe, comfortably, charles_herbert_best, effective, sound, skillful, salutary, honest, just, considerably, good, respectable, substantially, better, outflank, skilful, undecomposed, upright |
-| bind | constipate, tie, stick, bond, stick_to, truss, tie_up, attach, bandage, tie_down, hold, adhere, hold_fast, oblige, obligate |
-| birth | parturition, bear, nascency, nascence, giving_birth, birthing, give_birth, parentage, deliver, have, nativity |
-| block | forget, choke_up, impede, pulley-block, blockage, auction_block, pulley_block, freeze, bar, obturate, block_up, deflect, pulley, cylinder_block, hinder, blank_out, barricade, block_off, kibosh, embarrass, obstruct, close_up, closure, stoppage, cube, stymy, stymie, jam, draw_a_blank, immobilize, city_block, halt, lug, blockade, occlude, stuff, blocking, occlusion, stop, parry, engine_block, immobilise, mental_block |
-| body | personify, consistency, organic_structure, physical_structure, dead_body, eubstance, consistence, soundbox, trunk, torso |
-| bound | reverberate, jump, stick, saltation, edge, apprenticed, tie_up, spring, indentured, recoil, rebound, ricochet, hold, throttle, confine, border, take_a_hop, constipate, articled, hold_fast, leaping, bandaged, trammel, stick_to, truss, resile, tie_down, adhere, restrain, attach, oblige, limit, leap, bind, tie, bounds, bond, restrict, bandage, boundary, destined, bounce, obligate |
-| break | bust, break_away, breakout, intermit, good_luck, infract, come_apart, bump, jailbreak, break_dance, faulting, erupt, give, gaolbreak, smash, collapse, give_way, severance, interruption, get_out, break_off, go_against, bankrupt, kick_downstairs, cave_in, go, founder, intermission, separate, discontinue, breakage, go_bad, break-dance, offend, break_up, burst, bring_out, falling_out, prison-breaking, violate, break_out, reveal, give_out, give_away, get_around, open_frame, time_out, suspension, let_out, break_down, weaken, dampen, respite, part, expose, pause, rupture, split, gap, conk_out, wear_out, disruption, fall_in, wear, split_up, fault, breaking, unwrap, damp, shift, crack, happy_chance, demote, check, fracture, let_on, ruin, soften, fail, transgress, breach, disclose, develop, relegate, recess, rift, break_in, prisonbreak, interrupt, divulge, geological_fault, recrudesce, snap_off, stop, fall_apart, break_of_serve, better, discover, die |
-| breakdown | dislocation, partitioning, equipment_failure, crack-up |
-| broken | bust, break_away, low, break, intermit, infract, come_apart, bump, break_dance, disordered, erupt, give, smash, upset, collapse, give_way, humiliated, get_out, break_off, go_against, bankrupt, kick_downstairs, cave_in, go, founder, separate, discontinue, broken_in, go_bad, rugged, break-dance, offend, break_up, burst, busted, bring_out, violate, break_out, reveal, impoverished, give_out, give_away, get_around, let_out, break_down, weaken, dampen, part, expose, pause, split, conk_out, wear_out, crushed, humbled, fall_in, wear, split_up, unwrap, damp, crack, demote, check, fracture, wiped_out, let_on, ruin, soften, fail, transgress, breach, disclose, develop, relegate, unkept, break_in, confused, interrupt, divulge, recrudesce, snap_off, stop, fall_apart, better, discover, die |
+| best | well, good, proficient, skillful, serious, c._h._best, effective, considerably, safe, trump, advantageously, full, practiced, undecomposed, skilful, salutary, substantially, unspoiled, sound, beneficial, dependable, in_effect, respectable, outflank, just, comfortably, near, topper, easily, estimable, adept, secure, charles_herbert_best, expert, honorable, honest, scoop, in_force, unspoilt, dear, outdo, better, upright, right, intimately, ripe |
+| bind | bond, constipate, hold_fast, oblige, stick, hold, adhere, stick_to, attach, tie_up, truss, tie, bandage, obligate, tie_down |
+| birth | deliver, nascency, birthing, nativity, have, nascence, parentage, give_birth, giving_birth, bear, parturition |
+| block | closure, halt, stuff, block_off, lug, obstruct, block_up, cube, jam, blocking, auction_block, blank_out, stoppage, blockade, barricade, cylinder_block, bar, embarrass, stymie, draw_a_blank, pulley_block, mental_block, engine_block, pulley, deflect, parry, hinder, stop, occlude, close_up, immobilise, forget, immobilize, blockage, obturate, pulley-block, kibosh, occlusion, stymy, impede, choke_up, city_block, freeze |
+| body | physical_structure, consistence, dead_body, eubstance, consistency, trunk, personify, organic_structure, soundbox, torso |
+| bound | bandaged, border, saltation, leaping, leap, truss, reverberate, trammel, bandage, jump, hold, recoil, adhere, attach, take_a_hop, edge, confine, throttle, bond, restrain, restrict, oblige, stick, indentured, tie_up, boundary, spring, bounds, destined, limit, obligate, ricochet, constipate, hold_fast, apprenticed, articled, stick_to, tie, rebound, resile, bind, bounce, tie_down |
+| break | die, bankrupt, rupture, give_away, prisonbreak, discover, wear_out, intermit, falling_out, respite, jailbreak, break_in, wear, expose, fault, give_way, go_bad, open_frame, break_of_serve, break-dance, shift, crack, go_against, pause, good_luck, give_out, collapse, breakage, prison-breaking, fall_in, get_around, interrupt, disruption, discontinue, reveal, recrudesce, break_out, disclose, fall_apart, bust, stop, give, transgress, better, let_on, get_out, weaken, relegate, separate, kick_downstairs, infract, suspension, break_up, conk_out, demote, develop, geological_fault, ruin, breakout, burst, come_apart, smash, founder, fail, recess, erupt, breaking, check, fracture, divulge, rift, bring_out, split, split_up, severance, part, interruption, bump, violate, snap_off, let_out, dampen, offend, time_out, cave_in, unwrap, gaolbreak, happy_chance, break_dance, soften, break_down, damp, breach, break_off, gap, break_away, faulting, intermission, go |
+| breakdown | crack-up, partitioning, dislocation, equipment_failure |
+| broken | die, bankrupt, broken_in, busted, give_away, discover, wear_out, intermit, wiped_out, break_in, wear, expose, give_way, go_bad, break-dance, crack, go_against, pause, give_out, collapse, fall_in, get_around, interrupt, discontinue, reveal, impoverished, recrudesce, disclose, fall_apart, crushed, bust, humiliated, stop, give, transgress, better, let_on, get_out, weaken, relegate, disordered, separate, kick_downstairs, rugged, infract, upset, break_up, conk_out, demote, develop, ruin, burst, break, come_apart, smash, unkept, founder, fail, low, erupt, check, fracture, confused, divulge, bring_out, split, split_up, part, bump, violate, snap_off, let_out, dampen, offend, cave_in, unwrap, humbled, break_dance, soften, break_down, damp, breach, break_off, break_away, break_out, go |
 | bucket | bucketful, pail |
-| buffer | fender, cowcatcher, buffer_store, cushion, buffer_storage, polisher, pilot, buffer_zone, soften, buff |
-| build | make, physique, build_up, habitus, ramp_up, establish, work_up, figure, form, construct, material_body, human_body, flesh, progress, physical_body, bod, frame, soma, anatomy, chassis, body-build, shape |
-| bulk | volume, bulge, mass, majority |
-| bump | kick_downstairs, break, blow, knock, relegate, bulge, dislodge, protrusion, gibbousness, protuberance, extrusion, jut, chance, happen, excrescence, encounter, demote, swelling, gibbosity, find, prominence, hump |
-| burst | break_open, volley, explosion, erupt, explode, salvo, bust, flare-up, break, collapse, fusillade, outburst, fit, abound, bristle, split |
-| busy | in_use, engaged, meddling, interfering, fussy, busybodied, occupy, officious, meddlesome |
-| by | away, past, aside |
-| ca | calif., california, golden_state, atomic_number_20, calcium |
-| cache | memory_cache, squirrel_away, stash, lay_away, hive_up, hoard |
-| cached | squirrel_away, stash, lay_away, cache, hive_up, hoard |
-| caching | squirrel_away, stash, lay_away, cache, hive_up, hoard |
-| calculate | direct, forecast, estimate, depend, account, count_on, cipher, aim, compute, work_out, count, bet, cypher, figure, reckon, look |
-| call | call_option, yell, hollo, phone_call, ring, telephone_call, margin_call, forebode, scream, vociferation, phone, promise, shout, squall, song, birdsong, send_for, shout_out, outcry, call_off, holler, call_in, predict, prognosticate, cry, foretell, birdcall, call_up, claim, anticipate, visit, telephone, bid, name, address |
-| can | sack, tail, prat, derriere, rear, give_notice, give_the_axe, dismiss, tin, commode, can_buoy, throne, buttocks, privy, pot, fire, rear_end, ass, backside, lavatory, buns, arse, rump, posterior, stern, tooshie, displace, fanny, force_out, tin_can, canful, tail_end, potty, fundament, stool, bathroom, put_up, terminate, butt, john, lav, hindquarters, hind_end, toilet, crapper, seat, keister, tush, bum, behind, bottom, nates, send_away, give_the_sack |
-| cancel | scratch, call_off, set_off, invalidate, offset, scrub, natural, strike_down, delete |
-| candidates | nominee, candidate, campaigner, prospect |
-| canonical | basic, sanctioned, canonic |
-| cap | detonating_device, hood, crownwork, ceiling, detonator, pileus, crown, capital, jacket_crown, jacket, crest, chapiter, roof |
-| capabilities | potentiality, capableness, capability, capacity |
-| capacity | capability, electrical_capacity, capacitance, mental_ability, content |
-| capture | gaining_control, captivate, seizure, enamour, fascinate, enchant, entrance, conquer, appropriate, trance, becharm, charm, bewitch, catch, enamor, beguile, get, seize |
+| buffer | fender, buffer_zone, cowcatcher, cushion, buffer_storage, buff, pilot, soften, polisher, buffer_store |
+| build | material_body, build_up, establish, figure, shape, body-build, ramp_up, make, anatomy, frame, flesh, chassis, human_body, form, work_up, bod, habitus, construct, soma, progress, physique, physical_body |
+| bulk | majority, bulge, mass, volume |
+| bump | encounter, kick_downstairs, happen, protuberance, excrescence, gibbousness, prominence, jut, knock, demote, swelling, bulge, chance, find, break, dislodge, protrusion, extrusion, blow, gibbosity, relegate, hump |
+| burst | explosion, erupt, collapse, explode, fusillade, volley, fit, salvo, abound, bust, break_open, break, outburst, bristle, split, flare-up |
+| busy | in_use, meddling, interfering, officious, fussy, meddlesome, engaged, occupy, busybodied |
+| cache | stash, hoard, squirrel_away, hive_up, lay_away, memory_cache |
+| cached | cache, stash, hoard, squirrel_away, hive_up, lay_away |
+| caching | cache, stash, hoard, squirrel_away, hive_up, lay_away |
+| calculate | cypher, depend, count_on, estimate, cipher, direct, work_out, compute, aim, reckon, look, figure, bet, account, count, forecast |
+| call | forebode, yell, send_for, cry, foretell, predict, shout_out, call_option, bid, call_off, scream, holler, shout, call_in, prognosticate, vociferation, squall, song, promise, claim, telephone_call, ring, address, birdcall, telephone, hollo, margin_call, call_up, anticipate, birdsong, outcry, phone_call, phone, visit, name |
+| can | butt, rear, hind_end, force_out, fundament, prat, buns, dismiss, stern, terminate, lav, send_away, canful, behind, bathroom, nates, tail_end, sack, keister, displace, fire, crapper, pot, tail, backside, bottom, privy, fanny, derriere, stool, hindquarters, ass, rump, commode, tush, seat, give_the_sack, can_buoy, tooshie, throne, tin_can, give_notice, bum, put_up, lavatory, posterior, buttocks, tin, toilet, rear_end, potty, john, arse, give_the_axe |
+| cancel | call_off, scrub, invalidate, strike_down, offset, scratch, set_off, natural, delete |
+| candidates | prospect, campaigner, candidate, nominee |
+| canonical | basic, canonic, sanctioned |
+| cap | crest, detonating_device, pileus, chapiter, jacket, crownwork, detonator, ceiling, roof, jacket_crown, crown, capital, hood |
+| capabilities | capability, capableness, capacity, potentiality |
+| capacity | content, electrical_capacity, capacitance, capability, mental_ability |
+| capture | enamor, get, trance, becharm, seizure, charm, enchant, enamour, captivate, gaining_control, catch, beguile, fascinate, entrance, seize, appropriate, conquer, bewitch |
 | carp | cavil, chicane |
-| cast | ramble, spue, tramp, contrive, mold, be_sick, puke, mould, vagabond, cat, couch, vomit_up, purge, retch, draw, casting, throw_up, barf, hurl, dramatis_personae, drop, swan, range, throw_away, stray, throw, shake_off, rove, stamp, form, chuck, hurtle, redact, shed, drift, roam, cast_off, disgorge, project, throw_off, spew, wander, sick, upchuck, put, vomit, honk, roll, plaster_bandage, cast_of_characters, frame, plaster_cast, regorge, regurgitate, shape |
-| cat | guy, qat, puke, be_sick, big_cat, true_cat, khat, vomit_up, purge, retch, ct, computed_tomography, kat, cat-o'-nine-tails, throw_up, barf, arabian_tea, bozo, computed_axial_tomography, chuck, african_tea, computerized_tomography, quat, hombre, cast, disgorge, spew, sick, upchuck, vomit, caterpillar, honk, computerized_axial_tomography, spue, regorge, regurgitate |
-| categories | family, category, class |
+| cast | spew, honk, regorge, put, roll, upchuck, stray, throw_up, throw_off, sick, roam, shape, tramp, puke, range, shed, redact, spue, purge, barf, vomit, chuck, retch, cat, vomit_up, hurtle, couch, throw, frame, disgorge, dramatis_personae, rove, drop, form, stamp, plaster_cast, plaster_bandage, swan, regurgitate, hurl, be_sick, cast_of_characters, casting, drift, cast_off, wander, mold, ramble, throw_away, shake_off, vagabond, mould, contrive, draw, project |
+| cat | spew, honk, regorge, caterpillar, throw_up, upchuck, cast, qat, big_cat, khat, computerized_axial_tomography, sick, puke, ct, barf, spue, quat, cat-o'-nine-tails, vomit, computerized_tomography, purge, chuck, computed_tomography, retch, vomit_up, arabian_tea, disgorge, guy, computed_axial_tomography, regurgitate, true_cat, african_tea, be_sick, hombre, kat, bozo |
+| categories | class, family, category |
 | categorize | categorise |
-| category | family, class |
-| cell | cubicle, cellular_phone, prison_cell, cadre, mobile_phone, electric_cell, jail_cell, cellular_telephone, cellphone |
-| certificate | credential, credentials, certification, security |
-| chain | string, range_of_mountains, range, concatenation, chemical_chain, mountain_range, mountain_chain, strand, sir_ernst_boris_chain, chain_of_mountains, ernst_boris_chain |
-| change | commute, exchange, vary, modification, deepen, interchange, variety, switch, shift, modify, convert, transfer, alter, alteration |
-| changed | commute, exchange, vary, change, deepen, interchange, switch, shift, modify, convert, transfer, alter |
-| channel | line, carry, television_channel, transport, transmission_channel, duct, communication_channel, canalise, convey, distribution_channel, canalize, impart, tv_channel, channelise, epithelial_duct, canal, transfer, groove, transmit, conduct, channelize |
-| check | contain, tick_off, determine, bridle, balk, check_into, assay, verification, hindrance, retard, turn_back, break, substantiation, learn, jibe, handicap, hold, check-out_procedure, chit, discipline, correspond, hold_in, bank_check, suss_out, hinderance, stay, impediment, chip, ensure, control, look_into, check_over, check_out, insure, fit, chink, confirmation, cheque, chequer, stoppage, train, check_mark, go_over, checkout, gibe, delay, mark_off, agree, halt, checker, arrest, crack, see, hitch, see_to_it, match, stop, watch, moderate, tick, curb, mark, baulk, ascertain, assure, tally, find_out, tab, condition, deterrent, check_up_on, check_off, hold_back |
+| category | class, family |
+| cell | prison_cell, cubicle, cadre, cellphone, cellular_phone, cellular_telephone, electric_cell, mobile_phone, jail_cell |
+| certificate | certification, security, credential, credentials |
+| chain | range_of_mountains, strand, ernst_boris_chain, chain_of_mountains, chemical_chain, sir_ernst_boris_chain, mountain_range, range, concatenation, string, mountain_chain |
+| change | alter, interchange, shift, modification, variety, commute, deepen, switch, exchange, modify, transfer, vary, alteration, convert |
+| changed | alter, interchange, shift, deepen, commute, switch, exchange, modify, transfer, vary, convert, change |
+| channel | transmission_channel, conduct, channelise, transfer, transmit, epithelial_duct, transport, distribution_channel, communication_channel, tv_channel, convey, duct, groove, television_channel, impart, canalise, canal, carry, canalize, channelize, line |
+| check | chip, halt, match, fit, assay, check_mark, balk, see_to_it, ensure, agree, verification, chequer, turn_back, delay, bank_check, control, check_into, checker, handicap, watch, arrest, chit, stoppage, check-out_procedure, discipline, learn, condition, hold, check_up_on, stay, see, break, tally, deterrent, retard, hold_back, substantiation, contain, check_over, find_out, tab, mark_off, cheque, mark, impediment, go_over, ascertain, hinderance, tick_off, check_out, curb, stop, moderate, train, correspond, insure, jibe, hindrance, hitch, confirmation, hold_in, look_into, determine, crack, assure, gibe, tick, baulk, bridle, suss_out, checkout, check_off, chink |
 | checker | chequer, check |
-| checkout | check-out_procedure, checkout_counter, checkout_time, check |
-| child | tyke, nipper, shaver, small_fry, youngster, tike, kid, nestling, fry, tiddler, minor, baby |
-| choose | prefer, opt, take, select, pick_out |
-| chunk | collocate, glob, clod, clump, ball, lump |
+| checkout | check-out_procedure, checkout_time, check, checkout_counter |
+| child | shaver, tike, tiddler, kid, tyke, nipper, youngster, small_fry, baby, fry, nestling, minor |
+| choose | select, opt, take, prefer, pick_out |
+| chunk | clod, glob, collocate, ball, clump, lump |
 | cinder | clinker |
-| cipher | nobody, nothing, nix, work_out, zilch, aught, naught, nada, write_in_code, compute, nonentity, cypher, figure, reckon, calculate, goose_egg, zero, encipher, inscribe, zip, nil, cryptograph, secret_code, null, code, nought, zippo, encrypt |
-| claim | title, take, arrogate, lay_claim, exact, call |
-| classify | relegate, assort, sort_out, separate, sort, class |
-| clean | sporty, unclouded, blank, light, pick, fair, make_clean, strip, unobjectionable, sporting, cleanse, scavenge, uninfected, plum, clean_house, houseclean, clean-living, clean_and_jerk, neat, uncontaminating, white, fairly, fresh, sportsmanlike, clear, plumb |
-| cleanup | cleansing, killing, cleanup_position, cleanup_spot, cleaning |
-| clear | realise, elucidate, sack, bring_in, solve, take_in, crystallize, enlighten, make, sort_out, unclouded, clean-cut, readable, light, exonerated, percipient, clear-cut, clean, light_up, clear_up, realize, crystalise, authorise, pull_in, open, exculpated, brighten, discharge, illuminate, shed_light_on, authorize, pass, exculpate, unmortgaged, clearly, decipherable, vindicated, net, assoil, sack_up, gain, acquit, crystalize, straighten_out, absolved, well-defined, earn, cleared, unclutter, crystallise, all_the_way, exonerate, top |
+| cipher | cypher, null, zero, encrypt, figure, nix, code, inscribe, work_out, compute, encipher, nonentity, naught, nobody, goose_egg, nothing, nada, secret_code, zippo, calculate, cryptograph, nought, zip, zilch, nil, write_in_code, aught, reckon |
+| claim | exact, lay_claim, title, call, take, arrogate |
+| classify | separate, class, sort_out, sort, assort, relegate |
+| clean | houseclean, fairly, blank, sporting, clear, plum, fair, clean-living, sportsmanlike, sporty, uncontaminating, cleanse, strip, make_clean, neat, plumb, fresh, clean_and_jerk, clean_house, light, white, scavenge, uninfected, pick, unclouded, unobjectionable |
+| cleanup | cleansing, cleanup_position, cleanup_spot, cleaning, killing |
+| clear | enlighten, all_the_way, net, brighten, straighten_out, unclutter, gain, exculpate, solve, well-defined, authorise, discharge, percipient, readable, earn, authorize, exonerate, top, open, make, illuminate, assoil, sack, clean-cut, decipherable, light_up, shed_light_on, take_in, realize, acquit, clean, exculpated, vindicated, cleared, clear_up, elucidate, exonerated, absolved, unmortgaged, crystalise, crystalize, light, sack_up, crystallize, clearly, sort_out, clear-cut, pull_in, unclouded, pass, bring_in, crystallise, realise |
 | client | customer, node, guest |
 | clock | time |
-| clone | knockoff, ringer, clon, dead_ringer |
-| close | finish, fill_up, tight, finale, shut, stopping_point, tightlipped, closely, nigh, airless, penny-pinching, cheeseparing, near, shut_down, fold, confining, snug, closelipped, close_up, conclude, ending, faithful, close-fitting, closing, conclusion, secretive, finis, close_down, closing_curtain, stuffy, end, closemouthed, last, unaired, come_together, skinny |
-| cloud | taint, mist, obnubilate, overcast, mottle, obscure, corrupt, becloud, dapple, fog, sully, haze_over, swarm, defile, befog |
-| cluster | bunch_up, flock, bundle, constellate, clump, clustering, bunch |
-| cm | centimeter, atomic_number_96, centimetre, curium |
+| clone | knockoff, clon, ringer, dead_ringer |
+| close | secretive, cheeseparing, tightlipped, fill_up, stopping_point, unaired, confining, shut_down, finis, end, closemouthed, finale, nigh, near, last, closelipped, shut, penny-pinching, conclude, close_up, fold, tight, closing, ending, conclusion, faithful, airless, come_together, closely, snug, finish, closing_curtain, close_down, skinny, close-fitting, stuffy |
+| cloud | mist, befog, obscure, fog, becloud, defile, taint, haze_over, dapple, obnubilate, mottle, swarm, sully, corrupt, overcast |
+| cluster | bundle, clustering, flock, clump, bunch, bunch_up, constellate |
 | cockroach | roach |
-| code | encrypt, write_in_code, cipher, codification, computer_code, encipher, cypher, inscribe |
-| coerce | pressure, hale, force, squeeze |
-| collapse | give_way, crash, break_up, burst, give, flop, break_down, crumble, break, cave_in, founder, tumble, crack_up, crock_up, prostration, crack, fall_in, crumple |
-| collect | cod, gather, pull_in, take_in, accumulate, garner, pull_together, pick_up, roll_up, call_for, amass, gather_up, pile_up, compile, hoard |
-| collection | compendium, assemblage, aggregation, appeal, accumulation, solicitation, collecting, ingathering, assembling |
-| column | pillar, chromatography_column, editorial, newspaper_column, tower |
-| combine | fuse, cartel, blend, aggregate, combining, flux, trust, commingle, conflate, corporate_trust, merge, coalesce, unite, meld, immix, compound, mix |
-| combined | fuse, blend, combine, flux, mix, conflate, compound, merge, coalesce, unite, meld, immix, aggregate, commingle |
-| comma | comma_butterfly, polygonia_comma |
-| command | instruction, bidding, overtop, dictation, require, bid, program_line, dominate, statement, control, overlook, mastery |
-| comment | input, notice, annotate, commentary, gossip, remark, point_out, gloss, scuttlebutt |
-| commit | perpetrate, institutionalise, charge, practice, put, consecrate, intrust, give, trust, entrust, dedicate, invest, institutionalize, confide, devote, send, pull, place |
-| common | coarse, rough-cut, vulgar, mutual, green, park, commons, plebeian, usual, uncouth, vernacular, unwashed |
-| comp | comprehensive, comprehensive_examination |
-| compact | heavyset, summary, wad, pack, squeeze, covenant, stocky, concordat, pack_together, constrict, thick, thickset, succinct, bundle, compendious, compress, compact_car, contract, powder_compact, press |
-| compare | liken, equivalence, comparison, comparability, equate |
-| compile | accumulate, roll_up, amass, collect, pile_up, compose, hoard |
-| complete | ended, finish, dispatch, pure, perfect, nail, all_over, terminated, fill_in, sodding, discharge, thoroughgoing, utter, make_out, concluded, arrant, double-dyed, stark, everlasting, over, accomplished, staring, gross, unadulterated, consummate, fill_out |
-| completed | accomplished, realized, finish, fill_in, complete, dispatch, discharge, make_out, fill_out, realised, nail |
-| completion | windup, closing, pass_completion, mop_up, culmination |
-| component | element, component_part, part, factor, constituent, ingredient, portion |
-| compose | indite, write, frame, draw_up, compile, pen |
+| code | cypher, cipher, inscribe, write_in_code, encipher, computer_code, codification, encrypt |
+| coerce | squeeze, hale, force, pressure |
+| collapse | give, prostration, crumble, break_down, crack, cave_in, founder, burst, crock_up, flop, fall_in, break, break_up, give_way, crash, crack_up, tumble, crumple |
+| collect | pile_up, garner, amass, call_for, hoard, gather_up, pick_up, roll_up, accumulate, pull_together, pull_in, compile, take_in, cod, gather |
+| collection | accumulation, assemblage, collecting, aggregation, appeal, ingathering, solicitation, assembling, compendium |
+| column | newspaper_column, tower, chromatography_column, editorial, pillar |
+| combine | flux, meld, mix, combining, trust, compound, aggregate, cartel, immix, conflate, unite, corporate_trust, merge, blend, commingle, fuse, coalesce |
+| combined | flux, meld, mix, compound, combine, aggregate, immix, conflate, unite, merge, blend, commingle, fuse, coalesce |
+| comma | polygonia_comma, comma_butterfly |
+| command | control, overlook, mastery, bidding, statement, bid, instruction, require, program_line, dominate, dictation, overtop |
+| comment | input, commentary, scuttlebutt, notice, remark, point_out, gossip, gloss, annotate |
+| commit | practice, give, trust, charge, intrust, put, pull, consecrate, confide, institutionalize, dedicate, institutionalise, send, invest, place, entrust, perpetrate, devote |
+| common | park, green, unwashed, commons, vernacular, usual, rough-cut, plebeian, mutual, uncouth, vulgar, coarse |
+| comp | comprehensive_examination, comprehensive |
+| compact | compact_car, concordat, thickset, bundle, covenant, compendious, squeeze, powder_compact, stocky, heavyset, thick, press, pack_together, summary, succinct, constrict, wad, pack, contract, compress |
+| compare | comparison, equivalence, equate, comparability, liken |
+| compile | pile_up, amass, hoard, roll_up, accumulate, compose, collect |
+| complete | stark, double-dyed, utter, perfect, consummate, discharge, thoroughgoing, all_over, fill_out, gross, concluded, over, nail, fill_in, sodding, terminated, ended, arrant, pure, accomplished, make_out, everlasting, finish, staring, dispatch, unadulterated |
+| completed | make_out, nail, fill_out, finish, complete, realised, fill_in, discharge, realized, dispatch, accomplished |
+| completion | windup, culmination, pass_completion, mop_up, closing |
+| component | factor, part, component_part, ingredient, portion, constituent, element |
+| compose | indite, write, compile, pen, frame, draw_up |
 | composite | composite_plant, complex |
-| compress | squeeze, pack_together, constrict, contract, press, compact |
-| compute | cipher, work_out, cypher, figure, reckon, calculate |
-| computed | cipher, compute, work_out, cypher, figure, reckon, calculate |
-| condition | consideration, discipline, check, circumstance, specify, precondition, status, train, shape, stipulate, term, qualify, stipulation, experimental_condition |
-| configuration | conformation, contour, constellation, form, shape |
-| confirm | sustain, support, reassert, corroborate, substantiate, affirm |
-| conflicts | conflict, run_afoul, dispute, difference, difference_of_opinion, engagement, battle, infringe, fight, contravene, struggle |
+| compress | squeeze, press, compact, pack_together, constrict, contract |
+| compute | cypher, cipher, work_out, calculate, reckon, figure |
+| computed | cypher, cipher, work_out, compute, calculate, reckon, figure |
+| condition | stipulation, status, check, discipline, consideration, stipulate, precondition, experimental_condition, circumstance, qualify, shape, train, term, specify |
+| configuration | form, constellation, contour, conformation, shape |
+| confirm | sustain, affirm, reassert, corroborate, support, substantiate |
+| conflicts | difference_of_opinion, engagement, fight, battle, contravene, run_afoul, struggle, conflict, difference, infringe, dispute |
 | conformance | conformity |
-| conjure | bring_up, machinate, arouse, invoke, call_forth, conspire, cabal, evoke, conjure_up, call_down, put_forward, bid, beseech, adjure, complot, entreat, stir, raise, press |
-| connect | link_up, link, tie, get_in_touch, plug_in, associate, tie_in, plug_into, unite, join, touch_base, relate, colligate |
-| connection | joining, link, connectedness, connexion, connecter, connector, connective, association |
-| constant | incessant, unremitting, constant_quantity, invariant, unvarying, perpetual, invariable, ceaseless, never-ending, unceasing, changeless |
-| constrain | encumber, tighten_up, cumber, stiffen, tighten, restrain |
-| constraints | constraint, restraint |
-| construct | fabricate, reconstruct, make, conception, build, concept, manufacture, retrace |
-| consume | use_up, eat_up, squander, take, take_in, exhaust, run_through, ingest, ware, wipe_out, waste, have, go_through, eat, deplete, devour, down |
-| contact | link, touch, tangency, inter-group_communication, impinging, middleman, meet, striking, get_through, get_hold_of, physical_contact, adjoin, reach, liaison, contact_lens |
-| contain | bear, stop, check, hold_in, carry, curb, take, turn_back, incorporate, control, comprise, arrest, moderate, hold, hold_back |
-| content | depicted_object, capacity, subject_matter, subject, cognitive_content, contentedness, substance, contented, message, mental_object |
-| context | context_of_use, circumstance, setting, linguistic_context |
-| continue | carry_on, go_along, go_on, go_forward, preserve, keep_on, uphold, cover, keep, retain, stay, proceed, extend, persist_in, bear_on, remain, stay_on |
-| control | contain, ascendence, hold, master, hold_in, dominance, control_condition, ensure, keep_in_line, manipulate, insure, mastery, restraint, command, see, ascendency, see_to_it, check, operate, curb, verify, ascertain, assure, ascendancy, controller, ascendance, moderate |
-| controlled | contain, see_to_it, master, check, hold_in, operate, curb, verify, hold, command, ascertain, assure, ensure, control, keep_in_line, manipulate, moderate, insure, see |
-| controller | control, comptroller, accountant, restrainer |
-| conversion | rebirth, transition, spiritual_rebirth, changeover |
-| convert | change_over, commute, exchange, change, win_over, convince |
+| conjure | call_forth, call_down, stir, entreat, bring_up, adjure, arouse, beseech, conspire, complot, put_forward, machinate, press, cabal, invoke, evoke, conjure_up, bid, raise |
+| connect | colligate, link_up, touch_base, join, plug_into, relate, get_in_touch, unite, tie_in, tie, associate, link, plug_in |
+| connection | connectedness, association, joining, connective, connexion, link, connecter, connector |
+| constant | ceaseless, invariable, incessant, unceasing, never-ending, perpetual, constant_quantity, unvarying, invariant, changeless, unremitting |
+| constrain | tighten, tighten_up, stiffen, encumber, cumber, restrain |
+| constraints | restraint, constraint |
+| construct | make, fabricate, build, concept, conception, retrace, manufacture, reconstruct |
+| consume | devour, waste, squander, ingest, use_up, deplete, eat_up, down, eat, have, exhaust, take, take_in, go_through, wipe_out, ware, run_through |
+| contact | contact_lens, middleman, adjoin, inter-group_communication, reach, impinging, get_hold_of, tangency, touch, striking, liaison, meet, link, get_through, physical_contact |
+| contain | control, hold_in, carry, check, hold, take, comprise, incorporate, curb, stop, hold_back, moderate, bear, turn_back, arrest |
+| content | subject, substance, subject_matter, contentedness, depicted_object, mental_object, capacity, cognitive_content, contented, message |
+| context | context_of_use, setting, linguistic_context, circumstance |
+| continue | go_along, proceed, carry_on, stay_on, extend, cover, retain, persist_in, preserve, go_forward, stay, bear_on, keep, uphold, keep_on, remain, go_on |
+| control | keep_in_line, mastery, command, ensure, see_to_it, control_condition, restraint, hold, see, verify, ascendency, master, contain, ascertain, operate, ascendance, moderate, controller, insure, hold_in, check, manipulate, ascendence, ascendancy, dominance, assure, curb |
+| controlled | insure, control, contain, hold_in, keep_in_line, check, command, manipulate, hold, ensure, see_to_it, operate, ascertain, see, verify, master, moderate, assure, curb |
+| controller | control, accountant, comptroller, restrainer |
+| conversion | changeover, spiritual_rebirth, rebirth, transition |
+| convert | win_over, commute, exchange, convince, change_over, change |
 | converter | convertor |
-| convertible | exchangeable, convertible_security, translatable, transformable, transmutable, sofa_bed |
-| cool | aplomb, cool_off, chill, sang-froid, poise, coolheaded, cool_down, assuredness, nerveless |
-| copy | written_matter, re-create, imitate, transcript, replicate, simulate |
-| core | meat, burden, effect, inwardness, centre, heart, marrow, essence, heart_and_soul, nitty-gritty, gist, magnetic_core, pith, center, kernel, nub, core_group, congress_of_racial_equality, substance, nucleus, sum |
-| correct | discipline, right, decline, even_up, rectify, chastise, even_out, make_up, redress, objurgate, chasten, castigate, sort_out, set, compensate, adjust, even_off, counterbalance, slump |
-| count | reckoning, depend, enumeration, consider, number, matter, enumerate, tally, weigh, numeration, counting, numerate, calculate, bet, look, reckon |
-| covers | continue, cover_charge, report, embrace, get_over, incubate, top, concealment, binding, covert, book_binding, enshroud, spread_over, underwrite, get_across, natural_covering, treat, cover_up, cover_version, deal, compensate, overlay, insure, cover_song, brood, plow, cover, pass_over, masking, covering_fire, overcompensate, encompass, extend, traverse, hide, covering, blanket, track, handle, cut_across, screening, wrap_up, comprehend, cut_through, back, hatch, shroud, address, cross, screen, breed |
-| cpu | central_processor, c.p.u., processor, mainframe, central_processing_unit |
-| cr | chromium, atomic_number_24 |
-| create | produce, make |
-| created | produce, make, create |
-| creation | initiation, cosmos, foundation, origination, universe, creative_activity, introduction, institution, instauration, macrocosm, conception, founding, world, existence, innovation |
+| convertible | transformable, transmutable, convertible_security, exchangeable, translatable, sofa_bed |
+| cool | chill, poise, aplomb, nerveless, sang-froid, assuredness, coolheaded, cool_down, cool_off |
+| copy | simulate, imitate, transcript, re-create, replicate, written_matter |
+| core | kernel, meat, magnetic_core, nucleus, gist, marrow, inwardness, burden, heart, effect, center, substance, sum, core_group, nub, pith, nitty-gritty, heart_and_soul, congress_of_racial_equality, essence, centre |
+| correct | even_off, sort_out, rectify, right, even_up, discipline, chastise, counterbalance, make_up, decline, set, redress, objurgate, adjust, castigate, compensate, even_out, slump, chasten |
+| count | depend, enumeration, counting, reckoning, number, calculate, consider, look, reckon, tally, bet, numerate, weigh, numeration, enumerate, matter |
+| covers | book_binding, treat, screening, encompass, overcompensate, natural_covering, plow, deal, get_over, cut_through, masking, continue, breed, concealment, hatch, enshroud, brood, top, pass_over, wrap_up, spread_over, cover_charge, overlay, comprehend, shroud, traverse, track, report, cover, get_across, covert, address, cut_across, cover_up, handle, embrace, compensate, blanket, insure, cover_song, binding, incubate, covering_fire, covering, extend, back, cross, cover_version, underwrite, hide, screen |
+| cpu | mainframe, central_processor, processor, central_processing_unit, c.p.u. |
+| create | make, produce |
+| created | make, produce, create |
+| creation | existence, founding, macrocosm, cosmos, initiation, foundation, introduction, conception, innovation, instauration, universe, world, creative_activity, institution, origination |
 | credential | certificate, credentials, certification |
-| creds | street_credibility, street_cred, cred |
-| cross | intersect, bad-tempered, transverse, bilk, grouchy, get_over, sweep, hybridize, crabbed, crown_of_thorns, hybridization, interbreed, crisscross, foil, get_across, baffle, crossbreeding, crossbreed, crossing, hybridisation, hybridise, cover, ill-tempered, pass_over, spoil, fussy, queer, crabby, traverse, track, thwart, cut_across, hybridizing, span, hybrid, mark, cut_through, grumpy, thwartwise, transversal, frustrate, interbreeding, scotch |
+| creds | street_credibility, cred, street_cred |
+| cross | hybridise, interbreeding, crossbreeding, grouchy, get_over, baffle, cut_through, hybridize, queer, crossing, hybrid, ill-tempered, pass_over, transverse, sweep, interbreed, hybridizing, foil, transversal, spoil, hybridization, traverse, track, frustrate, mark, intersect, crabbed, cover, get_across, thwart, span, cut_across, fussy, scotch, crossbreed, bilk, hybridisation, thwartwise, crown_of_thorns, grumpy, bad-tempered, crabby, crisscross |
 | cur | mutt, mongrel |
-| curl | wave, curlicue, loop, whorl, robert_curl, coil, kink, roll, robert_floyd_curl_jr., curl_up, robert_f._curl, gyre, curve, lock, draw_in, scroll, ringlet |
+| curl | whorl, coil, lock, roll, ringlet, robert_floyd_curl_jr., draw_in, curlicue, curl_up, robert_f._curl, gyre, kink, loop, scroll, wave, robert_curl, curve |
 | current | electric_current, stream, flow |
-| curry | dress, groom |
-| custom | tradition, impost, customs_duty, usance, customs, custom-made, usage |
-| daemon | demigod, devil, fiend, daimon, demon |
-| dashes | flair, sprint, pall, style, panache, daunt, shoot, elan, scare_off, scud, flash, dart, scoot, crash, scare, smash, dah, frighten_off, dash, hyphen, bolt, scare_away, frighten_away |
-| data | information, datum, data_point |
-| date | escort, particular_date, appointment, date_stamp, engagement, go_steady, day_of_the_month, see, go_out |
-| dc | direct_current, district_of_columbia, d.c., direct_electric_current |
-| de | first_state, delaware, diamond_state |
-| deal | passel, mickle, bargain, divvy_up, mete_out, portion_out, sight, slew, get_by, stack, quite_a_little, cope, mess, softwood, pile, carry_on, pot, mass, administer, hatful, heap, raft, treat, shell_out, plenty, grapple, distribute, mountain, peck, good_deal, care, plow, contend, spate, cover, batch, muckle, manage, make_do, look_at, allot, make_out, wad, great_deal, hand, consider, sell, lot, mint, handle, apportion, parcel_out, dispense, tidy_sum, business_deal, flock, take, dish_out, conduct, trade, address, share, deal_out, dole_out |
+| curry | groom, dress |
+| custom | impost, custom-made, usance, customs, usage, tradition, customs_duty |
+| daemon | daimon, demon, devil, fiend, demigod |
+| dashes | sprint, dah, hyphen, scud, scare, shoot, scoot, panache, daunt, dash, frighten_off, smash, style, dart, scare_off, flair, flash, frighten_away, elan, scare_away, bolt, crash, pall |
+| data | datum, data_point, information |
+| date | day_of_the_month, go_steady, engagement, escort, particular_date, date_stamp, appointment, see, go_out |
+| deal | treat, make_do, divvy_up, lot, great_deal, parcel_out, conduct, mountain, hand, peck, plow, dispense, hatful, quite_a_little, spate, sell, passel, carry_on, cope, batch, dole_out, contend, pot, slew, apportion, deal_out, stack, trade, raft, mass, tidy_sum, bargain, muckle, softwood, get_by, cover, flock, manage, mickle, grapple, pile, address, take, mint, handle, wad, look_at, plenty, good_deal, allot, make_out, distribute, care, mete_out, mess, portion_out, consider, share, heap, administer, sight, dish_out, shell_out, business_deal |
 | debugging | debug |
-| dec | december, declination, celestial_latitude |
+| dec | celestial_latitude, december, declination |
 | decode | decipher, decrypt |
 | decoder | decipherer |
-| decorate | embellish, adorn, deck, grace, dress, beautify, ornament |
-| decorator | house_decorator, room_decorator, interior_designer, interior_decorator, designer, ornamentalist |
-| decrease | diminution, lessen, diminish, fall, reduction, step-down, decrement, minify, drop-off, lessening |
+| decorate | deck, embellish, dress, grace, adorn, beautify, ornament |
+| decorator | room_decorator, ornamentalist, interior_decorator, designer, house_decorator, interior_designer |
+| decrease | step-down, lessen, fall, drop-off, lessening, reduction, decrement, diminish, minify, diminution |
 | decrement | decrease |
 | decrypt | decipher, decode |
-| deduct | deduce, recoup, infer, derive, take_off, subtract, withhold |
-| deep | mystifying, trench, cryptical, bass, deeply, rich, inscrutable, thick, late, mysterious, recondite, abstruse, cryptic, oceanic_abyss |
-| default | nonpayment, default_option, nonremittal, default_on |
-| defer | give_in, set_back, submit, table, put_off, hold_over, postpone, bow, remit, shelve, put_over, prorogue, accede |
-| define | limit, delineate, determine, delimitate, specify, delimit, fix, set |
-| degree | arcdegree, grade, level, academic_degree, point, stage |
-| delay | time_lag, check, detain, postponement, retard, stay, holdup, hold_up, wait, hold |
-| delegate | depute, designate, assign |
-| delete | erase, cancel, edit, blue-pencil |
-| deleted | cancel, edit, erase, delete, blue-pencil |
-| deleting | cancel, edit, erase, delete, blue-pencil |
-| deletion | omission, excision, cut |
+| deduct | infer, derive, subtract, withhold, take_off, recoup, deduce |
+| deep | late, rich, cryptical, thick, deeply, oceanic_abyss, inscrutable, mysterious, bass, trench, recondite, abstruse, cryptic, mystifying |
+| default | default_on, nonremittal, default_option, nonpayment |
+| defer | hold_over, postpone, put_over, bow, accede, put_off, set_back, table, give_in, prorogue, shelve, remit, submit |
+| define | determine, set, delimitate, delimit, delineate, specify, fix, limit |
+| degree | point, stage, grade, academic_degree, level, arcdegree |
+| delay | postponement, check, wait, hold, stay, detain, time_lag, hold_up, retard, holdup |
+| delegate | depute, assign, designate |
+| delete | erase, blue-pencil, cancel, edit |
+| deleted | blue-pencil, cancel, erase, delete, edit |
+| deleting | blue-pencil, cancel, erase, delete, edit |
+| deletion | cut, excision, omission |
 | deny | traverse, abnegate, refuse |
-| dependents | dependent, dependant |
-| deprecated | depreciate, deprecate, vilipend |
+| dependents | dependant, dependent |
+| deprecated | deprecate, vilipend, depreciate |
 | deprecation | denigration |
-| describe | delineate, line, report, trace, account, key, depict, identify, name, discover, key_out, distinguish, draw |
+| describe | depict, report, key, distinguish, delineate, draw, trace, account, line, name, key_out, discover, identify |
 | description | verbal_description |
-| descriptor | word_form, signifier, form |
-| desired | coveted, trust, craved, in_demand, want, sought_after, desire, hope |
+| descriptor | word_form, form, signifier |
+| desired | in_demand, trust, want, coveted, sought_after, desire, craved, hope |
 | destination | terminus, goal, finish, name_and_address, address |
-| destroy | put_down, ruin, demolish, destruct |
-| detach | come_off, come_away |
-| detect | find, observe, discover, notice |
-| determine | square_off, mold, decide, make_up_one's_mind, learn, square_up, settle, define, regulate, set, see, influence, limit, check, watch, specify, ascertain, find_out, fix, find, shape |
+| destroy | demolish, ruin, put_down, destruct |
+| detach | come_away, come_off |
+| detect | find, notice, observe, discover |
+| determine | make_up_one's_mind, settle, shape, watch, learn, set, square_off, see, find, find_out, decide, influence, ascertain, fix, define, specify, limit, square_up, regulate, mold, check |
 | device | gimmick, twist |
 | diagnose | name |
 | dial | telephone_dial |
-| difference | conflict, dispute, remainder, difference_of_opinion, deviation, divergence, departure |
-| dig | excavation, labour, compass, delve, barb, poke, jibe, dig_up, digging, travail, fag, labor, shaft, turn_over, dig_out, savvy, stab, drudge, gibe, toil, hollow, grok, moil, apprehend, archeological_site, grind, cut_into, get_the_picture, comprehend, slam, excavate, prod, grasp, shot, jab |
-| digest | bear, abide, stick_out, support, stomach, tolerate, compilation, stand, suffer, condense, put_up, concentrate, endure, brook |
-| direct | manoeuvre, organize, orchestrate, guide, straight, send, calculate, unmediated, point, lineal, engineer, place, mastermind, channelise, take_aim, maneuver, aim, train, organise, directly, verbatim, head, manoeuver, take, lead, conduct, address, steer, target, channelize |
+| difference | difference_of_opinion, divergence, departure, remainder, conflict, dispute, deviation |
+| dig | slam, grok, grind, grasp, stab, apprehend, labour, dig_up, dig_out, jab, compass, savvy, toil, fag, hollow, barb, moil, archeological_site, prod, comprehend, labor, cut_into, turn_over, digging, delve, jibe, poke, travail, excavate, shaft, shot, gibe, get_the_picture, drudge, excavation |
+| digest | put_up, brook, suffer, concentrate, endure, stomach, bear, condense, stand, abide, stick_out, support, tolerate, compilation |
+| direct | verbatim, conduct, channelise, organise, directly, place, take_aim, point, organize, maneuver, straight, aim, lead, calculate, manoeuvre, send, take, head, address, steer, target, train, unmediated, manoeuver, orchestrate, mastermind, channelize, engineer, lineal, guide |
 | disable | incapacitate, disenable, invalid, handicap |
-| disarm | demilitarise, demilitarize, unarm |
-| discard | cast_away, cast_out, toss, chuck_out, dispose, throw_out, fling, put_away, throw_away, toss_away, toss_out, throwing_away, cast_aside |
-| disconnect | disconnection, gulf, unplug |
-| discover | get_word, notice, let_out, pick_up, get_a_line, break, describe, come_upon, identify, expose, disclose, learn, attain, detect, fall_upon, chance_on, get_wind, come_across, observe, distinguish, chance_upon, bring_out, divulge, unwrap, key_out, hear, happen_upon, see, reveal, key, strike, find_out, name, give_away, find, let_on, light_upon |
-| discovery | find, uncovering, breakthrough |
-| disk | disc, phonograph_record, harrow, magnetic_disk, record, phonograph_recording, saucer, platter, magnetic_disc |
-| dispatch | expedition, shipment, off, hit, polish_off, bump_off, complete, despatch, discharge, slay, murder, remove, send_off, communique, expeditiousness |
-| distance | aloofness, length, outstrip, outdistance, space |
-| distribute | pass_on, disperse, stagger, spread, administer, shell_out, deal, allot, pass_out, lot, pass_around, parcel_out, diffuse, dispense, dish_out, circulate, hand_out, circularize, give_out, disseminate, mete_out, propagate, circularise, deal_out, broadcast, dole_out |
-| divide | split_up, dissever, water_parting, disunite, part, separate, watershed, fraction, carve_up, split |
-| do | practice, serve, answer, make, fare, coiffure, ut, dress, act, execute, behave, brawl, suffice, doctor_of_osteopathy, manage, make_out, bash, doh, set, perform, exercise, cause, practise, coif, get_along, arrange, come, coiffe |
-| docker | loader, lumper, stevedore, longshoreman, dock-walloper, dock_worker, dockworker, dockhand |
-| document | papers, text_file, written_document |
-| dominant | rife, predominant, prevalent, prevailing, dominant_allele |
-| done | practice, serve, do, answer, make, fare, coiffure, act, dress, execute, behave, suffice, through, manage, make_out, set, perform, exercise, cause, practise, coif, get_along, arrange, come, coiffe, through_with |
-| double | forked, reduplicate, two-bagger, image, doubly, two-base_hit, duplicate, twice, repeat, look-alike, bivalent, double_up, doubled, double_over, dual, twofold, threefold, duple, three-fold, replicate, two-fold, stunt_woman, two-baser, stunt_man, treble, doubling |
+| disarm | demilitarize, unarm, demilitarise |
+| discard | throwing_away, toss, chuck_out, put_away, throw_away, toss_out, cast_aside, fling, cast_out, throw_out, cast_away, toss_away, dispose |
+| disconnect | unplug, gulf, disconnection |
+| discover | distinguish, chance_upon, describe, get_word, get_wind, observe, give_away, light_upon, happen_upon, learn, reveal, pick_up, detect, find, see, come_across, break, get_a_line, let_out, strike, disclose, find_out, unwrap, notice, expose, chance_on, key_out, identify, fall_upon, key, attain, let_on, come_upon, divulge, hear, bring_out, name |
+| discovery | breakthrough, find, uncovering |
+| disk | disc, saucer, platter, phonograph_record, harrow, record, phonograph_recording, magnetic_disk, magnetic_disc |
+| dispatch | communique, shipment, bump_off, remove, expeditiousness, hit, slay, despatch, complete, murder, send_off, discharge, expedition, polish_off, off |
+| distance | aloofness, outdistance, space, length, outstrip |
+| distribute | lot, parcel_out, deal, dispense, diffuse, disseminate, pass_on, dole_out, broadcast, disperse, deal_out, pass_out, hand_out, spread, pass_around, circulate, allot, circularize, propagate, mete_out, stagger, administer, circularise, dish_out, shell_out, give_out |
+| divide | separate, part, watershed, split_up, water_parting, dissever, carve_up, split, disunite, fraction |
+| docker | dockhand, loader, dockworker, stevedore, longshoreman, dock-walloper, lumper, dock_worker |
+| document | text_file, written_document, papers |
+| dominant | dominant_allele, prevalent, prevailing, rife, predominant |
+| done | coiffe, practice, practise, arrange, exercise, fare, make, cause, set, suffice, get_along, through_with, do, execute, through, manage, coiffure, behave, perform, make_out, coif, act, dress, serve, come, answer |
+| double | duple, bivalent, two-fold, threefold, twice, stunt_woman, dual, two-bagger, image, doubled, duplicate, doubly, repeat, treble, look-alike, stunt_man, double_over, reduplicate, double_up, twofold, two-base_hit, two-baser, three-fold, doubling, replicate, forked |
 | downward | downwardly, down, downwards |
-| dp | stateless_person, displaced_person |
-| drain | waste_pipe, drainage, run_out, debilitate, drainpipe, enfeeble |
+| drain | enfeeble, drainpipe, debilitate, waste_pipe, drainage, run_out |
 | driver | device_driver, number_one_wood |
-| drop | drop_off, dangle, dribble, driblet, drib, fell, overleap, dip, dismiss, knock_off, overlook, omit, swing, free_fall, put_down, throw_away, cut_down, discharge, throw, bead, shake_off, devolve, drop-off, spend, drip, degenerate, pretermit, shed, send_away, unload, drop_cloth, neglect, cliff, cast, cast_off, throw_off, drop_down, flatten, drop_curtain, expend, leave_out, fall, sink, set_down, send_packing, pearl, miss, strike_down, deteriorate |
-| dry | prohibitionist, teetotal, wry, ironical, dry_out, ironic, juiceless |
-| dual | two-fold, twofold, threefold, duple, double, treble, three-fold |
-| dummy | dumbbell, silent_person, dope, blank, pinhead, booby, boob, dummy_up, blank_shell |
-| dump | wasteyard, underprice, coldcock, ditch, rubbish_dump, knock_down, shit, floor, garbage_dump, dumpsite, plunge, deck, trash_dump, waste-yard |
-| duplicate | reduplicate, parallel, repeat, extra, twin, double, matching, replicate, duplication, twinned |
-| duration | continuance, length |
-| dynamic | active, moral_force, dynamical |
-| each | from_each_one, for_each_one, to_each_one, apiece |
-| ec | eu, common_market, european_union, europe, european_economic_community, european_community, eec |
-| echo | sound_reflection, reverberate, reverberation, repeat, recall, replication, resound, ring |
-| edge | butt_on, abut, border, march, butt_against, bound, sharpness, boundary, adjoin, butt, inch |
+| drop | knock_off, fall, fell, drop_off, throw_off, pearl, cut_down, leave_out, dismiss, drib, driblet, cast, pretermit, drop_curtain, devolve, discharge, miss, put_down, drop_down, degenerate, send_away, bead, shed, drop-off, neglect, omit, expend, throw, flatten, free_fall, overleap, cliff, set_down, overlook, deteriorate, send_packing, cast_off, swing, sink, dip, strike_down, throw_away, shake_off, unload, drip, drop_cloth, dribble, spend, dangle |
+| dry | teetotal, juiceless, wry, prohibitionist, ironic, ironical, dry_out |
+| dual | double, three-fold, twofold, duple, two-fold, treble, threefold |
+| dummy | dope, booby, dumbbell, silent_person, blank, boob, blank_shell, pinhead, dummy_up |
+| dump | deck, rubbish_dump, plunge, ditch, trash_dump, knock_down, dumpsite, garbage_dump, wasteyard, floor, coldcock, waste-yard, underprice, shit |
+| duplicate | double, reduplicate, twin, parallel, duplication, repeat, twinned, replicate, extra, matching |
+| duration | length, continuance |
+| dynamic | dynamical, moral_force, active |
+| each | apiece, from_each_one, to_each_one, for_each_one |
+| echo | reverberation, replication, sound_reflection, repeat, resound, ring, reverberate, recall |
+| edge | sharpness, butt_against, butt, bound, adjoin, butt_on, border, abut, march, boundary, inch |
 | editor | editor_in_chief, editor_program |
-| emit | breathe, let_out, let_loose, utter, give_out, give_off, pass_off |
-| emphasis | vehemence, stress, accent |
-| empty | evacuate, void, vacuous, discharge, empty-bellied, hollow, vacate, abandon |
+| emit | let_loose, breathe, utter, give_off, pass_off, let_out, give_out |
+| emphasis | accent, vehemence, stress |
+| empty | abandon, hollow, evacuate, vacate, void, discharge, empty-bellied, vacuous |
 | enabled | enable |
-| enact | act_out, ordain, reenact |
-| encrypt | write_in_code, cipher, cypher, encipher, code, inscribe |
-| end | destruction, close, cease, goal, stop, ending, last, remainder, finish, remnant, oddment, closing, conclusion, terminate, terminal, final_stage, death |
-| endpoint | terminus, end_point, termination |
-| enforce | apply, implement, impose |
-| enhance | heighten, raise |
-| ensure | see_to_it, guarantee, check, secure, assure, ascertain, control, see, insure |
-| enter | participate, go_in, inscribe, introduce, come_in, put_down, get_into, recruit, embark, enrol, record, move_into, insert, enroll, figure, get_in, go_into, infix, accede |
-| entries | accounting_entry, entering, first_appearance, entree, unveiling, ingress, introduction, entrance, launching, entry, ledger_entry, incoming, debut, submission, entranceway, entryway |
+| enact | reenact, act_out, ordain |
+| encrypt | cypher, cipher, inscribe, write_in_code, encipher, code |
+| end | terminal, ending, conclusion, destruction, last, goal, final_stage, oddment, close, finish, remnant, cease, remainder, terminate, stop, death, closing |
+| endpoint | end_point, terminus, termination |
+| enforce | implement, apply, impose |
+| enhance | raise, heighten |
+| ensure | insure, control, check, ascertain, see_to_it, see, secure, guarantee, assure |
+| enter | enrol, get_in, go_into, get_into, accede, introduce, come_in, go_in, inscribe, infix, enroll, recruit, insert, embark, figure, record, participate, put_down, move_into |
+| entries | entering, entryway, ingress, submission, first_appearance, entry, introduction, entrance, incoming, launching, entree, entranceway, unveiling, accounting_entry, ledger_entry, debut |
 | envelope | gasbag |
-| ephemeral | fugacious, transient, ephemeron, passing, short-lived, transitory |
-| epoch | date_of_reference, era |
-| equal | equalize, match, touch, adequate, be, compeer, peer, rival, equate, equalise |
-| equalities | equivalence, equality, par, equation |
-| equivalent | equivalent_weight, combining_weight, tantamount, eq |
-| err | stray, mistake, slip, drift |
-| error | wrongdoing, misplay, mistake, fault, erroneousness, erroneous_belief, computer_error |
-| es | east, atomic_number_99, eastward, due_east, vitamin_e, tocopherol, einsteinium |
-| escape | get_out, break_away, dodging, turn_tail, get_by, get_off, leak, flight, elude, safety_valve, lam, break_loose, escape_cock, bunk, escapism, scat, run, leakage, fly_the_coop, run_away, relief_valve, head_for_the_hills, get_away, scarper, evasion, take_to_the_woods, miss, hightail_it, escape_valve, outflow |
-| estimate | judge, forecast, approximate, appraisal, count_on, approximation, gauge, guess, figure, estimation, calculate, idea, reckon |
-| evaluate | appraise, value, judge, valuate, assess, measure, pass_judgment |
+| ephemeral | fugacious, transitory, ephemeron, transient, passing, short-lived |
+| epoch | era, date_of_reference |
+| equal | equalize, rival, match, adequate, equate, touch, peer, compeer, equalise, be |
+| equalities | equivalence, equation, equality, par |
+| equivalent | equivalent_weight, tantamount, eq, combining_weight |
+| err | stray, drift, slip, mistake |
+| error | erroneous_belief, erroneousness, wrongdoing, mistake, fault, misplay, computer_error |
+| escape | scat, escapism, get_off, take_to_the_woods, safety_valve, miss, hightail_it, bunk, elude, relief_valve, run, turn_tail, escape_cock, lam, flight, evasion, outflow, break_loose, get_away, run_away, get_by, dodging, scarper, fly_the_coop, escape_valve, get_out, leak, leakage, break_away, head_for_the_hills |
+| estimate | gauge, count_on, judge, estimation, idea, guess, approximation, calculate, reckon, approximate, appraisal, figure, forecast |
+| evaluate | measure, judge, value, assess, valuate, pass_judgment, appraise |
 | evaluators | evaluator, judge |
-| event | upshot, effect, issue, case, outcome, result, consequence |
+| event | consequence, upshot, issue, case, effect, outcome, result |
 | eventually | finally |
 | evict | force_out |
-| eviction | dispossession, legal_ouster, constructive_eviction |
-| exact | claim, accurate, take, precise, demand |
-| example | lesson, exercise, illustration, deterrent_example, object_lesson, model, case, exemplar, instance, good_example, representative |
-| exceed | surpass, pass, outdo, outperform, outmatch, go_past, transcend, outgo, overstep, surmount, outstrip, top |
-| exclude | keep_out, chuck_out, leave_out, boot_out, leave_off, except, omit, take_out, shut_out, bar, turn_out, turf_out, shut, debar, eject |
-| exclusive | sole, undivided, single, scoop |
+| eviction | legal_ouster, constructive_eviction, dispossession |
+| exact | accurate, claim, demand, take, precise |
+| example | object_lesson, illustration, good_example, exemplar, lesson, case, deterrent_example, model, representative, instance, exercise |
+| exceed | top, outperform, transcend, outdo, overstep, surpass, go_past, surmount, pass, outgo, outstrip, outmatch |
+| exclude | boot_out, except, turn_out, chuck_out, debar, shut_out, leave_out, bar, turf_out, shut, keep_out, omit, take_out, eject, leave_off |
+| exclusive | single, scoop, sole, undivided |
 | exec | white_house |
-| execute | carry_out, fulfill, fulfil, action, accomplish, do, carry_through, put_to_death, run, perform |
-| executing | capital_punishment, execution, fulfill, fulfil, action, accomplish, do, carry_through, carry_out, death_penalty, put_to_death, run, execute, perform |
-| exempt | nontaxable, let_off, relieve, free, excuse |
-| exemptions | granting_immunity, exemption, freedom, immunity |
-| exercise | physical_exercise, use, practice, example, exercising, practise, do, work, physical_exertion, recitation, exert, work_out, utilization, practice_session, utilisation, drill, workout, employment, usage |
-| exist | survive, subsist, be, live |
-| exit | get_out, buy_the_farm, drop_dead, outlet, pass_away, expire, go, going, decease, give-up_the_ghost, loss, perish, issue, snuff_it, way_out, passing, pop_off, pass, choke, conk, croak, cash_in_one's_chips, departure, expiration, leave, kick_the_bucket, release, die, go_out |
-| expand | inflate, lucubrate, thrive, expatiate, blow_up, flourish, exposit, spread_out, dilate, boom, extend, elaborate, flesh_out, expound, amplify, enlarge |
-| expect | have_a_bun_in_the_oven, bear, anticipate, carry, require, ask, gestate, wait, look, await |
+| execute | do, carry_through, carry_out, fulfill, run, put_to_death, action, accomplish, fulfil, perform |
+| executing | do, accomplish, execution, carry_out, capital_punishment, execute, carry_through, run, death_penalty, put_to_death, action, fulfil, fulfill, perform |
+| exempt | relieve, excuse, let_off, nontaxable, free |
+| exemptions | granting_immunity, freedom, exemption, immunity |
+| exercise | practice, do, example, usage, use, work, physical_exertion, work_out, utilization, physical_exercise, employment, practice_session, exercising, drill, practise, workout, exert, utilisation, recitation |
+| exist | be, subsist, survive, live |
+| exit | die, croak, pop_off, expire, leave, choke, release, kick_the_bucket, go_out, give-up_the_ghost, pass_away, way_out, issue, snuff_it, loss, buy_the_farm, departure, conk, perish, cash_in_one's_chips, drop_dead, going, get_out, passing, outlet, pass, go, expiration, decease |
+| expand | elaborate, expatiate, extend, dilate, lucubrate, expound, flourish, thrive, spread_out, flesh_out, blow_up, boom, enlarge, exposit, amplify, inflate |
+| expect | carry, have_a_bun_in_the_oven, wait, anticipate, gestate, look, require, ask, bear, await |
 | experimental | data-based, observational |
-| expiration | exit, expiry, loss, termination, exhalation, going, passing, release, breathing_out, departure |
-| expired | buy_the_farm, drop_dead, pass_away, expire, go, decease, give-up_the_ghost, exit, run_out, perish, snuff_it, breathe_out, pop_off, pass, choke, conk, croak, cash_in_one's_chips, exhale, kick_the_bucket, die |
-| expires | buy_the_farm, drop_dead, pass_away, expire, go, decease, give-up_the_ghost, exit, run_out, perish, snuff_it, breathe_out, pop_off, pass, choke, conk, croak, cash_in_one's_chips, exhale, kick_the_bucket, die |
-| explicit | denotative, expressed |
+| expiration | exit, going, exhalation, expiry, departure, termination, passing, loss, breathing_out, release |
+| expired | die, croak, pop_off, expire, choke, kick_the_bucket, give-up_the_ghost, pass_away, snuff_it, exhale, buy_the_farm, conk, perish, cash_in_one's_chips, drop_dead, run_out, exit, breathe_out, pass, go, decease |
+| expires | die, croak, pop_off, expire, choke, kick_the_bucket, give-up_the_ghost, pass_away, snuff_it, exhale, buy_the_farm, conk, perish, cash_in_one's_chips, drop_dead, run_out, exit, breathe_out, pass, go, decease |
+| explicit | expressed, denotative |
 | exponential | exponential_function |
 | export | exportation |
-| expose | unmasking, display, peril, reveal, endanger, bring_out, let_out, uncover, divulge, break, scupper, unwrap, discover, disclose, give_away, queer, let_on, exhibit, debunk |
-| extend | continue, gallop, exsert, unfold, carry, go, hold_out, prolong, stretch_forth, offer, protract, pass, strain, stretch, put_out, cover, run, draw_out, poke_out, lead, broaden, reach_out, expand, stretch_out, widen |
-| extensions | extension, university_extension, elongation, filename_extension, prolongation, wing, telephone_extension, file_name_extension, extension_phone, annex, propagation, reference, denotation, lengthiness, annexe, extension_service |
-| external | international, outside, extraneous |
+| expose | disclose, reveal, let_on, discover, uncover, unwrap, display, endanger, unmasking, break, exhibit, divulge, give_away, peril, let_out, bring_out, debunk, queer, scupper |
+| extend | broaden, reach_out, stretch_out, hold_out, poke_out, draw_out, continue, stretch_forth, stretch, widen, run, prolong, unfold, cover, lead, offer, strain, carry, gallop, exsert, expand, protract, pass, put_out, go |
+| extensions | telephone_extension, filename_extension, prolongation, reference, denotation, annex, elongation, file_name_extension, extension_phone, annexe, propagation, extension_service, university_extension, lengthiness, extension, wing |
+| external | extraneous, outside, international |
 | externally | outwardly |
-| extinguish | decimate, get_rid_of, carry_off, do_away_with, wipe_out, quench, annihilate, press_out, crush_out, snuff_out, eliminate, blow_out, eradicate, stub_out |
-| extra | surplus, redundant, special, duplicate, excess, spear_carrier, spare, supernumerary, superfluous, additional, supererogatory |
-| extract | infusion, educe, elicit, distill, pull_out, evoke, take_out, press_out, pull_up, distil, express, excerpt, selection, draw_out, excerption, pull |
-| factory | manufactory, manufacturing_plant, mill |
-| fail | go_wrong, give_way, run_out, break_down, conk_out, neglect, break, go, betray, give_out, flunk, go_bad, bomb, die, flush_it, miscarry |
-| failure | loser, bankruptcy, nonstarter, unsuccessful_person |
-| fair | honest, just, bonny, sightly, comely, fairly, evenhandedly, carnival, fairish, reasonable, mediocre, bazaar, clean, middling, average, funfair, bonnie |
-| fake | juke, imitation, bullshit, role_player, imposter, faux, bogus, bull, shammer, fraud, fudge, postiche, wangle, sham, false, manipulate, cook, pseudo, forge, faker, bastard, pseud, talk_through_one's_hat, phony, impostor, pretender, falsify, misrepresent, phoney, counterfeit, simulated |
+| extinguish | snuff_out, get_rid_of, eradicate, eliminate, do_away_with, blow_out, carry_off, press_out, annihilate, stub_out, crush_out, decimate, wipe_out, quench |
+| extra | excess, spare, supernumerary, duplicate, spear_carrier, supererogatory, special, surplus, redundant, superfluous, additional |
+| extract | educe, pull_up, distil, selection, express, pull, pull_out, distill, press_out, infusion, elicit, excerption, take_out, draw_out, evoke, excerpt |
+| factory | manufactory, mill, manufacturing_plant |
+| fail | die, bomb, break_down, conk_out, go_wrong, betray, neglect, flunk, miscarry, break, flush_it, give_way, go_bad, go, run_out, give_out |
+| failure | nonstarter, unsuccessful_person, loser, bankruptcy |
+| fair | just, fairish, sightly, bonnie, comely, fairly, average, funfair, middling, clean, carnival, bazaar, mediocre, bonny, honest, reasonable, evenhandedly |
+| fake | fudge, talk_through_one's_hat, bullshit, pretender, faker, imposter, falsify, fraud, forge, counterfeit, false, wangle, shammer, postiche, pseud, role_player, misrepresent, sham, phoney, phony, bogus, pseudo, juke, faux, cook, impostor, bastard, manipulate, imitation, simulated, bull |
 | fallback | disengagement, pullout |
-| false | delusive, treacherously, mistaken, fictitious, fictive, put_on, untrue, off-key, sham, imitation, faithlessly, traitorously, simulated, pretended, treasonably, sour, faux, fake, assumed |
-| family | kinsperson, category, fellowship, house, mob, menage, family_line, kinsfolk, crime_syndicate, phratry, home, kin, kinfolk, class, family_unit, syndicate, sept, folk, household |
-| fast | profligate, degraded, libertine, riotous, immobile, quick, tight, fasting, dissipated, truehearted, debauched, degenerate, loyal, flying, firm, dissolute |
+| false | faux, treacherously, fake, sour, put_on, fictitious, sham, traitorously, off-key, untrue, treasonably, imitation, assumed, mistaken, delusive, simulated, fictive, pretended, faithlessly |
+| family | class, syndicate, kinsperson, kinsfolk, family_line, fellowship, household, phratry, family_unit, house, kinfolk, crime_syndicate, mob, menage, category, sept, folk, kin, home |
+| fast | immobile, fasting, dissolute, flying, quick, degraded, truehearted, degenerate, libertine, riotous, dissipated, loyal, profligate, firm, tight, debauched |
 | fatal | disastrous, calamitous, fateful, black |
-| feature | feature_of_speech, boast, characteristic, lineament, sport, have, feature_article, feature_film |
-| fencing | debate, surround, contend, palisade, fence, fence_in, fencing_material, wall, argue |
-| fetch | get, bring, bring_in, convey |
-| field | field_of_honor, airfield, line_of_business, bailiwick, battleground, field_of_battle, theater_of_operations, arena, discipline, landing_field, field_of_view, playing_area, field_of_operations, sphere, field_of_operation, theatre_of_operations, plain, theatre, champaign, theater, orbit, flying_field, athletic_field, subject_field, battlefield, subject_area, area, field_of_study, domain, study, subject, playing_field, field_of_force, force_field |
-| file | lodge, charge, indian_file, single_file, file_cabinet, register, filing_cabinet, data_file, file_away |
-| filename | file_name, computer_filename, computer_file_name |
-| fill | sate, satisfy, fulfil, fulfill, filling, fill_up, make_full, take, satiate, meet, occupy, replete |
-| filter | strain, permeate, filter_out, sink_in, dribble, trickle, separate_out, percolate, filtrate |
-| final | final_examination, last, final_exam, net, terminal, concluding |
-| finalize | finalise, settle, nail_down |
-| finalized | finalise, settle, nail_down, finalize |
-| find | retrieve, line_up, determine, notice, feel, incur, detect, breakthrough, uncovering, receive, discovery, bump, come_up, recover, observe, regain, get_hold, chance, happen, witness, see, encounter, get, rule, ascertain, find_out, discover, find_oneself, obtain |
-| finder | viewfinder, view_finder, spotter, discoverer |
-| finish | cultivation, coating, end_up, finale, stopping_point, close, wind_up, culture, complete, finish_up, land_up, cease, ending, polish, conclusion, terminate, finis, destination, refinement, end, goal, stop, eat_up, last, fetch_up, polish_off, finishing |
-| first | initiatory, first_of_all, number_1, firstly, low, first_base, foremost, offset, inaugural, maiden, first-class_honours_degree, start, commencement, outset, for_the_first_time, initiative, number_one, first_gear, get-go, beginning, world-class, first_off, low_gear, 1st, starting_time, showtime, kickoff |
-| fischers | fischer, robert_james_fischer, bobby_fischer, emil_hermann_fischer, hans_fischer |
-| fits | go, outfit, convulsion, conform_to, jibe, correspond, accommodate, suit, meet, conniption, fit, fit_out, burst, gibe, agree, match, check, paroxysm, equip, tally, tantrum, scene |
-| fix | posit, gear_up, mend, determine, pay_off, secure, make, prepare, mess, sterilize, desexualise, fixture, furbish_up, muddle, ready, deposit, fixate, reparation, cook, restore, localisation, repair, hole, location, mending, touch_on, situate, desexualize, desex, localization, jam, define, bushel, fixing, pickle, unsex, set, get, limit, doctor, set_up, locating, specify, sterilise, kettle_of_fish, pay_back, fasten |
-| flag | ease_off, sag, iris, ease_up, droop, signal_flag, swag, fleur-de-lis, sword_lily, masthead, pin, slacken_off, flagstone |
-| flatten | drop, flatten_out |
-| flex | bend, deform, twist, turn |
-| flip | flick, leaf, impudent, insolent, interchange, pitch, flip_out, somerset, sky, flip-flop, throw, switch, alternate, turn_over, pass, snotty-nosed, thumb, twitch, summerset, tack, summersault, riffle, toss, flip_over, somersault, riff, somersaulting |
-| float | swim, drift, swim_bladder, ice-cream_float, ice-cream_soda, be_adrift, air_bladder, plasterer's_float, blow |
-| flow | stream, menstruum, flow_rate, hang, current, fall, flux, flowing, menstruation, course, rate_of_flow, feed, run, menstruate, catamenia, period, menses |
-| flush | charge, even, gush, blossom, redden, sluice, kick, purge, scour, boot, peak, crimson, efflorescence, even_out, rush, level, moneyed, outpouring, bloom, wealthy, loaded, prime, bang, rosiness, blush, thrill, heyday, affluent, flower, hot_flash |
-| fm | atomic_number_100, fermium, frequency_modulation |
-| fold | close, fold_up, bend, sheepcote, congregation, sheepfold, sheep_pen, faithful, pen_up, flock, plication, plica, shut_down, folding, flexure, crease, turn_up, crimp, close_down, close_up |
-| follow | trace, pursue, be, keep_an_eye_on, watch_over, fall_out, conform_to, keep_abreast, survey, stick_with, surveil, abide_by, observe, accompany, come_after, play_along, travel_along, take_after, stick_to, keep_up, adopt, succeed, comply, espouse, watch, come, postdate |
+| feature | feature_of_speech, sport, have, feature_film, feature_article, lineament, boast, characteristic |
+| fencing | wall, surround, contend, debate, fence_in, fence, palisade, fencing_material, argue |
+| fetch | get, convey, bring, bring_in |
+| field | athletic_field, bailiwick, playing_field, flying_field, area, force_field, subject_field, airfield, field_of_force, landing_field, discipline, plain, field_of_study, field_of_operation, arena, field_of_operations, theatre, line_of_business, subject, playing_area, champaign, field_of_view, sphere, study, battlefield, subject_area, domain, theater_of_operations, battleground, field_of_battle, field_of_honor, orbit, theatre_of_operations, theater |
+| file | charge, file_away, lodge, indian_file, register, data_file, filing_cabinet, single_file, file_cabinet |
+| filename | computer_file_name, file_name, computer_filename |
+| fill | replete, fulfill, fill_up, satiate, occupy, take, filling, meet, sate, satisfy, make_full, fulfil |
+| filter | sink_in, percolate, separate_out, filtrate, filter_out, trickle, dribble, permeate, strain |
+| final | terminal, last, final_exam, net, final_examination, concluding |
+| finalize | nail_down, finalise, settle |
+| finalized | finalize, nail_down, finalise, settle |
+| find | encounter, happen, recover, observe, breakthrough, get_hold, discover, bump, chance, come_up, regain, detect, see, discovery, get, find_out, line_up, uncovering, receive, notice, ascertain, feel, determine, find_oneself, retrieve, obtain, rule, incur, witness |
+| finder | spotter, discoverer, viewfinder, view_finder |
+| finish | destination, goal, stopping_point, finishing, cease, terminate, polish, finis, finish_up, end_up, complete, end, cultivation, polish_off, finale, fetch_up, last, culture, stop, ending, conclusion, eat_up, coating, close, land_up, refinement, wind_up |
+| first | first-class_honours_degree, foremost, for_the_first_time, kickoff, number_1, starting_time, showtime, first_off, get-go, initiative, first_base, outset, number_one, offset, low, low_gear, commencement, inaugural, beginning, maiden, first_gear, first_of_all, initiatory, 1st, world-class, firstly, start |
+| fischers | fischer, emil_hermann_fischer, bobby_fischer, hans_fischer, robert_james_fischer |
+| fits | tantrum, match, fit, fit_out, agree, paroxysm, outfit, burst, meet, tally, conform_to, scene, convulsion, accommodate, correspond, jibe, suit, check, conniption, gibe, equip, go |
+| fix | doctor, posit, desex, fasten, sterilize, restore, fixate, repair, jam, muddle, localization, unsex, make, pay_back, set, desexualise, fixture, gear_up, bushel, get, situate, ready, localisation, pickle, furbish_up, location, sterilise, mending, deposit, touch_on, secure, reparation, specify, define, limit, fixing, locating, set_up, prepare, cook, determine, mess, pay_off, kettle_of_fish, hole, mend, desexualize |
+| flag | pin, iris, signal_flag, fleur-de-lis, sag, sword_lily, ease_up, swag, flagstone, droop, masthead, slacken_off, ease_off |
+| flatten | flatten_out, drop |
+| flex | turn, bend, twist, deform |
+| flip | flick, riffle, flip_over, twitch, toss, switch, flip-flop, sky, riff, tack, throw, summersault, somersaulting, somerset, impudent, interchange, snotty-nosed, summerset, thumb, leaf, pitch, turn_over, insolent, somersault, pass, flip_out, alternate |
+| float | blow, swim, ice-cream_float, air_bladder, plasterer's_float, swim_bladder, be_adrift, ice-cream_soda, drift |
+| flow | flux, menstruation, current, fall, menstruate, run, menstruum, hang, flow_rate, menses, catamenia, feed, stream, period, course, flowing, rate_of_flow |
+| flush | charge, loaded, rush, thrill, wealthy, even, sluice, hot_flash, peak, even_out, gush, purge, bang, bloom, rosiness, boot, efflorescence, kick, scour, affluent, blush, crimson, redden, prime, outpouring, flower, blossom, heyday, moneyed, level |
+| fold | shut_down, crease, flexure, faithful, crimp, fold_up, folding, flock, sheepcote, pen_up, sheep_pen, close, close_down, plication, congregation, sheepfold, turn_up, bend, close_up, plica |
+| follow | travel_along, stick_with, keep_an_eye_on, keep_up, observe, trace, be, keep_abreast, play_along, watch_over, watch, fall_out, postdate, survey, espouse, conform_to, come_after, pursue, succeed, surveil, comply, adopt, abide_by, take_after, stick_to, come, accompany |
 | footnote | footer, annotate |
-| forbid | preclude, foreclose, proscribe, nix, prohibit, interdict, forestall, veto, prevent, disallow |
-| forbidden | preclude, foreclose, taboo, tabu, proscribed, proscribe, nix, prohibit, interdict, forestall, out, veto, prevent, forbid, verboten, disallow, prohibited |
-| force | power, drive, effect, personnel, military_group, force-out, draw, military_force, force_out, impel, squeeze, military_unit, wedge, forcefulness, ram, pull, thrust, coerce, storm, hale, force_play, pressure, push, strength, violence |
-| forget | block, bury, blank_out, leave, draw_a_blank |
-| form | imprint, work, chassis, mold, kind, organize, signifier, mould, make, spring, physique, var., manikin, constitute, mannequin, course, variety, conformation, take_shape, mannikin, figure, strain, material_body, human_body, flesh, forge, grade, build, cast, word_form, configuration, organise, contour, take_form, physical_body, descriptor, phase, pattern, bod, frame, anatomy, soma, manakin, sort, class, variant, shape |
-| format | arrange, data_format, formatting, data_formatting, initialize, initialise |
-| forward | forrard, send_on, advancing, forrad, forrader, onwards, fore, ahead, forwards, forward-moving, frontwards, frontward, onward, forth |
-| framework | model, fabric, theoretical_account |
-| free | resign, disengage, innocent, devoid, destitute, complimentary, rid, gratuitous, unblock, unloose, costless, detached, relieve, gratis, discharge, dislodge, unloosen, disembarrass, exempt, absolve, justify, loose, spare, give_up, liberate, liberal, relinquish, release, unfreeze, free_people, barren |
-| freeze | block, freeze_down, freeze_out, freezing, frost, stop_dead, immobilize, halt, immobilise, suspend |
-| fresh | saucy, wise, new, impudent, overbold, sweet, clean, refreshed, brisk, smart, freshly, invigorated, reinvigorated, bracing, impertinent, tonic, refreshing, refreshful, unfermented, sassy, newly, unused, novel |
+| forbid | forestall, proscribe, foreclose, interdict, prevent, veto, prohibit, nix, disallow, preclude |
+| forbidden | forestall, forbid, proscribe, foreclose, interdict, proscribed, tabu, disallow, prevent, veto, prohibit, taboo, out, verboten, nix, prohibited, preclude |
+| force | pressure, ram, force_out, squeeze, power, drive, personnel, force_play, military_force, pull, violence, hale, effect, forcefulness, thrust, military_unit, impel, force-out, push, coerce, storm, strength, military_group, draw, wedge |
+| forget | bury, blank_out, draw_a_blank, leave, block |
+| form | mannequin, contour, material_body, sort, cast, take_shape, figure, kind, organise, shape, course, organize, make, anatomy, descriptor, conformation, mannikin, frame, flesh, chassis, human_body, class, variant, grade, configuration, work, variety, take_form, build, var., imprint, spring, pattern, word_form, manikin, strain, signifier, constitute, phase, mold, manakin, physique, mould, soma, forge, bod, physical_body |
+| format | initialize, data_formatting, data_format, formatting, arrange, initialise |
+| forward | frontwards, forward-moving, forwards, forrad, advancing, forrader, frontward, ahead, fore, forrard, onward, forth, send_on, onwards |
+| framework | theoretical_account, fabric, model |
+| free | spare, rid, complimentary, costless, relinquish, discharge, release, resign, absolve, gratuitous, disengage, give_up, free_people, barren, disembarrass, unblock, gratis, unloose, dislodge, loose, unfreeze, unloosen, detached, justify, liberate, relieve, liberal, destitute, exempt, innocent, devoid |
+| freeze | immobilize, halt, freeze_down, stop_dead, freeze_out, frost, block, suspend, freezing, immobilise |
+| fresh | new, saucy, overbold, invigorated, refreshful, freshly, refreshing, sassy, clean, smart, impudent, wise, brisk, impertinent, unfermented, bracing, tonic, unused, newly, novel, sweet, reinvigorated, refreshed |
 | friendly | well-disposed, favorable |
-| fs | fluorine, farad, degree_fahrenheit, atomic_number_9 |
-| fulfilled | satisfy, carry_out, fulfill, fulfil, action, accomplish, live_up_to, carry_through, meet, execute, fill |
-| full | good, entire, full-of-the-moon, total, full_phase_of_the_moon, broad, fully, wide, to_the_full, replete, full_moon, wide-cut, wax |
-| fully | in_full, to_the_full, full, amply |
-| fuzz | copper, blur, hair, tomentum, pig, cop, bull |
-| garbage | refuse, scraps, food_waste, drivel |
-| gather | cumulate, foregather, pull_together, garner, accumulate, assemble, pucker, gathering, meet, forgather, conglomerate, collect, pile_up, amass, tuck, get_together, gain |
-| gauge | judge, caliber, calibre, gage, bore, estimate, approximate, standard_of_measurement, guess |
-| gc | gigacycle_per_second, ghz, gigahertz, gigacycle |
-| general | oecumenical, world-wide, superior_general, universal, cosmopolitan, full_general, worldwide, ecumenical |
-| generate | yield, return, give, engender, bring_forth, beget, render, mother, father, sire, get |
-| generated | yield, return, give, generate, engender, bring_forth, beget, render, mother, father, sire, get |
-| generation | coevals, multiplication, propagation, contemporaries, genesis |
+| fulfilled | accomplish, execute, carry_out, carry_through, meet, action, satisfy, fill, live_up_to, fulfil, fulfill |
+| full | replete, good, wax, to_the_full, wide, wide-cut, fully, full-of-the-moon, entire, total, full_moon, full_phase_of_the_moon, broad |
+| fully | full, in_full, amply, to_the_full |
+| fuzz | tomentum, hair, cop, bull, copper, pig, blur |
+| garbage | drivel, scraps, refuse, food_waste |
+| gather | pile_up, garner, amass, tuck, gathering, pull_together, accumulate, pucker, gain, meet, foregather, conglomerate, get_together, cumulate, collect, assemble, forgather |
+| gauge | judge, calibre, guess, approximate, caliber, gage, bore, standard_of_measurement, estimate |
+| general | worldwide, cosmopolitan, full_general, universal, superior_general, ecumenical, world-wide, oecumenical |
+| generate | get, father, give, mother, return, sire, yield, engender, bring_forth, render, beget |
+| generated | get, father, give, mother, return, sire, yield, generate, engender, bring_forth, render, beget |
+| generation | multiplication, coevals, contemporaries, propagation, genesis |
 | generator | source, author |
 | generic | generic_wine |
-| get | become, nonplus, drive, fetch, pay_off, experience, capture, stick, engender, make, get_down, go, bring, incur, contract, develop, draw, start_out, acquire, stimulate, find, perplex, start, receive, let, puzzle, beat, baffle, set_out, dumbfound, induce, convey, grow, mystify, pose, gravel, amaze, stupefy, father, sustain, aim, arrive, beget, set_about, have, bugger_off, fuck_off, arrest, sire, bewilder, cause, get_under_one's_skin, flummox, buzz_off, generate, take, vex, bring_forth, come, scram, suffer, begin, commence, mother, pay_back, fix, catch, produce, obtain |
-| git | skunk, stinkpot, crumb, puke, stinker, bum, dirty_dog, rat, rotter, lowlife, scum_bag, so-and-so |
-| glob | chunk, clod, clump, ball, lump |
-| global | planetary, spherical, world-wide, spheric, orbicular, world, worldwide, globose, globular, ball-shaped |
-| go | get_going, become, work, hug_drug, buy_the_farm, drop_dead, spell, ecstasy, fling, locomote, pass_away, expire, fail, hold_out, break, break_down, proceed, depart, belong, blend_in, give-up_the_ghost, exit, start, travel, conk_out, go_game, perish, turn, snuff_it, go_away, cristal, go_bad, live, offer, pop_off, tour, fit, pass, choke, xtc, blend, run_low, conk, run_short, croak, adam, live_on, run, extend, crack, endure, cash_in_one's_chips, die, sound, get, move, give_way, function, rifle, plump, operate, last, lead, whirl, give_out, disco_biscuit, hold_up, kick_the_bucket, survive, decease |
-| good | adept, beneficial, practiced, secure, proficient, in_force, right, full, ripe, in_effect, unspoilt, near, dear, honorable, estimable, unspoiled, serious, dependable, well, expert, safe, soundly, trade_good, effective, sound, skillful, salutary, honest, just, respectable, thoroughly, commodity, goodness, skilful, undecomposed, upright |
-| got | become, nonplus, drive, fetch, pay_off, experience, capture, stick, engender, make, get_down, go, bring, incur, contract, develop, draw, start_out, acquire, stimulate, find, perplex, start, receive, let, puzzle, beat, baffle, set_out, dumbfound, induce, convey, grow, mystify, pose, gravel, amaze, stupefy, father, sustain, aim, arrive, beget, set_about, have, bugger_off, fuck_off, arrest, sire, bewilder, get, cause, get_under_one's_skin, flummox, buzz_off, generate, take, vex, bring_forth, come, scram, suffer, begin, commence, mother, pay_back, fix, catch, produce, obtain |
-| grab | snap_up, snatch, catch, snap, snaffle, take_hold_of, seize |
+| get | scram, beat, commence, nonplus, have, grow, fetch, get_under_one's_skin, engender, baffle, catch, flummox, capture, become, drive, bring_forth, acquire, perplex, start_out, arrest, go, pay_back, make, cause, develop, set_out, sire, pose, produce, find, arrive, convey, bring, bugger_off, bewilder, father, induce, vex, begin, receive, stupefy, sustain, generate, aim, take, fuck_off, fix, let, amaze, set_about, contract, experience, buzz_off, mother, puzzle, dumbfound, stimulate, mystify, suffer, pay_off, gravel, get_down, obtain, come, draw, incur, beget, start, stick |
+| git | bum, scum_bag, lowlife, dirty_dog, stinker, stinkpot, so-and-so, rotter, crumb, skunk, rat, puke |
+| glob | chunk, clod, ball, clump, lump |
+| global | orbicular, globose, worldwide, globular, ball-shaped, spheric, world, world-wide, spherical, planetary |
+| good | trade_good, well, proficient, skillful, serious, effective, safe, soundly, full, goodness, practiced, undecomposed, skilful, salutary, unspoiled, sound, dependable, beneficial, in_effect, respectable, just, near, estimable, adept, secure, expert, honorable, honest, in_force, thoroughly, unspoilt, commodity, dear, right, upright, ripe |
+| got | scram, beat, commence, nonplus, have, grow, fetch, get_under_one's_skin, engender, baffle, catch, flummox, capture, become, drive, bring_forth, acquire, perplex, start_out, arrest, go, pay_back, make, cause, develop, set_out, sire, pose, produce, find, arrive, convey, bring, bugger_off, bewilder, get, father, induce, vex, begin, receive, stupefy, sustain, generate, aim, take, fuck_off, fix, let, amaze, set_about, contract, experience, buzz_off, mother, puzzle, dumbfound, stimulate, mystify, suffer, pay_off, gravel, get_down, obtain, come, draw, incur, beget, start, stick |
+| grab | snap, snap_up, take_hold_of, catch, snatch, seize, snaffle |
 | graceful | elegant, refined |
-| grant | deed_over, assignment, subsidisation, concession, award, accord, subsidization, hiram_ulysses_grant, ulysses_simpson_grant, cary_grant, president_grant, ulysses_grant, give, allow, allot, cede, yield, concede, duncan_james_corrow_grant, ulysses_s._grant, duncan_grant |
+| grant | deed_over, cary_grant, subsidization, accord, cede, allow, assignment, yield, hiram_ulysses_grant, concede, duncan_james_corrow_grant, award, subsidisation, allot, give, concession, president_grant, ulysses_simpson_grant, ulysses_grant, duncan_grant, ulysses_s._grant |
 | graph | graphical_record, chart |
-| greater | swell, nifty, expectant, great, slap-up, bang-up, majuscule, outstanding, big, enceinte, corking, cracking, not_bad, groovy, keen, bully, with_child, heavy, dandy, smashing, neat, gravid, large, capital, peachy |
-| group | chemical_group, radical, grouping, mathematical_group, aggroup |
-| grow | acquire, rise, spring_up, mature, uprise, originate, maturate, turn, farm, produce, develop, arise, raise, get |
-| guaranteed | guarantee, undertake, secure, warrant, assure, vouch, ensure, insure |
-| guess | supposition, approximate, surmise, guesswork, think, speculation, infer, judge, opine, hazard, suppose, conjecture, reckon, hypothesis, estimate, gauge, venture, surmisal, imagine, guessing, dead_reckoning, pretend, shot |
-| handle | do_by, wield, grip, care, plow, handgrip, cover, manage, treat, address, deal, palm, hold |
-| handler | manager, coach, animal_trainer |
-| handshake | handshaking, shake, handclasp |
-| hanging | dangling, give_ear, attend, hang, fall, suspension, hang_up, string_up, pay_heed, advert, flow, cling, wall_hanging |
-| hard | severely, toilsome, gruelling, backbreaking, severe, punishing, strong, knockout, firmly, difficult, grueling, concentrated, laborious, surd, operose, heavy, tough, intemperately, intemperate, arduous, unvoiced, heavily, voiceless |
-| has | bear, experience, take_in, make, ingest, deliver, hold, stimulate, receive, feature, let, ha, throw, induce, own, consume, sustain, give, have_got, accept, birth, have, get, possess, cause, hour_angle, take, give_birth, suffer |
-| hash | haschisch, hashish, hasheesh |
-| have | bear, experience, take_in, make, wealthy_person, ingest, deliver, hold, stimulate, receive, feature, let, throw, induce, own, consume, sustain, give, have_got, accept, birth, get, possess, cause, take, give_birth, suffer, rich_person |
-| head | school_principal, manoeuvre, head_word, top_dog, capitulum, straits, guide, head_teacher, header, oral_sex, brain, headspring, caput, point, drumhead, read/write_head, nous, pass, channelise, question, maneuver, mind, headland, head_up, foreland, headway, principal, heading, direct, forefront, manoeuver, psyche, lead, steer, chief, fountainhead, promontory, channelize |
-| header | head, coping, heading, lintel, cope |
+| greater | with_child, nifty, gravid, bang-up, heavy, swell, large, smashing, groovy, not_bad, outstanding, corking, neat, dandy, peachy, expectant, cracking, majuscule, great, keen, capital, enceinte, bully, big, slap-up |
+| group | radical, grouping, aggroup, mathematical_group, chemical_group |
+| grow | get, develop, mature, farm, arise, produce, originate, turn, uprise, acquire, rise, spring_up, maturate, raise |
+| guaranteed | insure, undertake, ensure, warrant, secure, guarantee, assure, vouch |
+| guess | think, suppose, venture, surmise, guesswork, speculation, dead_reckoning, judge, infer, hazard, imagine, guessing, approximate, opine, estimate, surmisal, hypothesis, gauge, shot, supposition, reckon, conjecture, pretend |
+| handle | treat, wield, care, grip, cover, handgrip, hold, do_by, manage, plow, deal, address, palm |
+| handler | coach, manager, animal_trainer |
+| handshake | handclasp, shake, handshaking |
+| hanging | fall, string_up, hang, wall_hanging, pay_heed, flow, advert, give_ear, suspension, dangling, cling, attend, hang_up |
+| hard | surd, voiceless, arduous, difficult, backbreaking, knockout, operose, tough, heavy, unvoiced, intemperately, severely, punishing, gruelling, toilsome, laborious, intemperate, severe, firmly, concentrated, strong, heavily, grueling |
+| has | have, birth, ingest, have_got, make, deliver, cause, hold, hour_angle, consume, take_in, throw, get, induce, possess, accept, receive, sustain, take, feature, ha, let, bear, own, experience, give, stimulate, suffer, give_birth |
+| hash | hashish, hasheesh, haschisch |
+| have | wealthy_person, rich_person, birth, ingest, have_got, make, deliver, cause, hold, consume, take_in, throw, get, induce, possess, accept, receive, sustain, take, feature, let, bear, own, experience, give, stimulate, suffer, give_birth |
+| head | head_up, mind, fountainhead, principal, channelise, top_dog, chief, point, question, read/write_head, foreland, maneuver, heading, school_principal, head_word, forefront, brain, headway, headland, oral_sex, lead, manoeuvre, nous, steer, caput, pass, promontory, manoeuver, drumhead, straits, direct, header, psyche, head_teacher, capitulum, channelize, headspring, guide |
+| header | cope, head, heading, lintel, coping |
 | health | wellness |
-| healthy | salubrious, level-headed, intelligent, good_for_you, respectable, tidy, sizable, goodly, goodish, hefty, sizeable, levelheaded, sound |
-| hello | hullo, hi, howdy, how-do-you-do |
-| help | helper, supporter, serve, assist, assistance, aid, help_oneself, facilitate, service, avail, assistant |
-| helper | benefactor, assistant, supporter, help |
-| hex | glamour, enchant, hexadecimal, jinx, bewitch, whammy, curse, witch |
-| hidden | conceal, blot_out, cover, out_of_sight, hide_out, obscure, secret, shroud, concealed, hide, veil, enshroud, obliterate |
-| high | heights, eminent, richly, gamy, high-pitched, gamey, high_school, mellow, high_up, high_gear, senior_high, highschool, luxuriously, in_high_spirits, senior_high_school |
-| highest | eminent, gamy, high-pitched, gamey, mellow, high, in_high_spirits |
+| healthy | goodish, goodly, sizeable, level-headed, sizable, salubrious, good_for_you, levelheaded, sound, hefty, intelligent, tidy, respectable |
+| hello | hullo, how-do-you-do, hi, howdy |
+| help | assistant, facilitate, aid, service, help_oneself, supporter, serve, assist, helper, assistance, avail |
+| helper | assistant, help, supporter, benefactor |
+| hex | enchant, glamour, whammy, witch, curse, hexadecimal, jinx, bewitch |
+| hidden | hide_out, obscure, out_of_sight, conceal, cover, obliterate, secret, shroud, hide, veil, concealed, blot_out, enshroud |
+| high | senior_high_school, high_gear, high-pitched, gamy, richly, senior_high, gamey, heights, in_high_spirits, mellow, high_school, high_up, eminent, luxuriously, highschool |
+| highest | gamy, high-pitched, high, gamey, in_high_spirits, mellow, eminent |
 | hijack | highjack, commandeer, pirate |
-| hints | pinch, clue, jot, hint, touch, mite, intimation, trace, suggestion, suggest, lead, confidential_information, tinge, soupcon, tip, speck, steer, wind, breath |
-| history | account, story, chronicle |
-| hold | harbor, bear, time_lag, clutch, contain, concord, support, carry, postponement, make, apply, clutches, clasp, keep_back, admit, deem, nurse, grip, confine, accommodate, hold_in, detention, maintain, entertain, retain, concur, throw, obtain, defy, harbour, control, handgrip, reserve, wait, sustain, prevail, declare, clench, storage_area, cargo_deck, give, have_got, book, go_for, cargo_hold, appreciation, adjudge, have, agree, delay, custody, view_as, halt, restrain, arrest, take_for, detainment, handle, take_hold, guard, bind, defend, check, take, curb, keep, hold_up, grasp, cargo_area, withstand, oblige, moderate, obligate, hold_back |
-| hollow | hole, vacuous, holler, hollow_out, excavate, empty, dig, core_out |
-| home | interior, abode, house, plate, menage, internal, home_plate, domicile, home_base, habitation, base, national, family, dwelling, rest_home, dwelling_house, nursing_home, place, household |
-| hook | pinch, rob, cabbage, abstract, lure, knock_off, sneak, draw, solicit, gazump, snarf, crotchet, pluck, accost, soak, come-on, crochet, filch, plume, pilfer, nobble, snitch, bait, claw, surcharge, sweetener, glom, lift, addict, snare, thieve, hooking, purloin, swipe, hook_shot, overcharge, cop, fleece |
-| host | emcee, boniface, horde, innkeeper, server, legion, master_of_ceremonies |
-| hot | red-hot, raging, spicy, live, blistering |
+| hints | suggestion, soupcon, breath, confidential_information, speck, clue, wind, suggest, pinch, intimation, lead, touch, jot, steer, mite, trace, tip, hint, tinge |
+| history | account, chronicle, story |
+| hold | harbor, halt, take_for, appreciation, detainment, grasp, maintain, have, detention, apply, agree, concur, book, time_lag, cargo_area, deem, clutches, custody, admit, take_hold, delay, prevail, arrest, control, have_got, make, postponement, go_for, wait, grip, harbour, declare, reserve, view_as, cargo_hold, clasp, throw, confine, cargo_deck, hold_back, support, contain, nurse, restrain, accommodate, sustain, oblige, withstand, retain, keep_back, adjudge, defend, defy, take, storage_area, hold_up, entertain, handle, moderate, bear, obligate, give, guard, carry, hold_in, check, clench, handgrip, keep, obtain, clutch, bind, concord, curb |
+| hollow | holler, excavate, dig, core_out, hollow_out, hole, empty, vacuous |
+| home | internal, abode, family, household, plate, dwelling_house, base, home_base, home_plate, house, national, dwelling, domicile, habitation, place, menage, nursing_home, rest_home, interior |
+| hook | snarf, thieve, knock_off, gazump, pluck, pilfer, bait, purloin, accost, plume, abstract, lure, surcharge, fleece, hooking, crochet, soak, cabbage, addict, crotchet, come-on, sneak, solicit, snitch, sweetener, pinch, claw, glom, nobble, lift, rob, overcharge, snare, swipe, filch, cop, draw, hook_shot |
+| host | legion, horde, master_of_ceremonies, server, innkeeper, boniface, emcee |
+| hot | blistering, red-hot, raging, live, spicy |
 | http | hypertext_transfer_protocol |
-| huge | immense, vast, brobdingnagian |
-| human | man, homo, human_being |
-| id | idaho, gem_state, i.d. |
-| identity | identity_operator, personal_identity, individuality, identity_element, indistinguishability, identicalness |
-| ignition | inflammation, firing, kindling, ignition_system, lighting |
-| ignore | discount, snub, push_aside, disregard, neglect, brush_aside, dismiss, cut, brush_off |
-| ignored | discount, neglected, snub, unheeded, push_aside, disregard, neglect, ignore, brush_aside, dismiss, cut, brush_off |
-| image | picture, effigy, figure_of_speech, range_of_a_function, persona, icon, mental_image, look-alike, range, figure, fancy, envision, trope, visualize, epitome, visualise, paradigm, double, project, see, prototype, ikon, simulacrum |
-| imagine | opine, ideate, think, suppose, envisage, guess, reckon, conceive_of |
+| huge | brobdingnagian, vast, immense |
+| human | man, human_being, homo |
+| identity | identity_operator, identity_element, personal_identity, indistinguishability, individuality, identicalness |
+| ignition | firing, lighting, kindling, inflammation, ignition_system |
+| ignore | push_aside, cut, disregard, neglect, dismiss, brush_off, snub, discount, brush_aside |
+| ignored | push_aside, unheeded, cut, ignore, disregard, neglect, dismiss, brush_off, snub, discount, brush_aside, neglected |
+| image | double, mental_image, trope, figure, visualize, figure_of_speech, range, envision, fancy, see, look-alike, effigy, prototype, range_of_a_function, ikon, persona, icon, simulacrum, paradigm, picture, epitome, visualise, project |
+| imagine | think, envisage, guess, reckon, ideate, suppose, opine, conceive_of |
 | immutable | changeless |
-| implements | follow_through, put_through, follow_out, apply, implement, follow_up, go_through, enforce, carry_out |
-| import | importee, signification, meaning, moment, spell, implication, significance, importation, consequence |
-| improve | meliorate, amend, ameliorate, better |
-| in | inwards, indium, inward, atomic_number_49, indiana, inch, hoosier_state |
+| implements | enforce, carry_out, put_through, follow_up, apply, go_through, follow_through, implement, follow_out |
+| import | moment, consequence, importation, spell, importee, meaning, signification, significance, implication |
+| improve | ameliorate, amend, better, meliorate |
 | inc | iraqi_national_congress |
 | inconsistent | discrepant |
-| increase | growth, addition, increment, step-up, gain |
-| increment | increase, growth |
-| indent | indenture, dent, indention, indentation |
-| index | exponent, power, index_finger, indicator, indicant, forefinger, index_number |
+| increase | step-up, addition, growth, gain, increment |
+| increment | growth, increase |
+| indent | indentation, indenture, dent, indention |
+| index | index_number, index_finger, indicator, exponent, forefinger, power, indicant |
 | indirect | collateral |
-| inflate | balloon, blow_up, billow, expand, amplify |
+| inflate | expand, blow_up, billow, balloon, amplify |
 | info | information |
-| informer | squealer, blabber, rat, betrayer |
-| ingress | entering, ingres, entrance, entry, immersion, incoming, jean_auguste_dominique_ingres |
+| informer | blabber, squealer, rat, betrayer |
+| ingress | entering, entry, immersion, entrance, incoming, jean_auguste_dominique_ingres, ingres |
 | inherits | inherit |
-| inhibit | stamp_down, suppress, curb, conquer, subdue, bottle_up |
-| initialization | initialisation, low-level_formatting |
+| inhibit | stamp_down, bottle_up, suppress, subdue, conquer, curb |
+| initialization | low-level_formatting, initialisation |
 | initialize | format, initialise |
-| initialized | format, initialize, initialise |
-| initiate | start, induct, lead_up, originate, enlightened, beginner, novice, broach, learned_person, tiro, tyro, savant, pioneer, pundit |
-| inject | shoot, come_in, throw_in, interject, put_in, interpose |
-| inner | interior, intimate, inside, privileged, internal |
-| innocent | unacquainted, clean-handed, innocuous, free, inexperienced_person, impeccant, devoid, sinless, ingenuous, guiltless, destitute, barren |
-| input | stimulus, comment, stimulation, remark, stimulant, input_signal |
+| initialized | initialize, format, initialise |
+| initiate | start, tyro, enlightened, pundit, broach, beginner, learned_person, lead_up, novice, originate, tiro, pioneer, induct, savant |
+| inject | come_in, interpose, throw_in, interject, put_in, shoot |
+| inner | internal, inside, privileged, intimate, interior |
+| innocent | guiltless, barren, clean-handed, ingenuous, inexperienced_person, impeccant, free, sinless, destitute, innocuous, unacquainted, devoid |
+| input | stimulus, stimulation, stimulant, input_signal, comment, remark |
 | insecure | unsafe |
-| insert | inset, stick_in, introduce, sneak_in, put_in, slip_in, enter, inclose, tuck, enclose, infix, cut-in |
-| inside | interior, inwardly, in_spite_of_appearance, deep_down, privileged, within, indoors, inner, at_heart, at_bottom |
-| inspect | scrutinize, audit, visit, scrutinise |
-| install | instal, put_in, set_up, establish |
-| instance | example, illustration, exemplify, case, illustrate, representative |
-| instrument | tool, instrumental_role, legal_document, legal_instrument, official_document, cat's-paw, pawn, musical_instrument, instrumentate |
-| integration | integrating, desegregation, consolidation |
-| interactive | synergistic, interactional |
-| intercept | wiretap, stop, bug, tap |
+| insert | enter, enclose, tuck, cut-in, introduce, inset, stick_in, infix, put_in, sneak_in, slip_in, inclose |
+| inside | in_spite_of_appearance, inner, indoors, at_bottom, at_heart, inwardly, privileged, deep_down, within, interior |
+| inspect | visit, audit, scrutinise, scrutinize |
+| install | set_up, instal, put_in, establish |
+| instance | exemplify, illustrate, illustration, case, example, representative |
+| instrument | pawn, instrumental_role, instrumentate, legal_instrument, tool, official_document, cat's-paw, legal_document, musical_instrument |
+| integration | desegregation, consolidation, integrating |
+| interactive | interactional, synergistic |
+| intercept | stop, wiretap, tap, bug |
 | interface | user_interface, port |
-| internal | interior, intimate, intragroup, national, inner, home |
-| internalize | internalise, interiorise, interiorize |
-| interpret | represent, rede, translate, see, read, render, understand, construe |
+| internal | inner, intimate, national, intragroup, home, interior |
+| internalize | interiorise, interiorize, internalise |
+| interpret | translate, construe, see, read, render, understand, represent, rede |
 | intersect | cross |
-| intersection | crossroad, convergence, crossway, cartesian_product, intersection_point, carrefour, overlap, point_of_intersection, crossing, product |
-| interval | time_interval, separation, musical_interval |
-| invalid | disable, shut-in, incapacitate, handicap |
-| invalidate | annul, cancel, avoid, void, nullify, vitiate, quash |
-| invariant | unvarying, constant, changeless |
+| intersection | cartesian_product, point_of_intersection, carrefour, intersection_point, crossroad, convergence, crossway, product, crossing, overlap |
+| interval | musical_interval, separation, time_interval |
+| invalid | incapacitate, disable, handicap, shut-in |
+| invalidate | vitiate, cancel, annul, avoid, void, quash, nullify |
+| invariant | unvarying, changeless, constant |
 | invert | reverse, turn_back |
-| invoke | bring_up, arouse, call_forth, evoke, conjure_up, conjure, call_down, put_forward, appeal, stir, raise |
-| ip | information_science, information_processing, informatics |
-| is | equal, follow, represent, personify, cost, embody, be, make_up, live, constitute, exist, comprise |
-| issue | government_issue, takings, outlet, effect, topic, exit, offspring, military_issue, way_out, cut, supply, come_out, emerge, payoff, issuance, return, event, progeny, bring_out, publish, put_out, matter, proceeds, outcome, result, emergence, go_forth, make_out, write_out, yield, upshot, publication, egress, take, number, subject, issuing, release, consequence, come_forth |
-| it | information_technology |
-| item | token, particular, point, detail |
-| iterate | repeat, retell, reiterate, ingeminate, restate |
-| job | farm_out, line, speculate, occupation, line_of_work, caper, book_of_job, chore, task, subcontract, problem, business |
-| join | bring_together, fall_in, link_up, link, juncture, sum, articulation, connect, joint, unite, junction, get_together, conjoin, union |
-| just | upright, hardly, scarcely, good, merely, but, fair, simply, barely, scarce, precisely, just_now, equitable, only, exactly |
-| keep | hold_on, continue, go_on, preserve, support, livelihood, donjon, proceed, keep_back, hold, maintain, retain, celebrate, observe, hold_open, living, sustain, stay_fresh, save, restrain, keep_on, go_along, bread_and_butter, prevent, keep_open, dungeon, sustenance, hold_back |
-| kernel | meat, heart, core, marrow, inwardness, pith, essence, heart_and_soul, nitty-gritty, center, substance, centre, sum, nub, gist |
-| key | cardinal, headstone, fundamental, winder, describe, keystone, central, cay, identify, name, francis_scott_key, distinguish, key_out, primal, florida_key, tonality, discover, paint, samara, key_fruit |
-| kill | down, vote_down, defeat, bolt_down, pop, killing, stamp_out, vote_out, wipe_out, toss_off, shoot_down, belt_down, pour_down, putting_to_death, drink_down, obliterate |
-| kind | tolerant, variety, sort, genial, form |
-| known | recognize, sleep_with, fuck, cognize, experience, have_intercourse, acknowledge, get_it_on, have_a_go_at_it, recognise, jazz, get_laid, know, sleep_together, live, have_sex, screw, cognise, eff, have_it_away, be_intimate, make_out, have_it_off, bed, do_it, make_love, bang, lie_with, roll_in_the_hay, love, bonk, hump |
-| label | judge, tag, pronounce, mark, recording_label |
-| last | finish, go, hold_out, shoemaker's_last, finale, stopping_point, close, lastly, survive, cobbler's_last, utmost, live, last-place, lowest, final, final_stage, death, finally, concluding, live_on, net, conclusion, finis, endure, end, in_conclusion, hold_up, terminal |
-| latency | reaction_time, latent_period, response_time, rotational_latency |
-| latest | in_vogue, previous, modish, late, recent, former, up-to-the-minute, a_la_mode, belated, in_style, tardy, later |
-| launch | establish, set_up, launching, found, plunge, set_in_motion |
-| lazy | indolent, slothful, work-shy, otiose, faineant |
+| invoke | call_forth, call_down, stir, bring_up, arouse, put_forward, appeal, conjure, evoke, conjure_up, raise |
+| ips | informatics, information_processing, information_science, ip |
+| issue | come_forth, bring_out, number, takings, publish, come_out, release, result, emergence, consequence, way_out, upshot, offspring, issuing, effect, outcome, issuance, go_forth, return, publication, yield, subject, take, government_issue, cut, matter, event, exit, supply, proceeds, make_out, emerge, payoff, egress, military_issue, topic, progeny, outlet, put_out, write_out |
+| item | point, detail, particular, token |
+| iterate | restate, ingeminate, repeat, reiterate, retell |
+| job | subcontract, chore, occupation, task, line_of_work, farm_out, caper, business, speculate, problem, line, book_of_job |
+| join | articulation, connect, joint, link_up, bring_together, sum, fall_in, unite, union, get_together, link, juncture, conjoin, junction |
+| just | good, precisely, simply, scarcely, upright, equitable, barely, just_now, hardly, only, but, fair, exactly, scarce, merely |
+| keep | go_along, maintain, observe, continue, bread_and_butter, hold, preserve, keep_on, dungeon, support, hold_back, go_on, celebrate, stay_fresh, sustain, retain, keep_back, keep_open, save, proceed, donjon, sustenance, livelihood, hold_open, prevent, living, hold_on, restrain |
+| kernel | heart_and_soul, inwardness, meat, essence, substance, sum, centre, gist, heart, marrow, nub, core, pith, center, nitty-gritty |
+| key | francis_scott_key, paint, central, tonality, distinguish, headstone, fundamental, describe, florida_key, winder, cardinal, key_fruit, identify, samara, keystone, cay, name, key_out, discover, primal |
+| kill | pop, shoot_down, defeat, vote_out, toss_off, drink_down, pour_down, bolt_down, obliterate, belt_down, stamp_out, putting_to_death, wipe_out, killing, down, vote_down |
+| kind | genial, form, variety, sort, tolerant |
+| known | eff, screw, cognize, have_a_go_at_it, sleep_together, bonk, do_it, roll_in_the_hay, have_it_away, acknowledge, know, bang, have_sex, sleep_with, lie_with, recognize, make_love, have_intercourse, live, fuck, be_intimate, experience, love, make_out, bed, get_laid, jazz, recognise, cognise, get_it_on, hump, have_it_off |
+| label | recording_label, judge, pronounce, mark, tag |
+| last | net, finally, stopping_point, lowest, hold_out, survive, utmost, death, shoemaker's_last, finis, end, last-place, live_on, finale, in_conclusion, final_stage, endure, live, hold_up, concluding, final, cobbler's_last, terminal, conclusion, lastly, finish, close, go |
+| latency | reaction_time, latent_period, rotational_latency, response_time |
+| latest | late, former, in_vogue, modish, a_la_mode, up-to-the-minute, belated, later, recent, tardy, in_style, previous |
+| launch | set_up, plunge, set_in_motion, found, establish, launching |
+| lazy | faineant, indolent, slothful, work-shy, otiose |
 | leader | loss_leader, drawing_card |
-| leaf | riffle, flick, folio, foliage, thumb, riff, leafage, flip |
-| lease | rental, let, take, letting, rent, term_of_a_contract, hire, engage, charter |
+| leaf | folio, leafage, flick, foliage, thumb, riffle, flip, riff |
+| lease | rental, letting, charter, take, rent, hire, let, engage, term_of_a_contract |
 | least | to_the_lowest_degree |
-| left | get_out, forget, pull_up_stakes, left_wing, pass_on, remaining, depart, leftover, left_over, exit, left_field, allow_for, unexpended, go_away, leftfield, impart, bequeath, give, allow, will, leave_alone, result, go_forth, left_hand, leave_behind, provide, lead, leave, odd, left-hand, entrust, go_out |
+| left | left_hand, leave, allow_for, leave_alone, pull_up_stakes, left_over, remaining, go_out, result, pass_on, left_wing, depart, left-hand, leftover, allow, go_away, go_forth, left_field, lead, will, impart, leftfield, provide, forget, exit, give, leave_behind, unexpended, get_out, odd, entrust, bequeath |
 | legacy | bequest |
 | legal | effectual, sound |
-| length | distance, duration |
-| less | le, lupus_erythematosus, to_a_lesser_extent |
-| level | level_off, even, layer, charge, plane, stage, even_out, pull_down, dismantle, take_down, tear_down, point, unwavering, flat, horizontal_surface, degree, grade, spirit_level, storey, raze, tied, flush, stratum, story, floor, rase, tier |
-| limit | throttle, trammel, confine, determine, demarcation_line, boundary, limitation, specify, terminal_point, demarcation, bound, define, restrict, restrain, point_of_accumulation, limit_point, circumscribe, terminus_ad_quem, set, fix |
-| line | phone_line, telephone_circuit, note, trace, line_of_business, personal_credit_line, production_line, describe, transmission_line, demarcation, line_of_credit, personal_line_of_credit, line_of_products, logical_argument, stemma, business, draw, air, furrow, blood, argumentation, product_line, line_of_reasoning, railway_line, pipeline, occupation, communication_channel, blood_line, course, ancestry, melodic_line, argument, lineage, channel, short_letter, strain, descent, origin, melodic_phrase, delineate, wrinkle, cable, tune, assembly_line, pedigree, parentage, credit_line, contrast, telephone_line, bloodline, job, run_along, crease, line_of_work, dividing_line, melody, agate_line, subscriber_line, crinkle, stock, billet, seam, line_of_descent, bank_line, rail_line, business_line, line_of_merchandise |
-| linear | analog, running, additive, one-dimensional, elongate, analogue |
-| link | nexus, unite, tie-in, yoke, data_link, connexion, contact, radio_link, tie_in, connectedness, connect, associate, join, inter-group_communication, liaison, colligate, link_up, tie, connection, linkup, relate |
-| list | tilt, listing, number, heel, name, inclination, leaning, lean |
-| listen | mind, heed, take_heed, hear |
-| listener | auditor, attender, hearer |
-| lister | middle_buster, lister_plough, joseph_lister, lister_plow, middlebreaker, baron_lister |
-| live | populate, experience, be, go, hold_out, bouncy, alive, springy, hot, inhabit, lively, know, subsist, live_on, endure, resilient, dwell, unrecorded, last, hold_up, survive, exist |
-| liveness | liven, enliven, liven_up, invigorate, animate, animateness, aliveness |
-| load | charge, shipment, burden, warhead, debase, consignment, incumbrance, payload, lading, loading, onus, adulterate, stretch, lade, load_up, laden, cargo, dilute, lode, freight, encumbrance |
-| local | local_anesthetic, local_anaesthetic, topical_anesthetic, topical_anaesthetic |
-| locate | settle, situate, site, turn_up, place |
-| location | localisation, locating, localization, position, emplacement, placement, fix, positioning |
-| lock | shut_away, whorl, curl, operate, mesh, put_away, ignition_lock, lock_in, lock_away, shut_up, interlace, lock_chamber, interlock, engage, lock_up, ringlet |
-| log | logarithm, lumber |
-| long | tenacious, prospicient, hanker, farseeing, foresighted, yearn, longsighted, retentive, farsighted, foresightful, recollective |
-| look | expect, seem, aspect, feel, expression, feeling, depend, smell, tone, bet, reckon, calculate, wait, await, search, looking, flavour, take_care, facial_expression, see, appear, spirit, attend, count, looking_at, front, flavor, face |
+| length | duration, distance |
+| less | le, to_a_lesser_extent, lupus_erythematosus |
+| level | charge, tied, even, stratum, pull_down, plane, even_out, unwavering, point, spirit_level, take_down, tear_down, level_off, flat, floor, grade, flush, dismantle, layer, storey, raze, stage, story, rase, horizontal_surface, degree, tier |
+| limit | throttle, demarcation_line, limit_point, bound, circumscribe, restrict, limitation, set, determine, restrain, terminal_point, terminus_ad_quem, boundary, define, demarcation, specify, trammel, confine, fix, point_of_accumulation |
+| line | melodic_phrase, line_of_descent, seam, credit_line, line_of_work, describe, line_of_reasoning, stock, business, delineate, ancestry, line_of_products, crinkle, railway_line, channel, course, origin, blood_line, run_along, bank_line, trace, tune, crease, telephone_line, logical_argument, blood, job, pipeline, communication_channel, short_letter, contrast, furrow, demarcation, dividing_line, cable, telephone_circuit, melodic_line, stemma, product_line, occupation, business_line, line_of_business, argumentation, wrinkle, subscriber_line, note, personal_credit_line, line_of_merchandise, assembly_line, line_of_credit, phone_line, personal_line_of_credit, strain, air, descent, melody, argument, billet, pedigree, transmission_line, parentage, draw, rail_line, agate_line, lineage, production_line, bloodline |
+| linear | additive, one-dimensional, analog, running, analogue, elongate |
+| link | connect, connectedness, join, data_link, liaison, radio_link, inter-group_communication, associate, nexus, linkup, relate, tie_in, connexion, colligate, connection, link_up, contact, yoke, unite, tie, tie-in |
+| list | name, number, listing, leaning, lean, heel, tilt, inclination |
+| listen | take_heed, hear, heed, mind |
+| listener | auditor, hearer, attender |
+| lister | joseph_lister, lister_plow, middlebreaker, middle_buster, lister_plough, baron_lister |
+| live | bouncy, populate, hold_out, survive, be, alive, subsist, resilient, know, inhabit, live_on, exist, dwell, lively, last, hot, endure, hold_up, springy, experience, unrecorded, go |
+| liveness | enliven, animateness, aliveness, liven_up, animate, liven, invigorate |
+| load | shipment, charge, load_up, lading, stretch, lode, burden, consignment, onus, warhead, lade, encumbrance, cargo, payload, incumbrance, loading, dilute, adulterate, freight, laden, debase |
+| local | topical_anaesthetic, local_anaesthetic, topical_anesthetic, local_anesthetic |
+| locate | situate, site, settle, turn_up, place |
+| location | locating, position, localisation, positioning, placement, fix, localization, emplacement |
+| lock | interlock, whorl, interlace, put_away, shut_up, lock_away, engage, operate, curl, lock_up, mesh, lock_chamber, ringlet, lock_in, ignition_lock, shut_away |
+| log | lumber, logarithm |
+| long | hanker, recollective, prospicient, retentive, foresightful, yearn, farsighted, longsighted, farseeing, foresighted, tenacious |
+| look | appear, feeling, smell, seem, search, wait, take_care, expression, see, count, expect, depend, facial_expression, calculate, looking, front, looking_at, bet, attend, feel, flavor, flavour, tone, aspect, spirit, reckon, await, face |
 | lookup | search |
-| loop | coil, curl, iteration, cringle, eyelet, grummet, grommet, closed_circuit, loop-the-loop, intertwine, loop_topology |
-| lower | low-down, lour, low, get_down, low-pitched, let_down, lowly, depressed, broken, depleted, abject, dispirited, low-spirited, scurvy, take_down, crushed, small, humbled, down, low-toned, downcast, gloomy, glower, miserable, down_in_the_mouth, bring_down, turn_down, lower_berth, blue, downhearted, depress, humiliated, frown, humble, modest, grim, scummy |
-| lowercase | lower-case_letter, minuscule, small_letter |
-| machine | auto, automobile, political_machine, motorcar, car, simple_machine |
-| main | briny, master, primary, independent, chief, principal |
-| maintain | sustain, wield, preserve, asseverate, defend, uphold, exert, conserve, assert, observe, keep_up, keep, hold |
-| major | john_roy_major, john_r._major, john_major |
-| make | nominate, shuffle, realise, bring_in, work, do, create, micturate, make_water, shit, wee, take_in, ca-ca, piss, prepare, spend_a_penny, progress_to, constitute, crap, attain, draw, realize, hold, stimulate, pee-pee, take_a_leak, establish, pull_in, ready, lay_down, throw, induce, cook, pass_water, form, construct, puddle, arrive_at, make_believe, give, score, urinate, build, brand, have, stool, seduce, reach, relieve_oneself, gain, get, shuffling, cause, get_to, hit, earn, take_a_shit, pee, take, make_up, wee-wee, pretend, defecate, take_a_crap, name, piddle, fix, clear, produce |
-| manage | carry_off, negociate, wield, handle, grapple, do, care, contend, supervise, wangle, make_do, bring_off, finagle, make_out, superintend, get_by, deal, cope, pull_off, oversee |
-| managed | wield, do, get_by, cope, wangle, finagle, deal, grapple, pull_off, carry_off, care, contend, manage, make_do, make_out, superintend, oversee, handle, supervise, bring_off, negociate |
-| manager | handler, coach, managing_director, director |
-| manifest | attest, apparent, patent, evident, demonstrate, certify, unmistakable, evidence, plain |
+| loop | coil, iteration, closed_circuit, cringle, grummet, eyelet, grommet, curl, loop-the-loop, loop_topology, intertwine |
+| lower | glower, miserable, downhearted, gloomy, lower_berth, down, downcast, broken, blue, take_down, scummy, depleted, grim, turn_down, dispirited, crushed, humble, humbled, low-toned, scurvy, humiliated, frown, low, lowly, modest, low-pitched, depress, depressed, bring_down, low-down, lour, down_in_the_mouth, get_down, small, abject, let_down, low-spirited |
+| lowercase | lower-case_letter, small_letter, minuscule |
+| machine | motorcar, political_machine, automobile, car, auto, simple_machine |
+| main | chief, briny, principal, primary, independent, master |
+| maintain | wield, sustain, conserve, hold, preserve, defend, asseverate, keep_up, keep, observe, uphold, exert, assert |
+| major | john_major, john_r._major, john_roy_major |
+| make | shuffling, piss, reach, have, wee, relieve_oneself, brand, establish, clear, gain, puddle, score, earn, make_water, micturate, cause, wee-wee, ca-ca, realise, produce, hold, take_in, realize, urinate, nominate, throw, progress_to, pee, shit, get, do, stool, induce, ready, bring_in, work, form, make_up, pass_water, spend_a_penny, build, make_believe, piddle, take, crap, fix, get_to, take_a_crap, pee-pee, constitute, give, prepare, cook, stimulate, attain, hit, defecate, take_a_leak, take_a_shit, pull_in, construct, create, lay_down, shuffle, draw, arrive_at, seduce, name, pretend |
+| manage | wield, do, superintend, get_by, make_do, negociate, cope, care, make_out, finagle, supervise, carry_off, bring_off, grapple, deal, contend, wangle, oversee, handle, pull_off |
+| managed | make_do, negociate, carry_off, deal, superintend, cope, finagle, contend, wangle, oversee, wield, do, get_by, manage, grapple, handle, care, make_out, supervise, bring_off, pull_off |
+| manager | managing_director, coach, director, handler |
+| manifest | evidence, attest, demonstrate, apparent, plain, unmistakable, patent, evident, certify |
 | manual | manual_of_arms |
-| map | function, represent, map_out, mapping, single-valued_function, mathematical_function |
+| map | single-valued_function, map_out, mapping, function, mathematical_function, represent |
 | mapper | plotter |
-| mapping | map, function, chromosome_mapping, represent, map_out, single-valued_function, mathematical_function |
-| mark | tick_off, stigmatise, bull's_eye, scratch, note, notice, marker, home_run, pock, strike_out, st._mark, differentiate, stigma, scar, nock, crisscross, stigmatize, sucker, patsy, gull, distinguish, commemorate, cross, strike_off, fall_guy, chump, tag, grade, score, brand, marking, cross_off, soft_touch, fool, german_mark, denounce, pit, mark_off, set, check_off, cross_out, saint_mark, sign, deutsche_mark, scrape, print, stain, bell_ringer, check, tick, punctuate, label, mug, gospel_according_to_mark, deutschmark, target |
+| mapping | map, single-valued_function, chromosome_mapping, map_out, function, mathematical_function, represent |
+| mark | home_run, bell_ringer, distinguish, strike_out, fool, stigma, brand, stain, print, label, gull, tag, gospel_according_to_mark, score, saint_mark, deutschmark, set, st._mark, pit, marking, mug, denounce, scrape, deutsche_mark, fall_guy, scar, sign, bull's_eye, patsy, grade, stigmatize, note, strike_off, mark_off, chump, soft_touch, notice, differentiate, tick_off, german_mark, sucker, target, pock, commemorate, check, scratch, cross, stigmatise, tick, marker, cross_out, cross_off, punctuate, check_off, nock, crisscross |
 | marker | marking, mark |
-| marshal | summon, mobilize, marshall, mobilise |
-| marshall | george_catlett_marshall, john_marshall, e._g._marshall, marshal, george_marshall |
-| mask | cloak, dissemble, masquerade_party, masquerade, masque, disguise, block_out |
-| master | overcome, original, professional, get_over, overlord, get_the_hang, superior, passkey, lord, maestro, control, sea_captain, schoolmaster, victor, headmaster, passe-partout, main, subdue, captain, surmount, dominate, principal, master_copy, primary, master_key, chief, skipper |
-| match | compeer, catch, peer, jibe, mates, equalize, correspond, touch, mate, twin, friction_match, meet, rival, couple, fit, equalise, pair, oppose, gibe, agree, pit, equal, check, lucifer, play_off, tally, cope_with, equate |
-| matcher | matchmaker, marriage_broker |
-| max | liquid_ecstasy, soap, grievous_bodily_harm, scoop, georgia_home_boy, goop, easy_lay |
-| maximum | uttermost, upper_limit, maximal, level_best, utmost |
-| maybe | possibly, perhaps, mayhap, perchance, peradventure |
-| mean | imply, intend, hateful, signify, mingy, mean_value, think, entail, base, meanspirited, miserly, stand_for, tight, think_of, have_in_mind, beggarly, bastardly, average |
-| measure | appraise, valuate, measure_out, cadence, bill, measurement, bar, measuring_stick, quantify, beat, measuring, evaluate, assess, amount, touchstone, quantity, value, standard, criterion, metre, step, measuring_rod, mensuration, meter, mensurate |
-| media | metier, spiritualist, mass_medium, culture_medium, medium, sensitive |
-| meet | forgather, conform_to, fitting, receive, foregather, touch, come_across, contact, adjoin, get_together, converge, fit, satisfy, run_across, gather, take_on, see, play, encounter, fill, match, fulfill, fulfil, suffer, assemble, run_into, sports_meeting, cope_with |
-| member | phallus, extremity, penis, fellow_member, appendage |
-| memory | retentivity, memory_board, storage, retentiveness, remembering, store, computer_memory, retention, computer_storage |
-| merge | fuse, unify, blend, combine, flux, conflate, coalesce, unite, meld, immix, commingle, mix |
-| merged | fuse, unify, blend, unified, flux, combine, conflate, incorporate, incorporated, meld, merge, coalesce, unite, integrated, immix, commingle, mix |
-| merging | confluent, fuse, unify, confluence, blend, flux, coming_together, combine, merge, conflate, conflux, coalesce, unite, meld, meeting, immix, commingle, mix |
-| message | subject_matter, substance, content |
-| metric | metrical, system_of_measurement, metric_unit, metric_function, measured |
-| mg | atomic_number_12, milligram, magnesium |
+| marshal | summon, mobilise, mobilize, marshall |
+| marshall | john_marshall, george_catlett_marshall, george_marshall, marshal, e._g._marshall |
+| mask | masquerade, block_out, masque, masquerade_party, dissemble, disguise, cloak |
+| master | passe-partout, professional, skipper, principal, get_over, surmount, superior, lord, dominate, headmaster, sea_captain, chief, control, overlord, primary, original, main, captain, master_copy, subdue, maestro, victor, passkey, master_key, overcome, schoolmaster, get_the_hang |
+| match | equal, rival, fit, twin, oppose, agree, catch, mates, pair, pit, couple, meet, compeer, tally, mate, lucifer, touch, friction_match, equalise, correspond, jibe, play_off, equalize, check, gibe, equate, peer, cope_with |
+| matcher | marriage_broker, matchmaker |
+| max | goop, liquid_ecstasy, grievous_bodily_harm, easy_lay, soap, scoop, georgia_home_boy |
+| maximum | level_best, upper_limit, uttermost, utmost, maximal |
+| maybe | possibly, perhaps, perchance, peradventure, mayhap |
+| mean | mingy, have_in_mind, think, meanspirited, mean_value, beggarly, hateful, average, base, stand_for, think_of, imply, bastardly, miserly, intend, signify, tight, entail |
+| measure | beat, value, mensuration, bill, measurement, appraise, criterion, step, bar, metre, amount, valuate, measuring, measure_out, measuring_rod, assess, quantity, mensurate, standard, touchstone, measuring_stick, cadence, evaluate, meter, quantify |
+| media | spiritualist, medium, mass_medium, culture_medium, metier, sensitive |
+| meet | encounter, fitting, match, fit, assemble, fulfill, see, come_across, conform_to, satisfy, gather, fulfil, converge, receive, touch, foregather, take_on, get_together, run_across, adjoin, play, suffer, sports_meeting, run_into, contact, fill, forgather, cope_with |
+| member | extremity, penis, fellow_member, phallus, appendage |
+| memory | retention, memory_board, retentiveness, store, retentivity, remembering, computer_storage, computer_memory, storage |
+| merge | flux, unify, meld, mix, combine, immix, conflate, unite, blend, commingle, fuse, coalesce |
+| merged | flux, unify, meld, mix, incorporated, combine, integrated, unified, immix, merge, unite, conflate, incorporate, blend, commingle, fuse, coalesce |
+| merging | flux, unify, meld, mix, conflux, combine, confluence, meeting, immix, merge, coming_together, unite, conflate, blend, commingle, fuse, confluent, coalesce |
+| message | content, substance, subject_matter |
+| metric | system_of_measurement, metrical, measured, metric_function, metric_unit |
 | migrate | transmigrate |
-| min | min_dialect, minute, amoy, fukien, hokkianese, taiwanese, fukkianese |
-| minify | decrease, lessen |
-| minor | tyke, pocket-size, venial, nipper, child, shaver, small_fry, nonaged, underage, youngster, tike, modest, pocket-sized, kid, nestling, small, fry, tiddler, small-scale |
-| missing | pretermit, absent, leave_out, drop, neglect, lacking, omit, overleap, lose, overlook, escape, miss, lack, wanting |
+| min | taiwanese, minute, fukien, amoy, fukkianese, hokkianese, min_dialect |
+| minify | lessen, decrease |
+| minor | child, shaver, small-scale, tike, tiddler, kid, tyke, nipper, venial, underage, youngster, small_fry, fry, small, nonaged, pocket-size, nestling, modest, pocket-sized |
+| missing | overlook, drop, neglect, escape, leave_out, pretermit, lose, omit, lack, lacking, absent, miss, wanting, overleap |
 | mock | bemock |
-| mod | modern, modernistic |
-| mode | modality, modal_value, musical_mode, style, fashion, way, manner, mood |
-| modify | change, alter, qualify |
-| monitor | supervise, reminder, admonisher, monitoring_device, varan, proctor, monitor_lizard |
-| more | more_than, thomas_more, to_a_greater_extent, sir_thomas_more |
-| most | nigh, well-nigh, nearly, almost, about, near, virtually, to_the_highest_degree |
-| mount | climb_on, rise, setting, hop_on, mount_up, backing, bestride, climb_up, put_on, climb, riding_horse, saddle_horse, ride, go_up, jump_on, mountain, wax, get_on |
-| move | locomote, go, actuate, proceed, travel, movement, motivate, make_a_motion, act, propel, displace, be_active, motion, affect, run, incite, impress, relocation, motility, strike, prompt |
-| multiply | procreate, breed, manifold, reproduce |
-| must | moldiness, mustiness |
+| mod | modernistic, modern |
+| mode | mood, modal_value, modality, fashion, way, musical_mode, style, manner |
+| modify | qualify, alter, change |
+| monitor | varan, supervise, proctor, admonisher, reminder, monitor_lizard, monitoring_device |
+| more | more_than, sir_thomas_more, thomas_more, to_a_greater_extent |
+| most | nigh, near, nearly, virtually, well-nigh, to_the_highest_degree, almost, about |
+| mount | get_on, climb_on, wax, go_up, riding_horse, saddle_horse, mount_up, put_on, jump_on, mountain, backing, hop_on, climb_up, climb, bestride, rise, setting, ride |
+| move | prompt, motion, impress, actuate, make_a_motion, run, displace, motivate, strike, motility, be_active, proceed, incite, travel, movement, act, affect, propel, go, locomote, relocation |
+| multiply | reproduce, breed, manifold, procreate |
+| must | mustiness, moldiness |
 | mutating | mutate |
-| mutation | variation, sport, genetic_mutation, chromosomal_mutation, mutant |
-| name | nominate, refer, public_figure, describe, make, advert, identify, constitute, mention, gens, cite, distinguish, figure, key_out, bring_up, list, key, epithet, discover, diagnose, appoint, call |
-| named | nominate, bring_up, cite, refer, list, constitute, key, make, describe, advert, identify, name, discover, key_out, distinguish, diagnose, mention, appoint, call |
+| mutation | chromosomal_mutation, sport, mutant, genetic_mutation, variation |
+| name | refer, list, distinguish, describe, call, figure, cite, discover, epithet, make, bring_up, advert, nominate, mention, gens, key_out, identify, constitute, diagnose, key, appoint, public_figure |
+| named | constitute, diagnose, refer, make, key, list, distinguish, bring_up, mention, describe, appoint, call, advert, nominate, cite, name, key_out, discover, identify |
 | namers | namer |
-| narrowest | narrow-minded, narrow, minute |
-| native | indigen, aborigine, indigene, aboriginal |
-| nc | north_carolina, tar_heel_state, old_north_state |
-| nearly | closely, nigh, well-nigh, most, almost, about, near, intimately, virtually |
-| need | indigence, penury, take, require, necessitate, motivation, want, motive, demand, call_for, pauperism, pauperization, postulate, involve, ask |
-| negated | neutralize, nullify, neutralise, negate, belie, contradict, contravene |
-| negative | negatively_charged, electronegative, blackball, minus, damaging, veto, disconfirming |
-| negotiate | talk_terms, negociate |
-| negotiated | talk_terms, negociate, negotiate |
-| nested | nuzzle, draw_close, snuggle, nest, nestle, cuddle |
-| network | mesh, web, electronic_network, meshing, meshwork, net |
-| new | young, newfangled, unexampled, fresh, modern, newly, freshly, novel, raw |
-| newer | young, newfangled, unexampled, fresh, new, modern, novel, raw |
-| newest | young, newfangled, unexampled, fresh, new, modern, novel, raw |
-| next | succeeding, adjacent, following, side_by_side, future |
-| nil | naught, zip, nada, nix, nothing, cipher, goose_egg, cypher, zero, zilch, aught, zippo, null |
-| no | nobelium, no_more, atomic_number_102 |
-| node | lymph_node, guest, knob, lymph_gland, thickening, leaf_node, client |
-| nominated | nominate, propose, make, put_forward, name, appoint, put_up, constitute, nominative |
+| narrowest | minute, narrow, narrow-minded |
+| native | aborigine, aboriginal, indigene, indigen |
+| nearly | nigh, near, virtually, closely, well-nigh, most, almost, intimately, about |
+| need | necessitate, call_for, involve, motive, motivation, want, pauperization, indigence, demand, pauperism, postulate, require, ask, take, penury |
+| negated | contradict, contravene, neutralize, neutralise, belie, nullify, negate |
+| negative | disconfirming, negatively_charged, minus, blackball, veto, electronegative, damaging |
+| negotiate | negociate, talk_terms |
+| negotiated | negotiate, negociate, talk_terms |
+| nested | nest, draw_close, snuggle, nestle, nuzzle, cuddle |
+| network | meshwork, net, electronic_network, meshing, mesh, web |
+| new | young, fresh, freshly, newly, raw, novel, newfangled, unexampled, modern |
+| newer | young, new, fresh, raw, novel, newfangled, unexampled, modern |
+| newest | young, new, fresh, raw, novel, newfangled, unexampled, modern |
+| next | adjacent, future, succeeding, side_by_side, following |
+| nil | cypher, null, zilch, zip, cipher, zero, zippo, aught, naught, goose_egg, nothing, nada, nix |
+| node | lymph_node, leaf_node, knob, lymph_gland, client, thickening, guest |
+| nominated | constitute, propose, make, put_up, put_forward, nominate, appoint, nominative, name |
 | non | not |
-| normal | formula, pattern, convention, rule |
-| normalize | anneal, renormalise, temper, normalise, renormalize |
-| normalized | anneal, renormalise, temper, normalise, normalize, renormalize |
+| normal | pattern, rule, formula, convention |
+| normalize | renormalise, normalise, temper, renormalize, anneal |
+| normalized | normalize, renormalise, normalise, temper, renormalize, anneal |
 | not | non |
-| note | notation, line, notice, bill, mention, government_note, bank_note, distinction, take_note, greenback, preeminence, take_down, observe, tone, short_letter, musical_note, annotation, banker's_bill, banknote, federal_reserve_note, note_of_hand, mark, billet, eminence, remark, bank_bill, promissory_note |
-| nothing | naught, zip, nada, nix, nil, cipher, goose_egg, cypher, zero, zilch, aught, zippo, null |
-| notify | send_word, apprize, give_notice, advise, apprise |
-| now | forthwith, at_once, immediately, like_a_shot, nowadays, at_present, straight_off, right_away, instantly, straightaway, directly, today |
-| ns | due_north, nitrogen, normality, newton, atomic_number_7, north, northward |
-| number | list, total, identification_number, phone_number, come, turn, telephone_number, routine, issue, numeral, add_up, enumerate, keep_down, figure, act, amount, count, bit, numerate |
-| object | physical_object, objective, aim, target |
-| observation | notice, reflexion, reflection, observance, watching |
-| observe | detect, honor, follow, note, notice, watch, take_note, abide_by, keep_an_eye_on, maintain, remark, respect, celebrate, watch_over, discover, honour, keep, mention, find |
+| note | bank_note, distinction, bill, greenback, bank_bill, promissory_note, observe, eminence, notation, preeminence, short_letter, take_down, banknote, banker's_bill, mention, mark, notice, musical_note, take_note, note_of_hand, billet, federal_reserve_note, tone, remark, annotation, line, government_note |
+| nothing | cypher, null, zilch, nil, cipher, zip, zero, zippo, aught, naught, goose_egg, nada, nix |
+| notify | give_notice, apprize, send_word, apprise, advise |
+| now | at_once, immediately, like_a_shot, instantly, forthwith, right_away, straight_off, directly, nowadays, straightaway, at_present, today |
+| number | phone_number, list, telephone_number, identification_number, routine, act, keep_down, issue, turn, total, bit, amount, figure, come, numerate, count, numeral, enumerate, add_up |
+| object | target, objective, aim, physical_object |
+| observation | watching, notice, reflexion, reflection, observance |
+| observe | take_note, watch_over, honor, follow, watch, note, keep_an_eye_on, discover, notice, maintain, honour, abide_by, detect, find, keep, remark, respect, mention, celebrate |
 | observer | beholder, perceiver, commentator, percipient |
-| obtain | prevail, receive, incur, hold, find, get |
-| occupy | invade, use_up, interest, engross, take, absorb, worry, concern, lodge_in, engage, reside, busy, fill |
-| off | hit, polish_off, bump_off, dispatch, turned, slay, remove, murder, away, cancelled, sour, forth |
-| offset | stolon, set-back, setoff, start, commencement, outset, runner, offset_printing, set_off, get-go, offshoot, beginning, branch, outgrowth, cancel, first, starting_time, showtime, countervail, kickoff, counterbalance |
-| ok | all_right, oklahoma, okay, sooner_state, fine, o.k., very_well, hunky-dory, okeh, alright, okey |
-| old | erstwhile, quondam, sure-enough, honest-to-goodness, onetime, older, sometime, honest-to-god, previous, one-time, former |
-| older | erstwhile, senior, quondam, sure-enough, honest-to-goodness, sr., onetime, elder, sometime, honest-to-god, previous, old, aged, one-time, former, elderly |
-| oldest | erstwhile, quondam, sure-enough, honest-to-goodness, onetime, older, sometime, honest-to-god, previous, old, one-time, former |
-| omit | pretermit, exclude, leave_out, leave_off, drop, except, neglect, take_out, overleap, overlook, miss |
-| on | along |
-| one | matchless, single, peerless, nonpareil, unmatchable, unity, ane, unrivalled, unitary, one_and_only, ace, unmatched, unrivaled |
-| only | exclusively, solely, just, lonesome, merely, but, solitary, simply, only_when, alone, lone, entirely, only_if, sole |
+| obtain | get, receive, hold, find, prevail, incur |
+| occupy | use_up, reside, lodge_in, concern, worry, busy, interest, invade, absorb, take, engross, fill, engage |
+| off | bump_off, sour, remove, hit, away, slay, cancelled, murder, turned, forth, polish_off, dispatch |
+| offset | offshoot, branch, set-back, countervail, kickoff, offset_printing, stolon, starting_time, showtime, runner, counterbalance, cancel, get-go, set_off, outset, outgrowth, first, setoff, commencement, beginning, start |
+| old | former, sure-enough, honest-to-goodness, onetime, one-time, sometime, quondam, erstwhile, older, honest-to-god, previous |
+| older | elder, former, sure-enough, elderly, senior, old, onetime, one-time, honest-to-goodness, quondam, erstwhile, sometime, sr., honest-to-god, aged, previous |
+| oldest | former, sure-enough, old, onetime, one-time, honest-to-goodness, quondam, erstwhile, sometime, older, honest-to-god, previous |
+| omit | exclude, overlook, except, drop, neglect, leave_out, pretermit, take_out, miss, overleap, leave_off |
+| one | single, peerless, ane, unmatched, ace, unitary, unmatchable, unrivalled, one_and_only, nonpareil, unrivaled, matchless, unity |
+| only | just, exclusively, simply, only_if, entirely, solitary, solely, sole, but, only_when, lonesome, lone, alone, merely |
 | opaque | unintelligible |
-| open | unfold, surface, undefended, open_up, undetermined, afford, opened, out-of-doors, unfastened, spread, open_air, heart-to-heart, give, loose, capable, overt, spread_out, undefendable, exposed, receptive, undecided, candid, assailable, subject, clear, outdoors, unresolved |
-| operation | functioning, mathematical_operation, surgical_process, surgical_procedure, mathematical_process, cognitive_process, process, cognitive_operation, mental_process, military_operation, performance, procedure, surgical_operation, surgery |
-| operator | hustler, manipulator, wheeler_dealer |
-| options | alternative, choice, option, selection, pick |
-| opts | prefer, opt, choose |
-| or | oregon, beaver_state, operating_room, operating_theater, operating_theatre, surgery |
-| order | consecrate, dictate, rate, tell, enjoin, club, orderliness, say, order_of_magnitude, regularise, decree, monastic_order, range, govern, ordination, ordain, place, prescribe, rules_of_order, ordering, edict, parliamentary_procedure, purchase_order, grade, social_club, parliamentary_law, regulate, lodge, gild, put, ordinate, society, set_up, guild, arrange, regularize, rank, rescript, holy_order, fiat |
-| ordinary | average, ordinary_bicycle |
-| original | master, pilot, archetype, master_copy |
-| os | oculus_sinister, group_o, bone, osmium, oxygen, atomic_number_8, type_o, operating_system, atomic_number_76 |
+| open | exposed, spread_out, clear, undecided, open_air, outdoors, opened, capable, unresolved, heart-to-heart, out-of-doors, surface, undefendable, loose, unfastened, open_up, unfold, subject, undefended, spread, assailable, candid, give, afford, receptive, undetermined, overt |
+| operation | procedure, mathematical_process, military_operation, surgical_process, surgical_procedure, surgical_operation, performance, cognitive_process, functioning, surgery, mental_process, cognitive_operation, process, mathematical_operation |
+| operator | wheeler_dealer, hustler, manipulator |
+| options | selection, alternative, pick, choice, option |
+| opts | choose, prefer, opt |
+| order | holy_order, fiat, put, edict, rules_of_order, enjoin, purchase_order, regularise, gild, place, arrange, range, ordination, rescript, decree, guild, rate, society, order_of_magnitude, dictate, orderliness, grade, tell, consecrate, ordinate, lodge, parliamentary_procedure, monastic_order, parliamentary_law, regularize, ordering, set_up, regulate, ordain, govern, prescribe, say, social_club, rank, club |
+| ordinary | ordinary_bicycle, average |
+| original | master_copy, pilot, archetype, master |
 | other | former, early |
-| out | taboo, tabu, proscribed, ko'd, come_out, stunned, forbidden, come_out_of_the_closet, kayoed, verboten, away, knocked_out, prohibited, extinct |
-| output | yield, outturn, end_product, production, output_signal, turnout |
-| overhead | budget_items, command_overhead, disk_overhead, command_processing_overhead, command_processing_overhead_time, operating_expense, operating_cost, smash, viewgraph |
-| overlapping | lapping, overlap, imbrication |
-| overlay | cover, sheathing, overlayer, overlie |
-| override | overturn, nullification, overthrow, reverse, overrule |
-| owned | own, possess, have |
+| out | verboten, come_out_of_the_closet, away, prohibited, stunned, extinct, tabu, kayoed, taboo, forbidden, come_out, knocked_out, ko'd, proscribed |
+| output | turnout, production, outturn, yield, end_product, output_signal |
+| overhead | command_processing_overhead_time, command_overhead, command_processing_overhead, smash, budget_items, operating_cost, viewgraph, disk_overhead, operating_expense |
+| overlapping | lapping, imbrication, overlap |
+| overlay | sheathing, cover, overlayer, overlie |
+| override | overturn, overthrow, reverse, nullification, overrule |
+| owned | have, possess, own |
 | owner | possessor, proprietor |
-| pack | face_pack, backpack, carry, load_down, tamp_down, coterie, ring, pile, multitude, battalion, inner_circle, clique, compact, throng, tamp, mob, jam, large_number, wad, ingroup, plurality, take, bundle, camp, gang |
-| package | software_program, software_system, packet, software_package, box, bundle, software, parcel, computer_software |
-| pad | plod, launch_area, tramp, launching_pad, tablet, aggrandize, lodgings, footslog, launch_pad, trudge, embellish, inking_pad, inkpad, stamp_pad, diggings, aggrandise, domiciliation, dramatise, launchpad, lard, digs, embroider, slog, blow_up, dramatize, bolster, fill_out, pad_of_paper |
-| paged | foliate, page, paginate |
-| panic | affright, scare, terror |
-| parallel | analog, duplicate, collimate, line_of_latitude, twin, latitude, analogue, parallel_of_latitude |
-| parameters | parametric_quantity, argument, parameter |
-| parent | bring_up, raise, rear, nurture |
-| partition | division, segmentation, zone, partition_off, partitioning, sectionalisation, sectionalization, divider |
-| pass | pass_away, base_on_balls, straits, pass_on, draw, exceed, fleet, excrete, overhaul, glide_by, spend, pop_off, pass_off, give, run, reach, toss, fall, transcend, overstep, kick_the_bucket, top, drop_dead, fling, expire, guide, go, fall_out, evanesce, exit, slip_away, authorise, bye, devolve, flip, notch, laissez_passer, authorize, choke, travel_by, legislate, cash_in_one's_chips, slide_by, pas, lead, whirl, go_through, clear, decease, buy_the_farm, occur, passing_play, go_past, come_about, fade, overtake, perish, snuff_it, hap, passing, passing_game, offer, turn_over, make_pass, go_across, surpass, mountain_pass, return, pass_by, extend, egest, crack, go_by, go_along, communicate, elapse, go_on, slip_by, walk, eliminate, strait, give-up_the_ghost, qualifying, lapse, pass_along, make_it, put_across, conk, liberty_chit, croak, happen, blow_over, hand, head, sink, take_place, die, passport |
-| past | by, retiring, past_times, past_tense, preceding, yesteryear |
-| patch | patch_up, eyepatch, plot_of_ground, darn, mend, plot_of_land, piece, spell, temporary_hookup, fleck, maculation, while, dapple, bandage, plot, speckle, spot |
-| path | track, way_of_life, course, route, itinerary, way |
-| pause | suspension, break, intermit, intermission, hesitate, interruption |
-| pd | palladium, atomic_number_46 |
-| peek | glint, peep, glance |
-| perform | execute, do |
-| period | full_stop, menstruum, stop, time_period, point, menstruation, catamenia, flow, period_of_time, geological_period, full_point, menses |
+| pack | backpack, jam, tamp, mob, battalion, compact, clique, throng, plurality, coterie, bundle, face_pack, ingroup, pile, ring, take, wad, gang, inner_circle, large_number, carry, tamp_down, multitude, camp, load_down |
+| package | bundle, software_program, box, parcel, computer_software, software, software_system, packet, software_package |
+| pad | tablet, pad_of_paper, footslog, diggings, launchpad, launch_pad, tramp, domiciliation, fill_out, aggrandize, dramatize, inking_pad, trudge, launching_pad, bolster, digs, embroider, inkpad, dramatise, plod, lodgings, slog, launch_area, aggrandise, embellish, lard, stamp_pad, blow_up |
+| paged | foliate, paginate, page |
+| panic | terror, scare, affright |
+| parallel | analog, twin, duplicate, line_of_latitude, latitude, parallel_of_latitude, analogue, collimate |
+| parameters | parameter, parametric_quantity, argument |
+| parent | raise, rear, nurture, bring_up |
+| partition | sectionalisation, division, segmentation, sectionalization, partitioning, zone, partition_off, divider |
+| pass | die, happen, overhaul, reach, pop_off, expire, authorize, go_across, pass_on, give-up_the_ghost, come_about, communicate, pass_by, eliminate, fling, drop_dead, egest, crack, straits, passing, qualifying, notch, put_across, fall, make_pass, blow_over, choke, occur, top, travel_by, snuff_it, passing_play, return, head, perish, fleet, give, strait, extend, excrete, pass_along, flip, hap, draw, spend, guide, bye, make_it, lapse, devolve, slide_by, clear, pas, mountain_pass, go_by, kick_the_bucket, whirl, pass_off, legislate, buy_the_farm, conk, go_past, cash_in_one's_chips, evanesce, liberty_chit, go_through, walk, go_on, go_along, decease, overtake, croak, slip_away, surpass, hand, exceed, authorise, take_place, pass_away, base_on_balls, slip_by, toss, run, fall_out, overstep, passport, lead, offer, turn_over, laissez_passer, sink, exit, transcend, elapse, fade, passing_game, glide_by, go |
+| past | retiring, yesteryear, past_times, by, past_tense, preceding |
+| patch | plot, while, spot, fleck, dapple, patch_up, temporary_hookup, eyepatch, plot_of_land, plot_of_ground, spell, piece, mend, maculation, speckle, bandage, darn |
+| path | track, way_of_life, route, way, itinerary, course |
+| pause | interruption, break, suspension, intermission, hesitate, intermit |
+| peek | peep, glint, glance |
+| perform | do, execute |
+| period | point, menstruation, geological_period, menstruum, menses, flow, period_of_time, catamenia, full_stop, full_point, stop, time_period |
 | periodically | sporadically |
-| perm | permanent_wave, permanent, molotov |
-| permit | permission, licence, let, license, trachinotus_falcatus, allow, tolerate, countenance |
-| persist | hang_in, hold_on, persevere, prevail, stay, run, die_hard, endure, remain, hang_on |
-| persistent | lasting, relentless, tenacious, dour, dogged, unrelenting, pertinacious, haunting, unyielding |
-| phase | stage, form, phase_angle |
-| pick | find_fault, cream, clean, pickax, picking, choice, pluck, selection, weft, peck, plectron, break_up, foot, blame, pickaxe, nibble, plunk, piece, filling, woof, beak, plectrum, option, cull |
+| perm | molotov, permanent_wave, permanent |
+| permit | permission, license, allow, trachinotus_falcatus, countenance, let, licence, tolerate |
+| persist | run, endure, hang_on, hang_in, die_hard, persevere, stay, hold_on, prevail, remain |
+| persistent | lasting, relentless, dogged, pertinacious, haunting, unyielding, unrelenting, dour, tenacious |
+| phase | form, stage, phase_angle |
+| pick | foot, pluck, option, choice, peck, woof, break_up, plectrum, cream, plectron, pickaxe, filling, blame, picking, clean, find_fault, weft, selection, pickax, plunk, beak, piece, cull, nibble |
 | pid | pelvic_inflammatory_disease |
-| ping | ping_river, pink, knock |
-| pipe | shriek, piping, pipework, pipage, tobacco_pipe, pipe_up, organ_pipe, tube, shrill |
-| placeholder | procurator, proxy |
-| plain | obviously, bare, patent, unmixed, kick, unvarnished, evidently, sound_off, evident, apparently, field, complain, unmistakable, homely, plain_stitch, knit_stitch, apparent, unembellished, champaign, knit, spare, plainly, quetch, unmingled, kvetch, sheer, patently, manifest, manifestly, unornamented, unpatterned |
+| ping | pink, knock, ping_river |
+| pipe | shriek, pipe_up, shrill, pipage, tobacco_pipe, organ_pipe, piping, pipework, tube |
+| placeholder | proxy, procurator |
+| plain | kvetch, spare, unpatterned, unmixed, unvarnished, plainly, homely, complain, evident, unembellished, patently, sheer, apparently, apparent, unmistakable, bare, field, unmingled, unornamented, kick, quetch, sound_off, champaign, manifestly, obviously, evidently, knit_stitch, patent, manifest, knit, plain_stitch |
 | plural | plural_form |
 | pluralize | pluralise |
-| pod | seedpod, fuel_pod, cod, seedcase |
-| pointer | cursor, arrow, spanish_pointer |
-| poke | poking, slug, sack, pound, carrier_bag, dawdler, paper_bag, dig, clout, phytolacca_americana, punch, trailer, jabbing, thump, drone, stab, laggard, lagger, pigeon_berry, pry, nose, scoke, thrusting, thrust, lick, biff, horn_in, garget, prod, intrude, jab |
-| policy | insurance_policy, insurance |
-| poll | pate, pollard, public_opinion_poll, poll_parrot, crown, canvass, opinion_poll, canvas |
-| pop | crop_up, dada, pappa, pop_out, start, bolt_down, popping, soda_pop, bulge_out, bulge, come_out, down, pa, dad, pop_up, soda_water, belt_down, tonic, popular, pour_down, soda, papa, daddy, protrude, bug_out, kill, toss_off, pop_music, drink_down |
-| populate | inhabit, dwell, live |
-| port | port_wine, embrasure, porthole, interface, larboard |
-| portal | portal_vein, hepatic_portal_vein, vena_portae, portal_site |
-| positive | positive_degree, incontrovertible, confident, cocksure, overconfident, positively_charged, positivist, plus, positivistic, confirming, electropositive, prescribed, convinced, irrefutable |
+| pod | fuel_pod, seedpod, cod, seedcase |
+| pointer | cursor, spanish_pointer, arrow |
+| poke | laggard, trailer, stab, thump, biff, horn_in, jab, slug, punch, lagger, sack, dawdler, scoke, prod, lick, pigeon_berry, pound, carrier_bag, thrust, drone, poking, dig, nose, clout, pry, jabbing, paper_bag, phytolacca_americana, thrusting, intrude, garget |
+| policy | insurance, insurance_policy |
+| poll | opinion_poll, poll_parrot, canvass, pollard, public_opinion_poll, crown, canvas, pate |
+| pop | pour_down, protrude, come_out, belt_down, down, bolt_down, soda_water, dada, crop_up, bulge_out, soda, daddy, pop_out, soda_pop, pop_music, drink_down, toss_off, pop_up, papa, dad, popping, pappa, pa, bug_out, tonic, popular, bulge, kill, start |
+| populate | inhabit, live, dwell |
+| port | port_wine, larboard, interface, embrasure, porthole |
+| portal | portal_vein, hepatic_portal_vein, portal_site, vena_portae |
+| positive | positivist, positive_degree, electropositive, positivistic, confirming, confident, positively_charged, irrefutable, prescribed, plus, overconfident, cocksure, convinced, incontrovertible |
 | possible | potential |
-| post | postal_service, carry, emily_price_post, c._w._post, office, charles_william_post, mail_service, send, military_post, berth, position, place, brand, emily_post, situation, spot, billet, wiley_post, mail, station, put_up, stake |
+| post | spot, military_post, station, brand, emily_price_post, mail_service, place, mail, wiley_post, emily_post, postal_service, berth, charles_william_post, c._w._post, position, send, office, carry, put_up, billet, stake, situation |
 | pow | prisoner_of_war |
-| precondition | condition, given, presumption, stipulation |
-| predicate | proclaim, connote, verb_phrase |
-| preempt | preemptive_bid, displace, pre-empt |
+| precondition | stipulation, given, condition, presumption |
+| predicate | connote, verb_phrase, proclaim |
+| preempt | pre-empt, displace, preemptive_bid |
 | preemption | pre-emption |
 | preexists | preexist |
-| prefer | opt, favor, favour, choose |
-| preferred | pet, prefer, opt, favored, choose, best-loved, favourite, favorite, preferable, favor, preferent, favour |
-| prepare | groom, machinate, gear_up, educate, set_up, ready, organize, make, devise, get_up, train, organise, cook, develop, set, fix |
-| present | lay_out, present_tense, represent, deliver, award, exhibit, stage, demonstrate, nowadays, demo, gift, pose, salute, acquaint, give, show, confront, submit, introduce, face, portray |
-| preserve | carry_on, continue, uphold, conserve, conserves, preserves, maintain, save, keep_up, keep, bear_on |
-| preserved | carry_on, continue, preserve, uphold, conserve, maintain, save, keep_up, keep, bear_on |
-| pressure | imperativeness, air_pressure, force_per_unit_area, pressure_level, coerce, squeeze, pressing, insistence, pressure_sensation, hale, press, insistency, force, blackmail, atmospheric_pressure, blackjack |
-| pretty | passably, reasonably, jolly, fairly, moderately, somewhat, middling |
-| prevent | preclude, foreclose, forestall, forbid, keep |
-| prime | flower, blossom, efflorescence, ground, peak, quality, bloom, undercoat, heyday, prime_of_life, premier, flush, choice, select, meridian, prize, prime_quantity |
-| primitive | naive, rude, archaic, primitive_person, crude |
-| print | impress, publish, photographic_print, mark |
-| priorities | precedency, priority, precedence, antecedence, anteriority, antecedency |
+| prefer | favour, choose, favor, opt |
+| preferred | favorite, favored, opt, choose, favourite, favour, prefer, preferent, pet, favor, preferable, best-loved |
+| prepare | set_up, organize, ready, cook, make, groom, develop, set, devise, get_up, machinate, educate, gear_up, organise, fix, train |
+| present | lay_out, exhibit, portray, present_tense, deliver, confront, show, pose, acquaint, introduce, submit, nowadays, represent, award, give, stage, salute, demonstrate, demo, gift, face |
+| preserve | carry_on, maintain, conserve, conserves, bear_on, keep_up, keep, uphold, continue, preserves, save |
+| preserved | carry_on, maintain, conserve, preserve, bear_on, keep_up, keep, uphold, continue, save |
+| pressure | pressure_sensation, pressing, pressure_level, insistency, imperativeness, blackjack, coerce, squeeze, force, air_pressure, press, blackmail, atmospheric_pressure, force_per_unit_area, hale, insistence |
+| pretty | moderately, fairly, reasonably, middling, jolly, passably, somewhat |
+| prevent | forestall, foreclose, preclude, keep, forbid |
+| prime | prize, prime_of_life, efflorescence, flower, select, blossom, premier, flush, quality, undercoat, choice, meridian, heyday, bloom, peak, ground, prime_quantity |
+| primitive | primitive_person, rude, naive, archaic, crude |
+| print | mark, publish, impress, photographic_print |
+| priorities | anteriority, antecedency, priority, precedency, precedence, antecedence |
 | prioritize | prioritise |
-| prioritized | prioritise, prioritize |
-| priority | precedency, precedence, antecedence, anteriority, antecedency |
-| private | secret, buck_private, individual, common_soldier |
-| privileged | inside, inner, favor, favour, privilege |
+| prioritized | prioritize, prioritise |
+| priority | anteriority, antecedency, precedency, precedence, antecedence |
+| private | secret, common_soldier, buck_private, individual |
+| privileged | inner, inside, favour, privilege, favor |
 | probability | chance |
-| probe | poke_into, investigation, examine, dig_into |
-| process | outgrowth, operation, cognitive_process, unconscious_process, action, work, serve, swear_out, work_on, cognitive_operation, physical_process, sue, summons, litigate, march, mental_process, treat, procedure, appendage |
-| processor | central_processor, c.p.u., cpu, mainframe, central_processing_unit |
-| produce | acquire, garden_truck, create, green_groceries, bring_out, bring_forth, make, bring_about, bring_on, give_rise, farm, grow, develop, green_goods, raise, get |
+| probe | dig_into, investigation, poke_into, examine |
+| process | treat, work_on, procedure, work, outgrowth, cognitive_process, cognitive_operation, mental_process, litigate, march, serve, swear_out, summons, unconscious_process, sue, physical_process, action, operation, appendage |
+| processor | mainframe, c.p.u., cpu, central_processing_unit, central_processor |
+| produce | get, make, develop, bring_about, give_rise, grow, farm, garden_truck, create, bring_forth, bring_on, green_groceries, acquire, bring_out, raise, green_goods |
 | profile | visibility |
-| program | computer_program, computer_programme, platform, broadcast, political_platform, political_program, course_of_study, plan, curriculum, syllabus, programme |
-| progress | go_on, get_along, move_on, advance, come_along, get_on, onward_motion, pass_on, build, progression, march_on, work_up, shape_up, forward_motion, advancement, come_on, procession, build_up |
-| project | design, contrive, picture, image, send_off, externalise, stick_out, throw, labor, figure, fancy, envision, projection, jut_out, propose, visualize, cast, visualise, jut, task, plan, see, protrude, undertaking, externalize |
-| prompt | move, remind, immediate, quick, instigate, motivate, cue, command_prompt, inspire, prompting, actuate, straightaway, propel, incite |
-| propagate | pass_around, spread, diffuse, circulate, circularize, disseminate, circularise, distribute, broadcast, disperse |
+| program | programme, course_of_study, plan, political_program, syllabus, curriculum, broadcast, platform, political_platform, computer_program, computer_programme |
+| progress | get_on, come_along, pass_on, move_on, march_on, get_along, advancement, onward_motion, come_on, shape_up, build_up, build, work_up, progression, forward_motion, procession, advance, go_on |
+| project | protrude, cast, send_off, figure, visualize, jut, design, propose, image, envision, projection, fancy, see, throw, externalize, externalise, task, labor, undertaking, stick_out, picture, plan, jut_out, visualise, contrive |
+| prompt | incite, quick, inspire, instigate, propel, cue, motivate, immediate, remind, prompting, move, command_prompt, straightaway, actuate |
+| propagate | circularize, distribute, spread, broadcast, disperse, circularise, diffuse, pass_around, disseminate, circulate |
 | propagators | propagator, disseminator |
-| properties | belongings, holding, attribute, dimension, prop, property, place |
+| properties | property, prop, dimension, place, belongings, holding, attribute |
 | protocol | communications_protocol |
-| prove | rise, examine, establish, testify, demonstrate, bear_witness, test, leaven, evidence, shew, show, try_out, turn_out, turn_up, essay, try, raise |
-| provide | ply, bring_home_the_bacon, allow, allow_for, furnish, leave, cater, offer, supply, render, put_up |
-| provided | ply, bring_home_the_bacon, allow, allow_for, furnish, provide, leave, cater, offer, supply, render, put_up |
+| prove | shew, essay, turn_out, show, evidence, test, bear_witness, demonstrate, establish, examine, leaven, turn_up, testify, raise, try_out, rise, try |
+| provide | furnish, supply, ply, put_up, cater, offer, allow, leave, allow_for, render, bring_home_the_bacon |
+| provided | furnish, supply, ply, put_up, cater, offer, allow, leave, allow_for, render, bring_home_the_bacon, provide |
 | provider | supplier |
-| provision | planning, purvey, preparation, supply, supplying, proviso |
-| proxy | placeholder, procurator |
-| prune | trim, snip, cut_back, crop, lop, rationalize, clip, rationalise, cut, dress |
-| pruned | trim, snip, cut_back, crop, lop, rationalize, clip, rationalise, cut, dress, prune |
-| pseudo | shammer, fraud, impostor, pretender, faker, sham, role_player, imposter, pseud, fake |
+| provision | supply, preparation, supplying, proviso, purvey, planning |
+| proxy | procurator, placeholder |
+| prune | cut_back, clip, rationalise, dress, crop, snip, rationalize, cut, trim, lop |
+| pruned | cut_back, clip, rationalise, dress, crop, snip, prune, rationalize, cut, trim, lop |
+| pseudo | fraud, fake, sham, impostor, pretender, faker, imposter, shammer, pseud, role_player |
 | public | populace, world |
-| publish | put_out, print, bring_out, write, issue, release |
-| pull | get_out, overstretch, extract, take_out, draw_in, pulling, draw, twist, deplume, clout, rive, pull_in, pull_out, drag, pluck, force, attract, perpetrate, rip, root_for, commit, displume, draw_out, rend, tear, wrench, pull_up, deplumate, puff |
-| puller | dragger, tugger |
-| purge | puke, be_sick, cat, vomit_up, sanctify, retch, scour, throw_up, barf, chuck, cast, flush, disgorge, spew, sick, upchuck, vomit, honk, purging, purgation, purify, spue, regorge, regurgitate |
-| push | crowd, drive, labour, button, agitate, press, advertise, crusade, pushing, force, labor, fight, promote, energy, campaign, tug, get-up-and-go, bear_on, thrust, advertize, push_button |
-| put | redact, commit, put_option, assign, set_up, arrange, frame, cast, position, couch, invest, order, set, pose, lay, place |
-| pvc | polyvinyl_chloride, premature_ventricular_contraction |
-| qualified | characterise, restricted, dispose, specify, measure_up, characterize, restrict, dependent, qualify, stipulate, modify, condition, certified, dependant |
-| quantity | amount, measure |
+| publish | write, issue, print, put_out, bring_out, release |
+| pull | pull_up, pluck, rive, draw_out, take_out, force, displume, draw_in, extract, rend, attract, drag, wrench, deplume, clout, twist, root_for, perpetrate, pulling, tear, pull_out, pull_in, get_out, rip, deplumate, draw, puff, commit, overstretch |
+| puller | tugger, dragger |
+| purge | spew, honk, regorge, throw_up, upchuck, cast, purging, sick, puke, barf, spue, chuck, vomit, retch, cat, vomit_up, disgorge, purgation, sanctify, flush, regurgitate, purify, scour, be_sick |
+| push | advertize, labour, drive, push_button, pushing, button, force, agitate, fight, get-up-and-go, crusade, thrust, energy, campaign, advertise, labor, crowd, promote, press, bear_on, tug |
+| put | put_option, set_up, position, redact, set, pose, cast, invest, arrange, assign, commit, couch, order, frame, place, lay |
+| pvc | premature_ventricular_contraction, polyvinyl_chloride |
+| qualified | characterise, certified, characterize, restrict, restricted, stipulate, condition, dependent, modify, qualify, specify, measure_up, dispose, dependant |
+| quantity | measure, amount |
 | quantize | quantise |
-| queue | waiting_line, queue_up, line_up |
-| queued | queue_up, queue, line_up |
-| queuing | queue_up, queue, line_up |
-| quote | cite, citation, quotation, inverted_comma, quotation_mark |
-| raise | elevate, arouse, prove, elicit, provoke, acclivity, rear, erect, heighten, fire, nurture, kick_upstairs, parent, advance, levy, leaven, get_up, ascent, conjure, put_forward, farm, grow, enkindle, rise, promote, invoke, salary_increase, hike, climb, upgrade, call_forth, recruit, resurrect, call_down, enhance, stir, bring_up, kindle, heave, set_up, lift, evoke, conjure_up, upraise, wage_hike, put_up, produce, wage_increase |
-| rand | reef, witwatersrand, ayn_rand |
-| range | ramble, lay_out, tramp, image, rate, vagabond, compass, chain_of_mountains, range_of_a_function, graze, swan, chain, stray, set_out, rove, cooking_stove, place, browse, kitchen_range, array, drift, roam, grade, orbit, mountain_range, scope, cast, crop, run, kitchen_stove, ambit, stove, wander, reach, straddle, range_of_mountains, roll, mountain_chain, pasture, rank, order, grasp |
-| rank | flagrant, rate, social_status, range, egregious, place, absolute, right-down, grade, downright, glaring, membership, sheer, rank_and_file, social_station, crying, gross, outrank, order, out-and-out, social_rank |
-| rate | value, charge_per_unit, grade, range, rank, order, pace, place |
-| raw | rude, in_the_raw, new, in_the_buff, natural, crude, sensitive, stark_naked, naked, in_the_altogether, bleak, birthday_suit, tender, unsanded, cutting, sore, peeled, bare-assed, bare-ass, altogether, naked_as_a_jaybird |
+| queue | line_up, queue_up, waiting_line |
+| queued | line_up, queue_up, queue |
+| queuing | line_up, queue_up, queue |
+| quote | citation, quotation_mark, inverted_comma, cite, quotation |
+| raise | levy, rear, kindle, salary_increase, heave, grow, nurture, prove, recruit, kick_upstairs, provoke, upgrade, ascent, climb, call_forth, wage_hike, bring_up, enkindle, wage_increase, produce, put_forward, heighten, fire, leaven, evoke, conjure_up, advance, acclivity, elevate, farm, hike, resurrect, rise, set_up, call_down, lift, stir, put_up, get_up, arouse, promote, elicit, invoke, conjure, enhance, upraise, parent, erect |
+| rand | ayn_rand, witwatersrand, reef |
+| range | range_of_mountains, kitchen_range, roll, reach, stray, grasp, cast, chain_of_mountains, roam, place, tramp, compass, image, set_out, run, cooking_stove, rate, browse, mountain_range, kitchen_stove, rove, grade, range_of_a_function, pasture, swan, stove, array, order, drift, wander, graze, ramble, ambit, vagabond, straddle, crop, orbit, scope, rank, chain, lay_out, mountain_chain |
+| rank | right-down, social_station, place, range, sheer, flagrant, outrank, glaring, gross, downright, rate, grade, rank_and_file, membership, order, social_rank, social_status, absolute, egregious, out-and-out, crying |
+| rate | value, grade, pace, rank, order, charge_per_unit, place, range |
+| raw | sore, new, stark_naked, peeled, unsanded, crude, bare-assed, birthday_suit, sensitive, bleak, tender, bare-ass, cutting, in_the_altogether, in_the_buff, rude, in_the_raw, naked, natural, altogether, naked_as_a_jaybird |
 | react | respond, oppose |
-| reaction | chemical_reaction, response |
+| reaction | response, chemical_reaction |
 | reactor | nuclear_reactor |
-| read | interpret, take, scan, record, study, say, show, translate, register, learn, understand |
-| readiness | preparedness, zeal, preparation, facility, forwardness, eagerness, set |
-| ready | gear_up, quick, set_up, make, prepare, cook, fix, set |
-| real | tangible, veridical, substantial, existent, very, rattling, real_number, genuine, actual, literal, material, really |
-| reason | cause, conclude, ground, grounds, understanding, reasonableness, reason_out, intellect, rationality, argue |
+| read | study, learn, show, scan, translate, interpret, register, take, say, record, understand |
+| readiness | zeal, preparedness, preparation, forwardness, set, eagerness, facility |
+| ready | set_up, prepare, make, cook, set, quick, gear_up, fix |
+| real | tangible, very, real_number, literal, genuine, substantial, rattling, material, actual, veridical, existent, really |
+| reason | cause, reason_out, intellect, grounds, rationality, understanding, ground, reasonableness, conclude, argue |
 | reboot | boot, bring_up |
 | rebuild | reconstruct |
-| receive | find, experience, pick_up, take_in, encounter, meet, have, incur, invite, obtain, welcome, get |
-| received | find, standard, receive, experience, pick_up, take_in, encounter, meet, have, incur, invite, obtain, welcome, get |
-| receiver | telephone_receiver, pass_catcher, liquidator, pass_receiver, recipient, receiving_system |
-| recent | holocene_epoch, late, holocene, recent_epoch |
-| reclaim | regenerate, domesticate, rectify, reform, tame, domesticize, recover, domesticise, repossess |
-| recognize | agnize, agnise, realise, tell_apart, discern, recognise, realize, know, distinguish, make_out, greet, acknowledge, accredit, pick_out, spot |
-| recommended | recommend, advocate, commend, urge |
-| reconcile | resign, patch_up, conciliate, settle, submit, accommodate, harmonize, make_up, harmonise |
-| reconciler | peacemaker, pacifier, make-peace, conciliator |
-| reconciliation | balancing, rapprochement |
-| reconstruct | remodel, redo, restore, rebuild, retrace, construct |
-| record | disk, immortalize, disc, phonograph_record, record_book, memorialize, tape, put_down, book, track_record, phonograph_recording, platter, enter, commemorate, register, show, memorialise, read, immortalise, criminal_record |
-| recorder | fipple_flute, registrar, vertical_flute, recording_equipment, recording_machine, record-keeper, fipple_pipe |
-| recover | retrieve, find, recoup, recuperate, reclaim, convalesce, go_back, regain |
-| recreate | embolden, vivify, repair, revivify, quicken, renovate, reanimate, revive, animate, cheer, play, hearten |
-| recycle | reprocess, reuse |
+| receive | get, encounter, invite, have, pick_up, welcome, find, obtain, take_in, meet, incur, experience |
+| received | get, encounter, receive, invite, have, pick_up, welcome, experience, find, obtain, take_in, meet, incur, standard |
+| receiver | liquidator, pass_catcher, telephone_receiver, pass_receiver, recipient, receiving_system |
+| recent | late, holocene, holocene_epoch, recent_epoch |
+| reclaim | recover, rectify, repossess, regenerate, domesticate, tame, domesticize, domesticise, reform |
+| recognize | discern, tell_apart, greet, accredit, make_out, acknowledge, distinguish, spot, know, recognise, agnise, realize, pick_out, agnize, realise |
+| recommended | urge, recommend, advocate, commend |
+| reconcile | settle, accommodate, patch_up, make_up, harmonise, conciliate, harmonize, resign, submit |
+| reconciler | conciliator, peacemaker, pacifier, make-peace |
+| reconciliation | rapprochement, balancing |
+| reconstruct | redo, restore, construct, retrace, rebuild, remodel |
+| record | disc, enter, immortalise, commemorate, show, track_record, platter, record_book, phonograph_record, immortalize, memorialise, register, book, read, criminal_record, tape, disk, memorialize, put_down, phonograph_recording |
+| recorder | record-keeper, recording_machine, fipple_flute, recording_equipment, vertical_flute, registrar, fipple_pipe |
+| recover | reclaim, retrieve, regain, find, recuperate, convalesce, go_back, recoup |
+| recreate | quicken, play, cheer, vivify, revivify, embolden, hearten, repair, animate, renovate, revive, reanimate |
+| recycle | reuse, reprocess |
 | redirect | airt |
-| reduce | trim, slenderize, subjugate, come_down, keep_down, trim_down, slim_down, contract, shorten, trim_back, shrink, slim, cut_down, deoxidise, thin, tighten, deoxidize, cut, thin_out, quash, scale_down, subdue, bring_down, concentrate, boil_down, lose_weight, cut_back, repress, abridge, dilute, decoct, melt_off, foreshorten, abbreviate |
-| reduced | trim, slenderize, subjugate, come_down, keep_down, trim_down, slim_down, contract, shorten, trim_back, shrink, slim, cut_down, deoxidise, thin, tighten, deoxidize, cut, thin_out, quash, scale_down, subdue, bring_down, reduce, concentrate, boil_down, lose_weight, cut_back, repress, abridge, decreased, dilute, decoct, rock-bottom, melt_off, foreshorten, abbreviate |
+| reduce | tighten, abridge, cut_down, shorten, melt_off, slim_down, boil_down, cut_back, slim, trim_back, come_down, thin, deoxidize, foreshorten, repress, quash, thin_out, scale_down, trim_down, keep_down, subjugate, subdue, cut, trim, abbreviate, shrink, contract, decoct, bring_down, dilute, lose_weight, concentrate, slenderize, deoxidise |
+| reduced | tighten, abridge, cut_down, shorten, melt_off, slim_down, boil_down, cut_back, slim, trim_back, come_down, thin, deoxidize, foreshorten, repress, quash, decreased, thin_out, scale_down, trim_down, reduce, keep_down, subdue, subjugate, cut, trim, abbreviate, shrink, contract, decoct, bring_down, dilute, lose_weight, rock-bottom, concentrate, slenderize, deoxidise |
 | ref | referee |
-| reference | credit, cite, character_reference, extension, computer_address, reference_point, citation, point_of_reference, acknowledgment, reference_work, quotation, consultation, denotation, address, reference_book, book_of_facts, mention, character, source |
-| refresh | review, refreshen, freshen, freshen_up, brush_up |
-| regenerate | revitalize, rectify, renew, reform, reclaim, restore, rejuvenate |
-| region | area, part, neighborhood, realm |
-| register | cash_register, record, show, file, cross-file, read, registry |
-| registration | enrollment, readjustment, enrolment, adjustment |
+| reference | point_of_reference, book_of_facts, character, character_reference, denotation, mention, computer_address, credit, citation, reference_point, consultation, address, reference_book, acknowledgment, reference_work, cite, source, extension, quotation |
+| refresh | brush_up, refreshen, freshen, review, freshen_up |
+| regenerate | rectify, reclaim, restore, renew, rejuvenate, reform, revitalize |
+| region | realm, neighborhood, part, area |
+| register | file, cash_register, show, cross-file, read, record, registry |
+| registration | enrolment, adjustment, enrollment, readjustment |
 | registry | register |
-| regular | even, steady, unconstipated, veritable, habitue, fixture |
-| reject | scorn, disapprove, turn_away, decline, spurn, freeze_off, pooh-pooh, disdain, turn_down, refuse, pass_up, winnow_out, rule_out, eliminate, resist, cull |
+| regular | unconstipated, habitue, even, fixture, veritable, steady |
+| reject | pooh-pooh, freeze_off, disapprove, refuse, eliminate, decline, spurn, disdain, turn_away, winnow_out, cull, pass_up, scorn, rule_out, resist, turn_down |
 | relativize | relativise |
-| relaxed | decompress, make_relaxed, unstrain, slow_down, loose, unbend, loosen_up, slacken, slack_up, unlax, loosen, slack, relax, unwind |
-| release | resign, press_release, sack, button, sacking, outlet, firing, exhaust, going, let_go_of, tone_ending, eject, exit, unblock, unloose, dismissal, loss, secrete, vent, turn, issue, discharge, passing, acquittance, unloosen, put_out, bring_out, loose, publish, spill, waiver, free, spillage, give_up, departure, liberate, dismission, expiration, freeing, liberation, relinquish, expel, let_go, handout, unfreeze |
+| relaxed | loosen_up, slack_up, unbend, slow_down, unstrain, loosen, slack, unwind, slacken, make_relaxed, decompress, relax, loose, unlax |
+| release | let_go, handout, press_release, bring_out, publish, relinquish, discharge, resign, secrete, give_up, button, firing, acquittance, dismissal, sack, issue, turn, unblock, free, loss, unloose, spill, loose, unloosen, freeing, unfreeze, sacking, vent, liberation, waiver, departure, liberate, expel, dismission, let_go_of, eject, spillage, exit, going, exhaust, passing, tone_ending, outlet, put_out, expiration |
 | reload | recharge |
-| remaining | rest, continue, left, persist, unexpended, stay, odd, remain, leftover, stay_on, left_over |
-| remember | call_up, retrieve, think_back, commend, recall, recollect, think, call_back, think_of, commemorate |
-| remote | remote_control, distant, outback, outside, removed |
-| remove | get_rid_of, absent, off, hit, polish_off, take, bump_off, withdraw, take_out, dispatch, slay, murder, transfer, take_away, move_out |
-| removed | get_rid_of, absent, off, distant, hit, polish_off, take, bump_off, transfer, withdraw, take_out, dispatch, remove, slay, murder, remote, take_away, move_out |
+| remaining | continue, stay_on, rest, left, leftover, remain, unexpended, stay, odd, left_over, persist |
+| remember | think, commemorate, think_back, retrieve, call_up, call_back, commend, think_of, recall, recollect |
+| remote | distant, outback, outside, remote_control, removed |
+| remove | bump_off, get_rid_of, move_out, hit, take_away, slay, murder, take, transfer, withdraw, take_out, absent, polish_off, dispatch, off |
+| removed | bump_off, get_rid_of, move_out, remove, hit, remote, take_away, slay, distant, murder, take, transfer, withdraw, take_out, absent, polish_off, dispatch, off |
 | renew | reincarnate, regenerate |
-| renewal | replacement, rehabilitation, reclamation, replenishment, refilling |
-| reorganize | shake_up, reorganise, regroup |
-| repair | indemnify, mend, hangout, rectify, remediate, remedy, fixture, furbish_up, revivify, amend, renovate, reparation, restore, animate, compensate, revive, touch_on, mending, stamping_ground, bushel, fixing, haunt, vivify, recompense, quicken, doctor, recreate, reanimate, resort, fix |
-| repeat | reduplicate, duplicate, recapitulate, retell, reiterate, reprise, recur, double, iterate, ingeminate, take_over, reprize, echo, replicate, restate, repetition |
-| replace | supersede, supercede, exchange, supervene_upon, interchange, substitute, supplant, put_back |
-| replenish | fill_again, refill |
-| replenishment | renewal, refilling, replacement |
-| replica | replication, reproduction |
-| replication | sound_reflection, replica, rejoinder, reverberation, return, counter, reproduction, retort, riposte, comeback, echo |
-| report | story, report_card, composition, cover, account, written_report, describe, study, news_report, write_up, theme, reputation, paper |
+| renewal | replacement, refilling, reclamation, rehabilitation, replenishment |
+| reorganize | regroup, reorganise, shake_up |
+| repair | doctor, indemnify, haunt, restore, recompense, vivify, fixture, animate, stamping_ground, recreate, bushel, rectify, quicken, furbish_up, remedy, remediate, mending, touch_on, reparation, compensate, fix, renovate, revive, fixing, reanimate, amend, resort, revivify, hangout, mend |
+| repeat | reduplicate, iterate, double, recapitulate, replicate, restate, duplicate, ingeminate, repetition, recur, reprize, reiterate, echo, reprise, retell, take_over |
+| replace | interchange, exchange, put_back, supersede, supercede, supplant, substitute, supervene_upon |
+| replenish | refill, fill_again |
+| replenishment | replacement, refilling, renewal |
+| replica | reproduction, replication |
+| replication | retort, return, replica, reverberation, comeback, rejoinder, counter, sound_reflection, reproduction, riposte, echo |
+| report | composition, story, study, written_report, describe, report_card, cover, paper, news_report, write_up, account, theme, reputation |
 | reprocess | recycle, reuse |
-| request | quest, petition, call_for, bespeak, postulation, asking |
-| require | expect, take, necessitate, call_for, command, want, demand, need, postulate, involve, ask |
-| required | expect, take, requisite, require, ask, necessitate, call_for, command, want, demand, compulsory, mandatory, needful, need, postulate, involve, needed |
-| requirements | essential, requirement, prerequisite, necessity, requisite, necessary, demand |
-| reserve | set_aside, military_reserve, allow, backlog, reservation, book, appropriate, stockpile, substitute, modesty, reticence, second-stringer, taciturnity, hold, earmark |
-| reserved | set_aside, allow, book, appropriate, reserve, hold, earmark |
+| request | call_for, bespeak, asking, quest, petition, postulation |
+| require | necessitate, call_for, involve, want, command, demand, postulate, take, ask, need, expect |
+| required | necessitate, call_for, involve, mandatory, want, command, demand, needful, postulate, requisite, needed, require, ask, take, need, compulsory, expect |
+| requirements | requirement, requisite, demand, prerequisite, essential, necessary, necessity |
+| reserve | military_reserve, set_aside, modesty, second-stringer, hold, allow, reservation, taciturnity, book, substitute, earmark, reticence, appropriate, stockpile, backlog |
+| reserved | set_aside, hold, reserve, allow, book, appropriate, earmark |
 | reset | readjust |
-| residual | balance, rest, residuary, residue, remainder, residuum |
-| resolve | declaration, conclude, settle, dissolve, break_up, firmness_of_purpose, decide, adjudicate, answer, solve, resolution, purpose, firmness, resoluteness |
-| resource | imagination, resourcefulness |
-| response | reply, reaction, reception, answer |
+| residual | balance, rest, residue, residuary, residuum, remainder |
+| resolve | firmness, decide, declaration, settle, firmness_of_purpose, resolution, dissolve, purpose, adjudicate, solve, break_up, resoluteness, conclude, answer |
+| resource | resourcefulness, imagination |
+| response | reception, reaction, answer, reply |
 | responsible | responsible_for, creditworthy |
-| rest | balance, perch, take_a_breather, catch_one's_breath, relief, respite, pillow, reside, ease, remain, breathe, rest_period, relaxation, stay, quietus, residual, roost, repose, eternal_sleep, lie, residuum, residue, remainder, eternal_rest, sleep |
+| rest | reside, residue, eternal_rest, sleep, pillow, perch, roost, breathe, relaxation, catch_one's_breath, eternal_sleep, take_a_breather, stay, remainder, respite, quietus, rest_period, lie, relief, remain, balance, residuum, repose, ease, residual |
 | restart | resume, re-start |
 | restful | relaxing, reposeful |
-| restore | repair, regenerate, mend, touch_on, doctor, reinstate, reconstruct, restitute, rejuvenate, bushel, fix, reestablish, furbish_up |
-| restricted | throttle, limit, trammel, qualified, confine, cut_back, curb, bound, curtail, restrict, qualify, restrain |
-| result | upshot, resultant, solvent, event, answer, effect, termination, issue, solution, lead, final_result, outcome, leave, resolution, resultant_role, ensue, consequence |
-| resume | cv, survey, curriculum_vitae, re-start, summarize, sum_up, restart, take_up, summarise, sketch |
-| retrieve | call_up, find, recall, recollect, think, call_back, recover, regain, remember |
+| restore | doctor, restitute, furbish_up, regenerate, reinstate, touch_on, repair, reestablish, mend, rejuvenate, fix, reconstruct, bushel |
+| restricted | throttle, cut_back, qualified, bound, restrict, restrain, curtail, qualify, trammel, confine, limit, curb |
+| result | consequence, ensue, resolution, final_result, upshot, event, termination, lead, issue, resultant, leave, solution, effect, answer, outcome, solvent, resultant_role |
+| resume | take_up, re-start, curriculum_vitae, sum_up, summarise, survey, sketch, restart, cv, summarize |
+| retrieve | recover, think, call_up, regain, call_back, find, recall, remember, recollect |
 | retry | rehear |
-| return | coming_back, bring_back, takings, rejoinder, regress, turn_back, replication, rejoin, deliver, give_back, return_key, come_back, repay, getting_even, recall, issue, reelect, refund, devolve, payoff, pass, hark_back, regaining, give, tax_return, proceeds, retort, recurrence, riposte, comeback, reappearance, yield, paying_back, revert, income_tax_return, restoration, retrovert, fall, generate, take, counter, restitution, take_back, render, homecoming |
-| reuse | reprocess, recycle |
-| reverse | inverse, black_eye, turn_back, override, overthrow, blow, change_by_reversal, reversion, setback, repeal, opposite, contrary, reverse_gear, turn, verso, turnaround, vacate, rearward, overrule, invert, turnabout, rescind, overturn, annul, reversal, revoke, lift, countermand |
-| revert | regress, turn_back, return, retrovert |
-| review | look_back, reexamine, follow-up, brush_up, retrospect, survey, followup, reexamination, revaluation, review_article, reappraisal, reassessment, recap, inspection, go_over, recapitulation, critical_review, limited_review, revue, brushup, refresh, critique |
-| revision | rewrite, revise, revisal, rescript, alteration |
-| revoke | annul, repeal, rescind, lift, overturn, countermand, renege, vacate, reverse |
-| rewrite | revision, rescript |
-| role | use, function, theatrical_role, part, office, purpose, character, persona |
+| return | refund, bring_back, fall, reelect, hark_back, rejoin, devolve, takings, take_back, restitution, turn_back, retort, coming_back, deliver, repay, retrovert, issue, counter, regaining, return_key, come_back, recurrence, revert, yield, restoration, generate, comeback, reappearance, rejoinder, take, recall, riposte, tax_return, render, regress, give_back, give, proceeds, getting_even, payoff, replication, income_tax_return, homecoming, pass, paying_back |
+| reuse | recycle, reprocess |
+| reverse | overturn, vacate, revoke, black_eye, change_by_reversal, rescind, contrary, overrule, reverse_gear, turn_back, turnaround, annul, turn, inverse, countermand, repeal, reversal, overthrow, opposite, turnabout, blow, lift, verso, override, setback, invert, rearward, reversion |
+| revert | retrovert, turn_back, return, regress |
+| review | recap, reexamination, reassessment, reexamine, look_back, inspection, revaluation, brush_up, reappraisal, survey, brushup, followup, go_over, review_article, revue, critical_review, refresh, limited_review, follow-up, retrospect, recapitulation, critique |
+| revision | revisal, rewrite, revise, rescript, alteration |
+| revoke | overturn, repeal, lift, reverse, annul, vacate, rescind, renege, countermand |
+| rewrite | rescript, revision |
+| role | character, part, use, purpose, persona, office, theatrical_role, function |
 | rollback | push_back |
-| rolling | ramble, tramp, pealing, vagabond, wheeling, seethe, revolve, wheel, undulate, hustle, peal, swan, range, pluck, stray, roll_up, rove, wind, turn_over, drift, roam, twine, flap, cast, wander, rolled, wave, trilled, wrap, roll, roll_out |
-| root | rout, take_root, root_word, base, tooth_root, settle_down, etymon, rootage, settle, radical, origin, ancestor, beginning, solution, antecedent, ascendent, rootle, steady_down, stem, ascendant, theme, source |
-| rotate | circumvolve, revolve, splay, spread_out, turn_out, go_around |
-| round | assail, orotund, daily_round, polish_up, flesh_out, brush_up, lash_out, round_of_golf, stave, circular, cycle, snipe, assault, rung, labialise, beat, circle, turn, labialize, attack, unit_of_ammunition, round_of_drinks, one_shot, polish, round_off, round_out, rhythm, bout, around, troll, round_down, rotund, fill_out, pear-shaped |
-| route | path, itinerary, road |
-| row | run-in, words, rowing, course, wrangle, dustup, quarrel |
-| rs | roentgen, gas_constant, universal_gas_constant, radius |
-| rule | formula, prevail, harness, pattern, convention, principle, reign, dominion, predominate, govern, linguistic_rule, dominate, rein, ruler, normal, find, regulation, prescript, decree |
-| run | work, political_campaign, break_away, foot_race, rivulet, carry, melt_down, be_given, ravel, runnel, turn_tail, go, guide, flow, hunt, race, hunt_down, incline, draw, running_play, ply, melt, running, test, range, persist, course, discharge, lam, execute, consort, pass, ladder, prevail, rill, bunk, outpouring, scat, tend, running_game, trial, track_down, campaign, extend, die_hard, fly_the_coop, run_away, endure, play, lean, move, streak, function, head_for_the_hills, unravel, operate, scarper, bleed, black_market, footrace, take_to_the_woods, lead, feed, run_for, tally, streamlet, hightail_it, escape |
-| runner | stolon, blue_runner, caranx_crysos, contrabandist, smuggler, base_runner, offset, ball_carrier, moon-curser, moon_curser |
-| running | work, break_away, carry, melt_down, be_given, guide, turn_tail, go, flow, hunt, race, hunt_down, incline, draw, running_play, operative, ply, melt, range, persist, course, lam, execute, consort, linear, pass, prevail, ladder, bunk, scat, tend, running_game, track_down, run, extend, campaign, fly_the_coop, run_away, die_hard, functional, endure, play, lean, move, track, function, head_for_the_hills, unravel, operate, scarper, bleed, black_market, take_to_the_woods, lead, working, feed, run_for, hightail_it, escape |
-| sa | storm_troops, sturmabteilung |
-| safe | condom, prophylactic, dependable, good, safety, secure, rubber |
-| same | lapplander, like, saame, saami, lapp, sami |
-| sample | sample_distribution, taste, try_out, sampling, try |
-| sandbox | sandpile, sandpit |
-| sanitize | hygienize, hygienise, sanitise |
-| sanitized | sanitised, hygienise, hygienize, sanitise, sanitize |
+| rolling | pluck, roll, stray, peal, revolve, cast, roll_out, roam, tramp, range, seethe, pealing, wind, rove, swan, roll_up, turn_over, hustle, drift, wheel, wander, twine, wrap, rolled, ramble, wheeling, vagabond, flap, undulate, trilled, wave |
+| root | radical, etymon, settle, ancestor, rootle, ascendant, origin, stem, antecedent, rout, base, theme, steady_down, tooth_root, take_root, root_word, source, ascendent, beginning, rootage, settle_down, solution |
+| rotate | circumvolve, turn_out, revolve, go_around, spread_out, splay |
+| round | beat, bout, rotund, unit_of_ammunition, troll, orotund, assail, cycle, polish, brush_up, fill_out, rhythm, turn, round_out, attack, labialize, daily_round, labialise, around, polish_up, snipe, stave, round_of_golf, circle, round_off, round_down, circular, round_of_drinks, lash_out, one_shot, flesh_out, rung, assault, pear-shaped |
+| route | road, path, itinerary |
+| row | wrangle, dustup, words, quarrel, course, rowing, run-in |
+| rule | rein, reign, formula, predominate, dominate, normal, ruler, govern, regulation, linguistic_rule, find, decree, convention, pattern, prevail, prescript, principle, dominion, harness |
+| run | foot_race, political_campaign, scat, ply, running_game, running, test, rivulet, take_to_the_woods, discharge, prevail, course, persist, range, hightail_it, bunk, track_down, footrace, turn_tail, runnel, trial, lam, flow, tend, die_hard, consort, tally, bleed, streamlet, black_market, run_away, function, hunt_down, execute, campaign, streak, work, endure, escape, lead, operate, be_given, scarper, race, incline, move, pass, fly_the_coop, running_play, hunt, outpouring, carry, extend, play, melt, unravel, rill, run_for, feed, melt_down, break_away, ravel, draw, lean, go, ladder, head_for_the_hills, guide |
+| runner | ball_carrier, contrabandist, moon_curser, moon-curser, offset, blue_runner, smuggler, base_runner, stolon, caranx_crysos |
+| running | scat, ply, running_game, functional, take_to_the_woods, prevail, course, persist, range, hightail_it, bunk, track_down, run, turn_tail, flow, tend, lam, die_hard, consort, bleed, black_market, run_away, function, hunt_down, track, execute, campaign, work, endure, escape, working, lead, operate, operative, be_given, scarper, race, incline, move, pass, fly_the_coop, running_play, hunt, carry, extend, play, melt, unravel, run_for, feed, melt_down, linear, break_away, draw, lean, go, ladder, head_for_the_hills, guide |
+| safe | good, safety, condom, rubber, prophylactic, secure, dependable |
+| same | lapp, sami, like, lapplander, saami, saame |
+| sample | sample_distribution, taste, sampling, try_out, try |
+| sandbox | sandpit, sandpile |
+| sanitize | hygienize, sanitise, hygienise |
+| sanitized | hygienize, sanitised, sanitize, sanitise, hygienise |
 | sanity | saneness |
-| satisfied | satisfy, fulfill, fulfil, live_up_to, meet, slaked, gratify, quenched, fill |
-| satisfy | fulfill, fulfil, live_up_to, meet, gratify, fill |
+| satisfied | gratify, meet, quenched, satisfy, fill, live_up_to, slaked, fulfil, fulfill |
+| satisfy | gratify, meet, fill, live_up_to, fulfil, fulfill |
 | saturate | impregnate |
-| saturation | vividness, impregnation, chroma, intensity |
-| save | bring_through, preserve, salve, pull_through, carry_through, salvage, relieve, spare, write, save_up, make_unnecessary, deliver, economize, keep_open, keep, lay_aside, hold_open, redeem, economise |
-| sc | palmetto_state, south_carolina, atomic_number_21, scandium, security_council |
-| scale | descale, ordered_series, plate, exfoliation, graduated_table, scurf, shell, scale_leaf, surmount, musical_scale, scale_of_measurement, weighing_machine |
-| scaled | descale, scaley, scaly, scale, surmount |
-| scan | glance_over, run_down, rake, skim, read, cat_scan |
+| saturation | vividness, chroma, intensity, impregnation |
+| save | salvage, spare, deliver, redeem, make_unnecessary, economize, economise, carry_through, relieve, pull_through, lay_aside, bring_through, hold_open, write, preserve, save_up, keep, salve, keep_open |
+| scale | scale_leaf, exfoliation, weighing_machine, plate, ordered_series, surmount, scurf, graduated_table, descale, shell, scale_of_measurement, musical_scale |
+| scaled | surmount, descale, scale, scaly, scaley |
+| scan | rake, skim, glance_over, read, run_down, cat_scan |
 | schedule | agenda, docket |
-| scheduling | schedule, programming, programing |
+| scheduling | programming, schedule, programing |
 | schema | scheme, outline |
-| scheme | system, dodge, dodging, outline, intrigue, strategy, schema, connive |
-| scope | setting, oscilloscope, background, orbit, range, cro, compass, cathode-ray_oscilloscope, ambit, telescope, reach |
-| score | sexual_conquest, musical_score, nock, hit, account, grudge, mark, grade, make, rack_up, tally, scotch, grievance, seduce |
-| scrape | scar, scratch, excoriation, abrasion, scrape_up, grate, skin, mark, kowtow, come_up, scratching, scraping, scratch_up, genuflect |
-| script | handwriting, hand, book, playscript |
+| scheme | schema, dodge, system, connive, dodging, outline, strategy, intrigue |
+| scope | telescope, setting, reach, cro, ambit, background, orbit, oscilloscope, cathode-ray_oscilloscope, compass, range |
+| score | scotch, make, grade, mark, sexual_conquest, musical_score, grievance, hit, rack_up, tally, account, grudge, seduce, nock |
+| scrape | scraping, scratching, kowtow, genuflect, mark, scratch, come_up, grate, scrape_up, scratch_up, scar, skin, abrasion, excoriation |
+| script | hand, playscript, book, handwriting |
 | scsi | small_computer_system_interface |
-| se | sou'-east, southeast, southeastward, atomic_number_34, selenium |
-| search | research, lookup, explore, hunting, look_for, seek, hunt, look |
-| seats | tail, prat, derriere, rear, sit_down, buttocks, rear_end, ass, backside, buns, arse, can, stern, posterior, tooshie, rump, place, fanny, sit, induct, tail_end, fundament, seating, butt, hindquarters, seating_area, hind_end, seating_room, seat, keister, tush, invest, bum, behind, bottom, nates |
-| second | 2nd, endorse, minute, arcsecond, secondly, moment, second_gear, back, instant, indorse, secondment, indorsement, sec, mo, second_base, irregular, endorsement, bit, 2d |
-| secret | underground, occult, secluded, mysterious, enigma, mystical, unavowed, mystery, privy, orphic, cloak-and-dagger, private, confidential, arcanum, hidden, hole-and-corner, closed_book, hugger-mugger, undercover, hush-hush, surreptitious, mystic, clandestine |
-| security | certificate, surety, security_measure, protection, security_department, security_system, security_measures |
-| see | get_word, examine, realise, interpret, picture, determine, image, date, experience, pick_up, get_a_line, take_in, regard, go_steady, learn, understand, realize, construe, find, get_wind, come_across, meet, ensure, control, figure, fancy, envision, reckon, look, insure, run_across, visualize, visualise, take_care, project, witness, hear, consider, encounter, see_to_it, escort, attend, check, watch, visit, view, run_into, find_out, ascertain, discover, assure, go_through, catch, go_out |
-| seek | search, attempt, look_for, assay, essay, try |
-| seen | get_word, examine, realise, interpret, picture, determine, image, date, experience, pick_up, get_a_line, take_in, regard, go_steady, learn, understand, realize, construe, find, get_wind, come_across, meet, ensure, control, figure, fancy, envision, reckon, look, insure, run_across, visualize, visualise, take_care, project, witness, hear, consider, see, encounter, see_to_it, escort, attend, check, watch, visit, view, run_into, find_out, ascertain, discover, assure, go_through, catch, go_out |
-| select | prime, choose, quality, take, choice, prize, pick_out, blue-ribbon |
-| selector | picker, chooser, selector_switch |
+| search | hunt, hunting, lookup, seek, look, research, look_for, explore |
+| seats | butt, seating_area, seating_room, rear, seating, hind_end, fundament, prat, buns, stern, place, induct, sit, behind, nates, tail_end, keister, tail, backside, bottom, fanny, sit_down, derriere, hindquarters, ass, rump, tush, seat, can, tooshie, bum, posterior, buttocks, invest, rear_end, arse |
+| second | minute, secondly, indorse, second_gear, moment, indorsement, back, arcsecond, secondment, sec, bit, instant, endorsement, mo, 2nd, irregular, second_base, endorse, 2d |
+| secret | mystical, hush-hush, hugger-mugger, mystery, confidential, underground, arcanum, mystic, privy, unavowed, undercover, hole-and-corner, cloak-and-dagger, surreptitious, private, secluded, enigma, orphic, mysterious, closed_book, occult, hidden, clandestine |
+| security | surety, certificate, security_measures, protection, security_department, security_measure, security_system |
+| see | encounter, go_steady, get_word, get_wind, see_to_it, catch, ensure, look, examine, interpret, figure, visualize, understand, go_out, discover, control, image, envision, fancy, learn, watch, pick_up, construe, take_care, find, take_in, realize, meet, come_across, get_a_line, find_out, escort, ascertain, attend, date, experience, insure, picture, run_across, determine, check, view, run_into, visualise, regard, consider, reckon, go_through, hear, visit, project, witness, assure, realise |
+| seed | semen, seminal_fluid, cum, ejaculate, come, sow, source, seeded_player, germ |
+| seek | search, assay, essay, attempt, look_for, try |
+| seen | encounter, go_steady, get_word, get_wind, see_to_it, catch, ensure, look, examine, interpret, figure, visualize, understand, go_out, discover, control, image, envision, fancy, learn, watch, pick_up, construe, take_care, see, find, take_in, realize, meet, come_across, get_a_line, find_out, escort, ascertain, attend, date, experience, insure, picture, run_across, determine, check, view, run_into, visualise, regard, consider, reckon, go_through, hear, visit, project, witness, assure, realise |
+| select | prize, quality, choose, choice, take, blue-ribbon, prime, pick_out |
+| selector | chooser, picker, selector_switch |
 | self | ego |
-| send | air, institutionalise, charge, post, send_out, direct, ship, get_off, commit, mail, transmit, institutionalize, station, transport, send_off, beam, place, broadcast |
-| separate | tell, break, offprint, sort_out, part, come_apart, split, differentiate, severalise, divide, tell_apart, furcate, disunite, single_out, distinguish, ramify, split_up, severalize, break_up, discriminate, branch, disjoined, carve_up, freestanding, dissever, secernate, fall_apart, secern, assort, classify, fork, sort, class, reprint |
-| sequence | succession, episode, chronological_succession, chronological_sequence, successiveness |
-| sequential | serial, consecutive, sequent, successive |
-| serial | in_series, successive, consecutive, sequent, sequential, nonparallel, serial_publication, series |
+| send | send_out, mail, charge, direct, beam, station, post, institutionalize, institutionalise, send_off, get_off, broadcast, commit, transmit, place, ship, transport, air |
+| separate | discriminate, distinguish, secernate, branch, disjoined, split_up, offprint, sort, carve_up, break_up, fork, secern, part, reprint, break, class, come_apart, fall_apart, furcate, tell, severalise, differentiate, freestanding, ramify, divide, disunite, tell_apart, sort_out, single_out, severalize, classify, assort, dissever, split |
+| sequence | chronological_succession, chronological_sequence, succession, successiveness, episode |
+| sequential | successive, sequent, consecutive, serial |
+| serial | consecutive, serial_publication, sequent, in_series, series, sequential, successive, nonparallel |
 | serialize | serialise |
-| serve | function, swear_out, serve_up, do, help, dish_up, attend, wait_on, assist, process, answer, dish_out, dish, serve_well, service, suffice, attend_to |
-| served | function, swear_out, serve_up, serve, help, dish_up, do, wait_on, attend, assist, process, dish_out, answer, dish, serve_well, service, suffice, attend_to |
-| server | waiter, host |
-| service | table_service, inspection_and_repair, robert_william_service, serve, help, divine_service, service_of_process, religious_service, armed_service, serving, overhaul, avail, military_service, servicing |
-| session | academic_session, school_term, seance, academic_term, sitting |
-| set | gear_up, lay_out, do, determine, sic, hardened, plant, prepare, countersink, hardening, solidifying, seth, band, coiffure, bent, readiness, circle, ready, position, solidification, correct, typeset, dress, pose, fructify, situated, place, fit, rigid, determined, go_down, localize, define, jell, curing, stage_set, located, lay, lot, limit, put, rig, coif, go_under, laid, set_up, specify, mark, localise, arrange, congeal, dictated, coiffe, fixed, exercise_set, placed, primed, fix, adjust |
+| serve | do, wait_on, service, function, serve_up, swear_out, serve_well, dish, attend_to, dish_up, assist, process, suffice, dish_out, help, attend, answer |
+| served | do, wait_on, service, function, serve_up, swear_out, serve_well, serve, dish, attend_to, dish_up, assist, process, suffice, dish_out, help, attend, answer |
+| server | host, waiter |
+| service | military_service, religious_service, servicing, service_of_process, overhaul, robert_william_service, serving, divine_service, table_service, serve, inspection_and_repair, armed_service, help, avail |
+| session | seance, sitting, academic_session, school_term, academic_term |
+| set | coiffe, rigid, put, go_down, fit, lot, localise, fixed, seth, congeal, bent, place, arrange, curing, determined, situated, stage_set, pose, plant, band, located, countersink, gear_up, hardened, lay, do, go_under, position, ready, jell, placed, dictated, mark, coiffure, rig, circle, exercise_set, specify, define, fix, typeset, fructify, hardening, limit, solidifying, readiness, prepare, set_up, sic, correct, determine, coif, solidification, dress, laid, adjust, localize, primed, lay_out |
 | setup | frame-up, apparatus |
-| share | apportion, partake_in, divvy_up, percentage, portion_out, part, plowshare, parcel, deal, portion, contribution, partake, ploughshare |
-| shared | divided, apportion, shared_out, partake_in, divvy_up, portion_out, divided_up, share, deal, partake |
-| shell | shield, cuticle, crush, plate, beat, blast, carapace, scale, trounce, vanquish, case, casing, husk, racing_shell, beat_out, eggshell |
-| short | brusque, short-circuit, short_circuit, light, brusk, shortly, myopic, unforesightful, dead, short-change, curtly, shortstop, unretentive, inadequate, unawares, curt, little, shortsighted, suddenly, abruptly, scant, forgetful, poor |
-| shorten | contract, castrate, abridge, cut, bowdlerize, expurgate, reduce, bowdlerise, foreshorten, abbreviate |
-| show | prove, picture, record, usher, register, read, exhibit, present, evince, establish, indicate, demonstrate, demo, point, evidence, display, testify, express, shew, bear_witness, depict, appearance, designate, show_up, render |
-| shred | smidgeon, rip_up, tag_end, tear_up, whit, iota, smidgin, tag, tittle, tatter, smidge, rag, scintilla, smidgen |
-| shuffle | ruffle, shamble, scuffle, shambling, make, shuffling, mix |
-| shut | keep_out, close, closed, exclude, shut_out, unopen |
-| shutdown | closing, closure, closedown |
-| shutting | keep_out, close, exclude, closing, shut, shut_out |
-| sign | sign_up, sign-language, signaling, contract, gestural, sign_of_the_zodiac, house, signalise, mansion, subscribe, preindication, star_sign, bless, foretoken, signboard, ratify, polarity, signed, planetary_house, mark, signal, sign_on, signalize, augury |
-| signal | sign, signalise, indicate, betoken, bespeak, signaling, signalize, point |
+| share | contribution, partake, part, plowshare, divvy_up, parcel, portion, percentage, portion_out, deal, partake_in, apportion, ploughshare |
+| shared | partake, divvy_up, portion_out, deal, share, shared_out, partake_in, apportion, divided_up, divided |
+| shell | beat, cuticle, blast, casing, eggshell, crush, beat_out, plate, trounce, racing_shell, carapace, scale, husk, vanquish, shield, case |
+| short | forgetful, abruptly, brusque, short-change, inadequate, unforesightful, short-circuit, little, poor, curt, brusk, unawares, shortstop, myopic, dead, suddenly, curtly, unretentive, light, shortly, short_circuit, shortsighted, scant |
+| shorten | bowdlerise, abridge, bowdlerize, reduce, expurgate, cut, foreshorten, abbreviate, contract, castrate |
+| show | depict, prove, establish, exhibit, designate, point, evidence, bear_witness, evince, register, show_up, read, appearance, testify, express, display, indicate, render, present, picture, shew, usher, demonstrate, demo, record |
+| shred | smidgen, tag_end, smidgin, rag, smidge, iota, smidgeon, tittle, scintilla, whit, tag, rip_up, tear_up, tatter |
+| shuffle | shuffling, mix, make, shambling, shamble, scuffle, ruffle |
+| shut | exclude, unopen, closed, close, shut_out, keep_out |
+| shutdown | closure, closedown, closing |
+| shutting | exclude, close, shut_out, shut, keep_out, closing |
+| sign | signalise, star_sign, house, planetary_house, signalize, sign-language, sign_on, mansion, sign_up, signal, polarity, signaling, sign_of_the_zodiac, foretoken, mark, augury, subscribe, signed, gestural, bless, contract, preindication, signboard, ratify |
+| signal | point, signalise, bespeak, indicate, sign, betoken, signaling, signalize |
 | signer | signatory |
-| simple | childlike, simple-minded, bare, dim-witted, elementary, unproblematic, round-eyed, simpleton, wide-eyed, mere, uncomplicated, unsubdivided, dewy-eyed |
-| simulate | assume, sham, model, feign, imitate, copy |
-| single | unmarried, unity, one, bingle, ace, exclusive, undivided, individual |
+| simple | wide-eyed, dim-witted, simpleton, elementary, childlike, simple-minded, unproblematic, dewy-eyed, uncomplicated, mere, bare, round-eyed, unsubdivided |
+| simulate | sham, imitate, feign, model, assume, copy |
+| single | bingle, individual, ace, exclusive, one, unity, unmarried, undivided |
 | size | size_of_it, sizing |
-| skip | bound_off, omission, jump, hop-skip, vamoose, pass_over, skip_over, hop, skitter, cut, skim, decamp |
-| sleep | rest, catch_some_z's, log_z's, slumber, sopor, eternal_sleep, nap, quietus, kip, eternal_rest |
-| slice | gash, piece, fade, slice_up, slicing, cut, slit, slash |
-| slow | slow_down, wearisome, tardily, boring, retard, slack, sluggish, dense, slacken, tiresome, slowly, tedious, dim, dumb, irksome, slow_up, decelerate, ho-hum, obtuse, deadening, dull, behind, easy |
-| smaller | littler, pocket-size, low, diminished, humble, modest, pocket-sized, lowly, small, minuscule, belittled, little, small-scale, minor |
-| smart | saucy, hurt, fresh, smartness, wise, bright, impudent, smarting, impertinent, overbold, sassy, ache, chic, voguish |
-| snapshot | shot, snap |
-| sort | kind, screen_out, sieve, assort, sort_out, variety, classify, separate, sorting, class, screen, form |
-| source | origin, seed, informant, beginning, reservoir, root, reference, generator, germ, rootage, author |
+| skip | omission, hop, pass_over, skip_over, bound_off, hop-skip, skim, skitter, cut, jump, vamoose, decamp |
+| sleep | quietus, rest, log_z's, eternal_rest, slumber, kip, nap, eternal_sleep, catch_some_z's, sopor |
+| slice | slash, slit, slice_up, gash, fade, piece, slicing, cut |
+| slow | dumb, boring, ho-hum, decelerate, slow_up, obtuse, slowly, behind, tiresome, slow_down, tardily, deadening, wearisome, retard, irksome, dim, dull, sluggish, easy, dense, slack, slacken, tedious |
+| smaller | belittled, littler, small-scale, humble, diminished, small, pocket-size, lowly, low, minor, modest, pocket-sized, little, minuscule |
+| smart | wise, impudent, sassy, fresh, saucy, ache, impertinent, bright, hurt, smarting, overbold, chic, smartness, voguish |
+| snapshot | snap, shot |
+| sort | separate, class, sort_out, sieve, form, variety, sorting, screen_out, classify, assort, kind, screen |
+| source | beginning, reference, rootage, generator, origin, reservoir, informant, root, author, seed, germ |
 | spam | junk_e-mail |
 | spec | specification |
-| specified | determine, delimitate, particularise, narrow_down, narrow, qualify, set_apart, assign, nail_down, peg_down, delineate, specialise, define, destine, set, limit, specify, pin_down, particularize, designate, stipulate, delimit, intend, condition, specialize, fix |
-| split | break_open, disconnected, break, part, separate, rent, snag, schism, rive, divide, fragmented, cleave, split_up, rip, break_up, burst, disunited, carve_up, stock_split, dissever, tear |
-| spread | unfold, spreadhead, spread_head, dispersed, disperse, gap, open, bed_covering, spreading, distribute, banquet, fan_out, feast, ranch, cattle_ranch, scatter, paste, bedcover, spread_out, go_around, cattle_farm, counterpane, pass_around, diffuse, overspread, circulate, bedspread, circularize, facing_pages, bed_cover, disseminate, propagate, circularise, outspread, broadcast |
-| ss | us_secret_service, mho, reciprocal_ohm, second, randomness, secret_service, sulphur, united_states_secret_service, schutzstaffel, sulfur, south, southward, sec, entropy, siemens, due_south, atomic_number_16, usss |
-| stabilize | brace, steady, stabilise |
-| stage | leg, present, microscope_stage, phase, represent, arrange, level, point, stagecoach, degree |
-| stale | moth-eaten, cold, dusty |
-| standard | monetary_standard, criterion, stock, received, measure, banner, touchstone |
-| start | get_going, scratch, start_up, jump, starting_line, get_down, go, part, offset, depart, initiate, take_off, pop_out, start_out, set_forth, commencement, outset, set_out, bulge, starting_signal, starting, come_out, pop, set_off, get-go, originate, beginning, head_start, set_about, get, lead_off, first, embark_on, protrude, bug_out, starting_time, showtime, take_up, startle, begin, commence, kickoff, bulge_out, scratch_line |
+| specified | destine, delineate, designate, set, condition, delimitate, narrow, specialise, qualify, particularise, narrow_down, pin_down, delimit, specify, define, fix, limit, intend, peg_down, determine, stipulate, particularize, specialize, set_apart, nail_down, assign |
+| split | separate, rive, split_up, carve_up, break_up, snag, part, cleave, burst, break, fragmented, disunited, stock_split, divide, schism, tear, break_open, rip, dissever, rent, disconnected |
+| spread | outspread, bed_covering, facing_pages, spread_out, go_around, paste, bedspread, diffuse, spreadhead, disseminate, overspread, open, broadcast, bedcover, disperse, spreading, unfold, dispersed, banquet, cattle_ranch, feast, pass_around, circulate, fan_out, circularize, distribute, scatter, propagate, cattle_farm, gap, bed_cover, circularise, ranch, spread_head, counterpane |
+| stabilize | brace, stabilise, steady |
+| stage | point, phase, present, represent, microscope_stage, leg, degree, stagecoach, level, arrange |
+| stale | dusty, cold, moth-eaten |
+| standard | measure, touchstone, criterion, monetary_standard, stock, received, banner |
+| start | take_up, head_start, commence, protrude, lead_off, kickoff, scratch_line, take_off, starting_time, come_out, showtime, start_out, jump, starting, pop, depart, part, set_out, start_up, startle, starting_signal, get-go, set_off, initiate, bulge_out, pop_out, get, outset, begin, first, offset, embark_on, set_about, get_going, commencement, bug_out, beginning, scratch, starting_line, originate, get_down, set_forth, go, bulge |
 | startup | inauguration |
-| state | united_states_department_of_state, posit, res_publica, submit, country, tell, land, put_forward, state_department, say, dos, state_of_matter, commonwealth, department_of_state, express, body_politic, province, nation |
-| static | motionless, atmospherics, electrostatic, atmospheric_static, stable, still, unchanging, inactive |
+| state | country, united_states_department_of_state, posit, nation, department_of_state, state_department, tell, express, res_publica, land, body_politic, put_forward, commonwealth, province, dos, state_of_matter, say, submit |
+| static | atmospherics, still, unchanging, electrostatic, inactive, motionless, atmospheric_static, stable |
 | status | position, condition |
-| step | gradation, maltreat, ill-use, mistreat, footstep, whole_step, stride, stair, footmark, measure, footfall, tone, pace, whole_tone, abuse, dance_step, stone's_throw, footprint, tread, ill-treat |
-| sticky | gummy, viscous, pasty, steamy, gluey, muggy, glutinous, viscid, unenviable, mucilaginous, awkward, embarrassing |
-| stop | contain, hold_on, layover, break_off, blockage, plosive, diaphragm, finish, turn_back, break, bar, block_up, plosive_consonant, full_point, full_stop, discontinue, stop_over, kibosh, barricade, block_off, stay, point, block, cease, lay_off, intercept, closure, stoppage, terminate, halt, give_up, plosive_speech_sound, arrest, period, blockade, hitch, quit, end, check, occlusion, occlusive, stop_consonant, catch, stopover, hold_back |
-| stopped | contain, hold_on, break_off, finish, turn_back, break, bar, block_up, discontinue, stop_over, kibosh, barricade, block_off, stopped-up, block, cease, lay_off, intercept, terminate, halt, give_up, arrest, blockade, quit, end, stop, check, stopped_up, hold_back |
-| stopping | contain, hold_on, break_off, finish, turn_back, break, bar, block_up, discontinue, stop_over, kibosh, barricade, block_off, block, cease, lay_off, intercept, terminate, halt, give_up, arrest, blockade, quit, end, stop, check, fillet, hold_back |
-| storage | memory_board, reposition, store, entrepot, computer_memory, storehouse, memory, repositing, depot, computer_storage, warehousing |
-| store | lay_in, storage, memory_board, stock, stash_away, hive_away, put_in, entrepot, computer_memory, shop, memory, storehouse, salt_away, fund, depot, stack_away, computer_storage |
+| step | measure, whole_tone, tread, footmark, footstep, ill-use, footprint, whole_step, dance_step, footfall, stride, pace, tone, abuse, gradation, stone's_throw, mistreat, ill-treat, stair, maltreat |
+| sticky | gummy, pasty, steamy, viscous, embarrassing, mucilaginous, glutinous, awkward, gluey, unenviable, viscid, muggy |
+| stop | closure, halt, diaphragm, block_off, plosive, layover, catch, block_up, cease, intercept, terminate, quit, give_up, turn_back, discontinue, point, arrest, stoppage, blockade, barricade, bar, end, stay, break, hold_back, plosive_speech_sound, contain, lay_off, occlusive, period, plosive_consonant, hitch, blockage, stopover, check, kibosh, occlusion, break_off, stop_over, stop_consonant, finish, block, full_stop, full_point, hold_on |
+| stopped | halt, block_off, stopped_up, block_up, cease, intercept, terminate, quit, give_up, turn_back, stopped-up, discontinue, arrest, blockade, barricade, bar, end, break, hold_back, contain, lay_off, stop, check, kibosh, break_off, stop_over, finish, block, hold_on |
+| stopping | halt, block_off, block_up, cease, intercept, terminate, quit, give_up, turn_back, discontinue, arrest, blockade, barricade, bar, end, break, hold_back, contain, lay_off, fillet, stop, check, kibosh, break_off, stop_over, finish, block, hold_on |
+| storage | store, memory_board, memory, computer_storage, entrepot, computer_memory, repositing, storehouse, depot, warehousing, reposition |
+| store | memory_board, memory, hive_away, fund, computer_storage, entrepot, stash_away, computer_memory, stock, shop, storage, storehouse, depot, lay_in, salt_away, stack_away, put_in |
 | strategic | strategical |
-| stream | pour, well_out, watercourse, current, pelt, rain_cats_and_dogs, flow, rain_buckets, teem, swarm, pullulate |
-| strike | scratch, come_upon, attain, fall_upon, work_stoppage, come_to, assume, tap, chance_on, ten-strike, impinge_on, come_across, smasher, chance_upon, collide_with, walk_out, coin, affect, happen_upon, smash, move, mint, bang, hit, strickle, fall, impress, take, take_up, rap, excise, run_into, discover, shine, expunge, light_upon |
-| strip | striptease, ransack, bare, reave, divest, disinvest, denudate, uncase, landing_strip, clean, loot, comic_strip, disrobe, plunder, dismantle, deprive, slip, strip_show, unclothe, denude, despoil, pillage, undress, leach, foray, peel, rifle, strip_down, flight_strip, funnies, cartoon_strip, discase, airstrip |
-| stub | ticket_stub, butt, counterfoil, check_stub, nub |
-| sub | hero, poor_boy, hoagy, italian_sandwich, cuban_sandwich, torpedo, pigboat, grinder, stand_in, hoagie, fill_in, wedge, zep, substitute, submarine_sandwich, submarine, u-boat, bomber, hero_sandwich |
-| subject | depicted_object, subjugate, bailiwick, topic, discipline, open, issue, case, field, capable, guinea_pig, matter, dependent, subject_field, subject_area, content, submit, field_of_study, study, national, theme |
-| subscribe | sign, subscribe_to, support, take, pledge |
-| substitute | backup_man, fill-in, relief, interchange, deputise, stand-in, sub, step_in, exchange, fill_in, stand_in, replacement, deputize, alternate, reserve, alternative, ersatz, reliever, backup, utility, second-stringer, replace |
+| stream | well_out, current, rain_buckets, pullulate, pelt, pour, flow, watercourse, teem, swarm, rain_cats_and_dogs |
+| strike | take_up, fall, chance_upon, smasher, work_stoppage, light_upon, impress, assume, discover, happen_upon, bang, come_across, expunge, tap, come_to, smash, take, shine, coin, collide_with, walk_out, move, chance_on, mint, fall_upon, attain, hit, run_into, scratch, excise, come_upon, affect, strickle, ten-strike, rap, impinge_on |
+| strip | ransack, undress, cartoon_strip, loot, striptease, foray, airstrip, strip_show, deprive, funnies, clean, bare, strip_down, comic_strip, disinvest, peel, dismantle, denudate, flight_strip, pillage, rifle, divest, plunder, unclothe, denude, reave, uncase, landing_strip, discase, slip, leach, despoil, disrobe |
+| stub | butt, ticket_stub, check_stub, counterfoil, nub |
+| sub | hoagy, hero, cuban_sandwich, hero_sandwich, torpedo, hoagie, poor_boy, u-boat, stand_in, wedge, pigboat, fill_in, bomber, submarine, zep, italian_sandwich, submarine_sandwich, substitute, grinder |
+| subject | bailiwick, guinea_pig, dependent, national, subject_field, capable, content, open, discipline, issue, case, theme, field_of_study, field, subjugate, depicted_object, matter, study, subject_area, topic, submit |
+| subscribe | subscribe_to, take, pledge, sign, support |
+| substitute | ersatz, fill-in, reliever, replacement, reserve, stand_in, stand-in, backup, interchange, second-stringer, step_in, exchange, fill_in, deputise, backup_man, relief, sub, deputize, replace, alternative, utility, alternate |
 | subtract | take_off, deduct |
-| succeeded | win, follow, bring_home_the_bacon, come_through, deliver_the_goods, come_after, succeed |
-| success | achiever, winner, succeeder |
+| succeeded | follow, succeed, deliver_the_goods, come_through, win, come_after, bring_home_the_bacon |
+| success | succeeder, winner, achiever |
 | suffix | postfix |
-| suggest | intimate, paint_a_picture, propose, indicate, evoke, advise, hint |
-| sum | totality, meat, core, total, inwardness, summarise, aggregate, centre, sum_of_money, heart, sum_up, marrow, essence, heart_and_soul, nitty-gritty, tot, amount, add, summate, gist, tote_up, pith, add_together, center, kernel, tot_up, join, nub, summation, union, sum_total, summarize, tally, add_up, substance, amount_of_money |
-| summarize | summarise, sum, resume, sum_up |
-| summary | drumhead, succinct, sum-up, compendious, compact |
-| supplemental | auxiliary, supplementary, subsidiary |
-| supported | bear, patronage, support, hold, fend_for, stick_out, stomach, stand, subscribe, plunk_for, corroborate, patronize, sustain, abide, plump_for, confirm, tolerate, digest, endorse, endure, substantiate, affirm, patronise, defend, bear_out, suffer, back, back_up, indorse, hold_up, underpin, put_up, keep_going, brook |
-| supports | bear, patronage, support, livelihood, documentation, hold, reenforcement, musical_accompaniment, funding, accompaniment, fend_for, backing, stick_out, stomach, stand, reinforcement, financial_backing, subscribe, plunk_for, corroborate, patronize, living, sustain, abide, plump_for, confirm, tolerate, digest, endorse, backup, financial_support, endure, substantiate, supporting, affirm, patronise, defend, bear_out, suffer, back, bread_and_butter, back_up, indorse, hold_up, underpin, keep, put_up, sustenance, keep_going, brook |
-| surge | tide, scend, zoom, spate, heave, rush, soar_up, upsurge, billow, soar, soar_upwards |
-| surrounding | environ, encompassing, wall, surround, circumvent, border, palisade, skirt, beleaguer, fence, fence_in, ring, hem_in, besiege, circumferent, smother |
-| sw | southwest, sou'-west, southwestward |
-| swagger | ruffle, bluster, prance, swagman, swaggie, groovy, browbeat, tittup, bully, swash, cock, strut, sashay |
-| swap | switch, trade, barter, swop |
-| sync | synchronise, synchronize |
-| synchronize | contemporize, sync, synchronise, contemporise |
+| suggest | propose, hint, indicate, paint_a_picture, evoke, intimate, advise |
+| sum | kernel, meat, join, add, gist, marrow, union, inwardness, sum_up, heart, amount, tally, summarize, center, substance, summarise, add_together, tot, tot_up, summate, amount_of_money, pith, nub, add_up, core, heart_and_soul, nitty-gritty, essence, summation, aggregate, total, centre, tote_up, totality, sum_of_money, sum_total |
+| summarize | resume, sum_up, summarise, sum |
+| summary | compendious, drumhead, compact, succinct, sum-up |
+| supplemental | supplementary, subsidiary, auxiliary |
+| supported | keep_going, underpin, indorse, fend_for, plunk_for, hold, plump_for, support, endorse, tolerate, bear_out, patronize, sustain, subscribe, endure, stomach, defend, abide, corroborate, hold_up, digest, stick_out, patronise, substantiate, bear, back_up, confirm, brook, put_up, suffer, back, affirm, stand, patronage |
+| supports | reinforcement, supporting, keep_going, underpin, funding, reenforcement, indorse, fend_for, bread_and_butter, plunk_for, hold, backup, plump_for, support, financial_backing, endorse, tolerate, financial_support, accompaniment, bear_out, patronize, documentation, sustain, subscribe, endure, stomach, defend, abide, backing, corroborate, hold_up, digest, stick_out, substantiate, patronise, bear, back_up, confirm, brook, put_up, sustenance, suffer, back, livelihood, musical_accompaniment, affirm, stand, patronage, keep, living |
+| surge | soar_upwards, upsurge, rush, heave, zoom, scend, soar_up, soar, billow, spate, tide |
+| surrounding | wall, smother, circumferent, surround, border, hem_in, encompassing, beleaguer, besiege, circumvent, ring, skirt, fence_in, palisade, fence, environ |
+| swagger | browbeat, groovy, ruffle, swagman, bluster, swash, swaggie, tittup, sashay, bully, prance, strut, cock |
+| swap | trade, swop, barter, switch |
+| sync | synchronize, synchronise |
+| synchronize | sync, contemporize, contemporise, synchronise |
 | syntax | sentence_structure, phrase_structure |
-| system | scheme, organisation, arrangement, organization, system_of_rules |
-| tab | chit, pill, tab_key, check, tablet, lozenge, yellow_journalism, tabloid |
-| table | tabularise, tabularize, set_back, put_off, defer, hold_over, mesa, board, postpone, tabular_array, remit, shelve, tabulate, put_over, prorogue |
-| tag | track, give_chase, dog, tag_end, chase, chase_after, tail, shred, mark, go_after, tatter, label, trail, rag, ticket |
-| taint | infect, defile, corrupt, cloud, sully, contamination |
-| take | contain, use_up, drive, pack, takings, carry, take_in, make, guide, ingest, take_away, bring, occupy, postulate, admit, rent, read, involve, pick_out, ask, learn, acquire, hold, shoot, assume, select, issue, remove, subscribe, convey, need, hire, deal, consume, payoff, contract, take_aim, return, choose, film, lease, aim, accept, take_on, proceeds, look_at, train, have, engage, get_hold_of, adopt, consider, get, fill, yield, direct, submit, claim, subscribe_to, take_up, require, lead, conduct, necessitate, call_for, demand, withdraw, strike, study, exact, charter |
-| tar | seafarer, jack, jack-tar, gob, sea_dog, seaman, mariner, pitch, old_salt |
-| target | fair_game, direct, prey, mark, aim, object, objective, quarry, target_area, point, butt, place |
-| tc | trusteeship_council, atomic_number_43, technetium |
+| system | arrangement, system_of_rules, scheme, organisation, organization |
+| tab | tabloid, tablet, check, chit, yellow_journalism, pill, tab_key, lozenge |
+| table | hold_over, postpone, put_over, defer, put_off, tabularize, tabulate, set_back, board, tabularise, mesa, prorogue, shelve, remit, tabular_array |
+| tag | chase_after, shred, dog, track, give_chase, tag_end, mark, ticket, rag, chase, label, tail, tatter, go_after, trail |
+| taint | infect, defile, cloud, sully, contamination, corrupt |
+| take | take_up, select, remove, get_hold_of, have, conduct, choose, take_away, charter, subscribe_to, takings, deal, drive, need, acquire, take_aim, pack, admit, assume, shoot, ingest, necessitate, involve, exact, learn, make, hold, postulate, issue, consume, read, take_in, pick_out, convey, bring, occupy, strike, contain, use_up, get, return, accept, lease, yield, claim, subscribe, aim, lead, take_on, train, look_at, contract, proceeds, call_for, carry, study, adopt, direct, payoff, demand, consider, require, ask, withdraw, hire, rent, fill, engage, film, submit, guide |
+| tar | jack, jack-tar, mariner, pitch, seafarer, sea_dog, old_salt, seaman, gob |
+| target | point, butt, object, mark, direct, aim, quarry, fair_game, objective, prey, target_area, place |
 | tcp | transmission_control_protocol |
-| tear | rip, binge, charge, shoot, split, bust, bout, rent, buck, pluck, teardrop, shoot_down, displume, deplumate, snag, snap, deplume, pull, rupture |
-| temp | temporary_worker, temporary |
+| tear | charge, pluck, teardrop, bout, deplume, split, snap, buck, pull, displume, bust, rupture, rip, deplumate, rent, shoot_down, binge, snag, shoot |
+| temp | temporary, temporary_worker |
 | template | templet, guide |
-| terminal | pole, terminus, end, last, final, depot, concluding |
-| terminate | cease, end, fire, sack, force_out, stop, finish, give_notice, give_the_axe, can, dismiss, send_away, give_the_sack, displace |
-| terminated | over, cease, all_over, sack, ended, fire, force_out, end, stop, finish, complete, terminate, give_the_axe, give_notice, can, dismiss, concluded, send_away, give_the_sack, displace |
-| terminating | cease, end, fire, sack, force_out, stop, finish, terminate, give_notice, give_the_axe, can, dismiss, send_away, give_the_sack, displace |
-| test | examine, prove, quiz, psychometric_test, mental_testing, mental_test, tryout, trial, examination, trial_run, run, try_out, screen, essay, try, exam |
-| text | textual_matter, schoolbook, school_text, textbook, text_edition |
-| third | one-third, thirdly, tertiary, tierce, third_base, third_gear, 3rd |
-| three | threesome, trine, trey, triad, ternary, iii, triplet, terzetto, deuce-ace, trinity, tierce, trio, leash, tercet, troika, ternion |
-| threshold | door, verge, brink, limen, doorway, doorsill, room_access, doorstep |
-| throttle | limit, trammel, choke, confine, gun, strangle, bound, restrict, gas_pedal, accelerator, strangulate, throttle_valve, gas, restrain, accelerator_pedal |
-| throttled | throttle, limit, trammel, choke, confine, strangle, bound, restrict, strangulate, restrain |
-| time | sentence, clock, metre, meter, fourth_dimension, clock_time, prison_term, clip |
-| title | deed_of_conveyance, claim, deed, rubric, entitle, title_of_respect, style, championship, statute_title, form_of_address |
-| tls | thallium, tl, atomic_number_81 |
-| token | nominal, tokenish, relic, item, souvenir, keepsake |
-| tolerates | bear, abide, stick_out, support, stomach, tolerate, allow, stand, suffer, permit, digest, put_up, endure, brook |
+| terminal | terminus, last, end, depot, pole, concluding, final |
+| terminate | give_notice, force_out, sack, finish, displace, end, dismiss, cease, fire, give_the_sack, stop, can, give_the_axe, send_away |
+| terminated | give_notice, all_over, over, force_out, sack, finish, can, displace, end, dismiss, complete, cease, fire, terminate, give_the_sack, stop, concluded, ended, give_the_axe, send_away |
+| terminating | give_notice, force_out, sack, finish, displace, end, dismiss, cease, fire, terminate, give_the_sack, stop, can, give_the_axe, send_away |
+| test | mental_testing, trial_run, run, essay, trial, prove, examination, mental_test, examine, tryout, exam, psychometric_test, screen, try_out, quiz, try |
+| text | text_edition, textual_matter, schoolbook, school_text, textbook |
+| third | 3rd, third_base, third_gear, tierce, one-third, tertiary, thirdly |
+| three | terzetto, ternion, trio, tercet, triplet, tierce, iii, leash, triad, ternary, trey, troika, trine, threesome, deuce-ace, trinity |
+| threshold | door, limen, doorway, doorstep, room_access, brink, doorsill, verge |
+| throttle | gas, gun, bound, restrict, gas_pedal, throttle_valve, strangulate, accelerator, accelerator_pedal, choke, strangle, trammel, confine, limit, restrain |
+| throttled | throttle, bound, restrict, strangulate, choke, strangle, trammel, confine, limit, restrain |
+| time | sentence, metre, clock_time, meter, clip, prison_term, fourth_dimension, clock |
+| title | form_of_address, claim, deed, deed_of_conveyance, championship, style, statute_title, title_of_respect, rubric, entitle |
+| tls | tl, thallium, atomic_number_81 |
+| token | item, keepsake, relic, souvenir, tokenish, nominal |
+| tolerates | put_up, brook, suffer, endure, stomach, bear, stick_out, stand, abide, allow, digest, support, tolerate, permit |
 | toleration | acceptance, sufferance |
-| too | to_a_fault, likewise, also, overly, besides, as_well, excessively |
-| top | upper_side, pinch, round_top, tiptop, acme, pinnacle, go_past, circus_tent, top_out, top_side, summit, peak, crest, exceed, top_of_the_inning, teetotum, whirligig, crown, tip, meridian, pass, cover, height, spinning_top, elevation, superlative, big_top, upside, top_off, transcend, lead, overstep, clear |
-| topology | topographic_anatomy, regional_anatomy, analysis_situs, network_topology |
-| total | totality, tote_up, sum_up, entire, number, full, come, tot, add_up, add_together, tally, aggregate, tot_up, amount, sum, add, summate |
-| trace | decipher, follow, vestige, line, delineate, suggestion, touch, hint, hound, describe, shadow, tracing, hunt, ghost, tincture, retrace, draw |
-| track | racetrack, cart_track, chase, chase_after, tail, raceway, get_over, caterpillar_track, running, get_across, rail, course, data_track, runway, cut, caterpillar_tread, rails, dog, cover, tag, pass_over, cartroad, traverse, racecourse, give_chase, cut_across, path, go_after, cut_through, lead, cross, trail |
-| transform | metamorphose, translate, transubstantiate, transmute |
-| transition | modulation, conversion, changeover, passage |
-| translate | interpret, transform, read, render, understand |
-| transport | ecstasy, carry, rapture, tape_transport, delight, send, raptus, enchant, channel, channelise, shipping, exaltation, transfer, transferral, tape_drive, transportation, enrapture, enthral, ship, enthrall, transmit, conveyance, ravish, channelize |
+| too | excessively, to_a_fault, besides, overly, likewise, also, as_well |
+| top | top_of_the_inning, clear, big_top, exceed, teetotum, peak, upper_side, top_off, crest, tiptop, height, overstep, upside, superlative, tip, circus_tent, top_side, cover, pinch, lead, go_past, crown, summit, pinnacle, transcend, meridian, acme, spinning_top, top_out, whirligig, round_top, elevation, pass |
+| topology | analysis_situs, topographic_anatomy, regional_anatomy, network_topology |
+| total | add, sum_up, aggregate, sum, entire, number, tote_up, tot, amount, totality, come, tot_up, summate, add_together, tally, full, add_up |
+| trace | suggestion, follow, hunt, vestige, hound, decipher, hint, describe, ghost, touch, delineate, tincture, draw, retrace, line, shadow, tracing |
+| track | give_chase, running, get_over, chase, tag, cut_through, course, racetrack, go_after, dog, pass_over, data_track, tail, traverse, caterpillar_track, runway, cover, get_across, lead, caterpillar_tread, cut_across, cut, racecourse, chase_after, cart_track, path, raceway, cartroad, rail, cross, rails, trail |
+| transform | transubstantiate, transmute, metamorphose, translate |
+| transition | changeover, modulation, passage, conversion |
+| translate | interpret, read, render, transform, understand |
+| transport | exaltation, raptus, shipping, transferral, enthral, channelise, transfer, transmit, channel, enchant, enrapture, transportation, tape_transport, conveyance, send, tape_drive, ecstasy, carry, ravish, delight, channelize, rapture, ship, enthrall |
 | traversal | traverse |
-| traverse | track, cut_across, span, cover, get_across, deny, pass_over, cut_through, transom, crossbeam, get_over, crosspiece, sweep, trave, cross, traversal |
-| trigger | initiation, spark_off, induction, set_off, trip, spark, activate, actuate, touch_off, trigger_off, gun_trigger |
-| trim | clean-cut, trim_down, lop, shave, tailored, trimming, trimness, trim_back, shipshape, cut_down, cut, dress, garnish, well-kept, spare, crop, trig, bring_down, reduce, pare, prune, snip, cut_back, clipping, passementerie, clip |
-| triple | triad, three-bagger, triplet, threefold, trio, treble, three-fold, triplex, three-base_hit, ternary |
-| true | on-key, true_up, honest, dependable, unfeigned, confessedly, lawful, avowedly, dead_on_target, reliable, rightful, genuine, straight, admittedly, truthful |
-| truncate | cut_short, truncated |
-| try | strain, judge, examine, prove, try_on, attempt, adjudicate, taste, test, assay, seek, effort, try_out, endeavor, stress, hear, essay, render, endeavour, sample |
+| traverse | track, pass_over, crosspiece, sweep, crossbeam, transom, cover, cross, get_across, get_over, deny, span, cut_across, cut_through, traversal, trave |
+| trigger | spark, activate, touch_off, trip, induction, initiation, trigger_off, set_off, gun_trigger, spark_off, actuate |
+| trim | spare, trimness, trimming, cut_down, prune, garnish, lop, cut_back, trim_back, clean-cut, clip, shave, trim_down, clipping, reduce, pare, passementerie, snip, cut, tailored, bring_down, dress, well-kept, trig, crop, shipshape |
+| triple | three-fold, trio, triplex, triplet, treble, triad, threefold, three-bagger, ternary, three-base_hit |
+| true | confessedly, dead_on_target, genuine, reliable, true_up, on-key, truthful, admittedly, lawful, straight, dependable, unfeigned, honest, avowedly, rightful |
+| truncate | truncated, cut_short |
+| try | sample, endeavor, judge, assay, essay, try_on, test, effort, seek, prove, attempt, taste, examine, adjudicate, render, hear, endeavour, try_out, strain, stress |
 | tunnel | burrow |
-| tweak | pinch, pluck, pick_off, fine-tune, pull_off |
+| tweak | fine-tune, pluck, pinch, pick_off, pull_off |
 | two | deuce, ii |
-| type | typecast, eccentric, case, typewrite, character |
+| type | character, typewrite, eccentric, case, typecast |
 | typed | typecast, typewrite, type |
-| un | united_nations |
 | unauthorized | unauthorised, wildcat |
-| unblock | release, unfreeze, free |
+| unblock | release, free, unfreeze |
 | unchanged | unaltered |
 | uncompress | decompress |
-| uncounted | countless, numberless, myriad, unnumerable, multitudinous, innumerous, unnumberable, innumerable, infinite, unnumbered |
-| uncovered | reveal, bring_out, uncover, expose, exposed, unveil |
+| uncounted | multitudinous, unnumerable, infinite, unnumberable, numberless, innumerous, unnumbered, countless, myriad, innumerable |
+| uncovered | unveil, reveal, exposed, expose, bring_out, uncover |
 | undecorated | unadorned |
-| unfold | blossom_forth, stretch, blossom, spread, open, spread_out, extend, blossom_out, stretch_out |
-| uniform | unvarying, consistent, undifferentiated |
-| union | trade_union, coupling, sexual_union, north, pairing, trades_union, labor_union, brotherhood, unification, federal, wedlock, jointure, join, conjugation, conglutination, matrimony, marriage, mating, uniting, sum, spousal_relationship |
-| unique | singular, unequalled, unequaled, alone, unparalleled |
-| universal | oecumenical, world-wide, cosmopolitan, general, worldwide, universal_proposition, universal_joint, ecumenical, linguistic_universal |
+| unfold | open, stretch_out, extend, blossom, spread, spread_out, blossom_forth, blossom_out, stretch |
+| uniform | undifferentiated, unvarying, consistent |
+| union | join, unification, trade_union, north, sexual_union, labor_union, pairing, brotherhood, spousal_relationship, wedlock, coupling, uniting, conglutination, marriage, sum, trades_union, conjugation, mating, matrimony, jointure, federal |
+| unique | unequaled, unequalled, unparalleled, singular, alone |
+| universal | worldwide, cosmopolitan, universal_proposition, linguistic_universal, universal_joint, general, ecumenical, world-wide, oecumenical |
 | unix | unix_system, unix_operating_system |
-| unknown | alien, unnamed, unidentified, unsung, strange, obscure, unknown_region, stranger, unknown_quantity, nameless, terra_incognita |
-| unloaded | drop_off, put_down, drop, set_down, discharge, offload, unload, unlade |
-| unroll | unfurl, wind_off, unwind |
+| unknown | unsung, stranger, terra_incognita, unknown_region, nameless, obscure, unknown_quantity, strange, unnamed, unidentified, alien |
+| unloaded | set_down, drop, drop_off, offload, unlade, unload, discharge, put_down |
+| unroll | wind_off, unwind, unfurl |
 | unsafe | insecure, dangerous |
-| unsecured | unbarred, unlocked, unbolted, unlatched, unguaranteed |
-| unsorted | uncategorized, uncategorised |
+| unsecured | unbarred, unbolted, unguaranteed, unlocked, unlatched |
+| unsorted | uncategorised, uncategorized |
 | unstructured | amorphous |
-| unused | fresh, idle |
-| unwrap | undo, reveal, bring_out, let_out, divulge, break, expose, discover, give_away, disclose, let_on |
+| unused | idle, fresh |
+| unwrap | undo, disclose, reveal, let_on, expose, break, divulge, give_away, let_out, bring_out, discover |
 | updated | update |
-| upgrade | elevate, rise, promote, kick_upstairs, climb, advance, ascent, acclivity, rising_slope, raise |
-| usage | exercise, use, custom, usance, utilization, utilisation, employment |
-| use | practice, consumption, habit, usance, apply, enjoyment, utilize, manipulation, utilise, utilization, purpose, habituate, economic_consumption, role, utilisation, exercise, function, expend, employ, use_of_goods_and_services, employment, usage |
-| used | practice, use, victimised, expend, employ, victimized, ill-used, exploited, secondhand, utilise, apply, utilize, habituate, put-upon |
-| user | exploiter, substance_abuser, drug_user |
-| using | practice, use, victimization, expend, exploitation, employ, utilise, victimisation, apply, utilize, habituate |
-| usually | unremarkably, normally, commonly, ordinarily |
-| validate | formalise, formalize, corroborate |
-| validated | formalise, corroborate, validate, formalize |
-| validating | formalise, substantiating, confirmative, substantiative, collateral, confirmatory, verificatory, corroborative, corroboratory, verifying, validate, validatory, formalize, corroborate, confirming |
-| validation | substantiation, proof, establishment |
-| value | appraise, esteem, valuate, rate, time_value, economic_value, treasure, respect, evaluate, measure, assess, note_value, prise, prize, appreciate |
+| upgrade | rising_slope, raise, elevate, promote, kick_upstairs, climb, ascent, rise, advance, acclivity |
+| usage | custom, use, utilization, employment, usance, utilisation, exercise |
+| use | practice, manipulation, role, apply, purpose, consumption, exercise, enjoyment, habituate, expend, utilisation, function, use_of_goods_and_services, employ, utilize, employment, utilise, usage, habit, utilization, usance, economic_consumption |
+| used | practice, victimised, secondhand, put-upon, use, employ, utilize, apply, ill-used, victimized, utilise, habituate, expend, exploited |
+| user | substance_abuser, exploiter, drug_user |
+| using | victimisation, practice, victimization, use, employ, utilize, apply, utilise, habituate, expend, exploitation |
+| usually | normally, unremarkably, ordinarily, commonly |
+| validate | formalize, corroborate, formalise |
+| validated | validate, formalize, corroborate, formalise |
+| validating | corroborative, verificatory, verifying, formalise, validate, confirmative, corroboratory, confirming, corroborate, validatory, substantiative, formalize, substantiating, collateral, confirmatory |
+| validation | proof, substantiation, establishment |
+| value | appreciate, prize, measure, economic_value, prise, esteem, assess, note_value, treasure, evaluate, valuate, rate, time_value, respect, appraise |
 | var | volt-ampere |
 | verbosity | verboseness |
 | verifier | voucher |
-| verify | swan, assert, avow, swear, control, aver, affirm |
-| version | reading, variation, rendering, interpretation, edition, adaptation, translation, variant, interlingual_rendition |
-| victims | dupe, victim |
-| view | persuasion, take_in, aspect, sight, regard, vista, survey, opinion, position, reckon, panorama, sentiment, look_at, consider, see, eyeshot, horizon, watch, prospect, scene, thought, purview, catch, perspective |
+| verify | control, swan, affirm, aver, swear, avow, assert |
+| version | edition, variant, adaptation, reading, interpretation, translation, rendering, interlingual_rendition, variation |
+| victims | victim, dupe |
+| view | sentiment, opinion, catch, eyeshot, prospect, watch, survey, see, take_in, horizon, scene, position, perspective, look_at, persuasion, vista, regard, reckon, aspect, panorama, purview, consider, sight, thought |
 | virtual | practical |
 | visible | seeable |
-| visit | impose, shoot_the_breeze, travel_to, gossip, chatter, chat, confabulate, chit-chat, claver, chitchat, sojourn, inspect, jaw, call_in, chew_the_fat, confab, bring_down, chaffer, see, natter, inflict, call |
+| visit | chaffer, natter, call, impose, chatter, chit-chat, call_in, see, confabulate, shoot_the_breeze, inflict, inspect, bring_down, travel_to, claver, chat, sojourn, jaw, chew_the_fat, confab, chitchat, gossip |
 | visitor | visitant |
-| volume | mass, bulk, intensity, book, loudness |
-| wait | waiting, time_lag, expect, hold_back, postponement, hold_off, waitress, delay, look, hold, await |
-| walk | take_the_air, pass, manner_of_walking, base_on_balls, walking, walk_of_life, paseo, walkway |
-| want | wish, deficiency, require, deprivation, need, neediness, privation, lack, wishing, desire |
-| warn | discourage, admonish, monish |
-| was | washington, equal, follow, represent, personify, cost, embody, be, make_up, wa, evergreen_state, live, constitute, exist, comprise |
-| watch | determine, picket, sentry, keep_an_eye_on, spotter, take_in, ticker, watch_over, learn, watch_out, look_out, observe, vigil, follow, look_on, sentinel, scout, lookout, see, check, view, ascertain, find_out, catch, lookout_man |
-| watcher | spectator, looker, watchman, security_guard, witness, viewer |
-| web | vane, world_wide_web, entanglement, network, net, www |
+| volume | bulk, mass, loudness, book, intensity |
+| wait | delay, postponement, hold, waiting, look, time_lag, waitress, hold_off, hold_back, await, expect |
+| walk | walkway, paseo, base_on_balls, take_the_air, manner_of_walking, walking, pass, walk_of_life |
+| want | deficiency, wish, privation, wishing, desire, neediness, require, need, lack, deprivation |
+| warn | admonish, monish, discourage |
+| was | constitute, follow, equal, embody, washington, evergreen_state, make_up, comprise, live, cost, personify, wa, be, represent, exist |
+| watch | spotter, scout, watch_out, look_on, keep_an_eye_on, catch, observe, vigil, watch_over, learn, lookout, look_out, see, take_in, lookout_man, follow, find_out, ticker, picket, sentinel, ascertain, sentry, determine, check, view |
+| watcher | spectator, viewer, witness, looker, security_guard, watchman |
+| web | entanglement, net, www, network, vane, world_wide_web |
 | week | hebdomad, workweek, calendar_week |
-| weight | weightiness, burthen, weight_down, exercising_weight, burden, angle, weight_unit, free_weight, system_of_weights, slant, weighting |
+| weight | system_of_weights, weight_unit, free_weight, burden, slant, exercising_weight, burthen, angle, weighting, weightiness, weight_down |
 | whos | world_health_organization, who |
-| win | acquire, bring_home_the_bacon, gain_ground, come_through, advance, winnings, pull_ahead, deliver_the_goods, profits, succeed, gain, get_ahead, make_headway |
+| win | succeed, pull_ahead, deliver_the_goods, get_ahead, come_through, profits, make_headway, winnings, gain, bring_home_the_bacon, acquire, gain_ground, advance |
 | windows | windowpane, window |
-| wipe | pass_over, rub |
+| wipe | rub, pass_over |
 | within | inside |
-| word | discussion, bible, phrase, intelligence, holy_writ, son, tidings, give_voice, logos, holy_scripture, formulate, christian_bible, countersign, word_of_god, give-and-take, good_book, scripture, book, watchword, word_of_honor, articulate, parole, password, news |
-| work | put_to_work, cultivate, mold, solve, mould, oeuvre, make, work_out, go, bring, body_of_work, turn, knead, act, form, make_for, workplace, forge, figure_out, crop, ferment, run, do_work, act_upon, exploit, sour, play, influence, exercise, function, lick, operate, work_on, process, wreak, study, puzzle_out, piece_of_work, employment, shape |
-| worker | proletarian, prole, doer, actor |
+| word | articulate, holy_writ, intelligence, book, tidings, countersign, scripture, give-and-take, logos, word_of_honor, bible, password, give_voice, parole, formulate, good_book, holy_scripture, word_of_god, phrase, son, discussion, news, watchword, christian_bible |
+| work | piece_of_work, work_on, sour, knead, solve, do_work, shape, exercise, go, make, put_to_work, run, work_out, turn, act_upon, puzzle_out, oeuvre, exploit, lick, function, bring, cultivate, figure_out, body_of_work, influence, form, wreak, employment, make_for, operate, process, workplace, mold, study, play, act, mould, crop, forge, ferment |
+| worker | doer, proletarian, prole, actor |
 | workload | work_load |
-| wrap | wrapper, enwrap, roll, wrap_up, enfold, twine, wind, wrapping, enclose, envelop |
-| wrapped | clothed, wrap, cloaked, enwrap, roll, wrap_up, mantled, captive, enwrapped, enfold, intent, twine, absorbed, envelop, wind, enclose, draped, engrossed |
-| wrapper | wrap, peignoir, negligee, housecoat, wrapping, neglige |
-| write | indite, spell, publish, save, compose, pen, drop_a_line |
-| ws | west, due_west, double-u, wolfram, tungsten, westward, atomic_number_74, watt |
-| zero | zero_point, naught, zip, zero_in, nada, nothing, nix, nil, cipher, goose_egg, cypher, nought, zilch, aught, zippo, null |
-| zones | zona, partition, zone, district, geographical_zone |
+| wrap | enclose, wrap_up, wrapper, wind, roll, enwrap, envelop, enfold, wrapping, twine |
+| wrapped | intent, cloaked, enclose, wrap_up, wind, roll, captive, engrossed, enfold, clothed, absorbed, twine, enwrap, envelop, mantled, enwrapped, draped, wrap |
+| wrapper | housecoat, peignoir, negligee, neglige, wrapping, wrap |
+| write | indite, spell, publish, pen, compose, drop_a_line, save |
+| zero | cypher, null, zilch, nil, cipher, zip, zero_point, zippo, aught, zero_in, naught, goose_egg, nothing, nada, nix, nought |
+| zones | geographical_zone, district, partition, zone, zona |
 
