@@ -57,15 +57,54 @@ def process_k8s_specific_words(words):
         "V3",
     ]
 
-    k8s_specificed_words = {"crd", "cri", "kube", "kubelet"}
-
     filtered_words = set()
     for key in words:
-        if key.lower() in k8s_specificed_words:
-            continue
-
         for v in version_keys:
             key = key.replace(v, "")
+        filtered_words.add(key)
+
+    return sorted(list(filtered_words))
+
+
+filter_words = {
+    "kube",
+    "kubelet",
+    "kublet",
+    "kubeconfig",
+    "kubernetes",
+    "crd",
+    "cri",
+    "csi",
+    "beego",
+    "dns",
+    "html",
+    "gcs",
+    "gcm",
+    "gcp",
+    "git",
+    "grpc",
+    "gzip",
+    "xcoff",
+    "xds",
+    "xfer",
+    "xid",
+    "xmmreg",
+    "xyz",
+    "ytab",
+    "yyhint",
+    "zfs",
+    "zipf",
+    "zipkin",
+    "zstd",
+    "zvpn",
+}
+
+
+def filter_some_words(words):
+    filtered_words = set()
+    for key in words:
+        if key.lower() in filter_words:
+            continue
         filtered_words.add(key)
 
     return sorted(list(filtered_words))
@@ -75,6 +114,10 @@ def split_into_words(words):
     s = set()
     for word in words:
         parts = _camel_case_split(word)
+
+        # some meanless? but not so many?
+        # if len(parts) == 1 and parts[0].islower():
+        #     continue
 
         for p in parts:
             # remove "" "a" "us"
@@ -161,7 +204,7 @@ def pprint_list_to_markdown(title, data):
 
 
 if __name__ == "__main__":
-    file_path = "./k8s_struct_naming.txt"
+    file_path = "./golang_struct_names.txt"
     # print("read file:", file_path)
 
     words = read_words(file_path)
@@ -172,9 +215,9 @@ if __name__ == "__main__":
 
     splitted_words = split_into_words(filtered_words)
 
-    filtered_words = process_k8s_specific_words(splitted_words)
+    filtered_words = filter_some_words(splitted_words)
     # print("got filtered words2:", len(filtered_words))
 
-    noun, others = nltk_noun(splitted_words)
+    noun, others = nltk_noun(filtered_words)
     pprint_list_to_markdown("Noun in struct name", noun)
     pprint_list_to_markdown("Others in struct name", others)
