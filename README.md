@@ -1,7 +1,7 @@
 NAMING
 ===================
 
-> Naming is a hard[dest] part of programming, this repo may save your time.
+> Naming is the most difficult part of programming, this repo may save your time.
 
 ## Background
 
